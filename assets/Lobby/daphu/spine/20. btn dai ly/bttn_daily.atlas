@@ -1,0 +1,167 @@
+
+bttn_daily.png
+size: 789,1058
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 938
+  size: 376, 118
+  orig: 384, 128
+  offset: 4, 1
+  index: -1
+fire_1
+  rotate: false
+  xy: 380, 593
+  size: 226, 138
+  orig: 260, 320
+  offset: 14, 36
+  index: -1
+fire_10
+  rotate: true
+  xy: 603, 329
+  size: 215, 168
+  orig: 260, 320
+  offset: 17, 34
+  index: -1
+fire_11
+  rotate: true
+  xy: 609, 546
+  size: 214, 174
+  orig: 260, 320
+  offset: 17, 32
+  index: -1
+fire_12
+  rotate: false
+  xy: 2, 3
+  size: 214, 135
+  orig: 260, 320
+  offset: 17, 33
+  index: -1
+fire_13
+  rotate: true
+  xy: 231, 722
+  size: 214, 147
+  orig: 260, 320
+  offset: 17, 33
+  index: -1
+fire_14
+  rotate: true
+  xy: 227, 283
+  size: 214, 150
+  orig: 260, 320
+  offset: 17, 34
+  index: -1
+fire_15
+  rotate: true
+  xy: 443, 222
+  size: 214, 154
+  orig: 260, 320
+  offset: 17, 35
+  index: -1
+fire_16
+  rotate: false
+  xy: 218, 4
+  size: 215, 134
+  orig: 260, 320
+  offset: 17, 35
+  index: -1
+fire_17
+  rotate: false
+  xy: 224, 140
+  size: 217, 141
+  orig: 260, 320
+  offset: 16, 35
+  index: -1
+fire_18
+  rotate: true
+  xy: 231, 499
+  size: 221, 146
+  orig: 260, 320
+  offset: 16, 35
+  index: -1
+fire_19
+  rotate: false
+  xy: 2, 299
+  size: 222, 151
+  orig: 260, 320
+  offset: 16, 34
+  index: -1
+fire_2
+  rotate: false
+  xy: 380, 733
+  size: 227, 146
+  orig: 260, 320
+  offset: 13, 36
+  index: -1
+fire_20
+  rotate: false
+  xy: 2, 452
+  size: 223, 152
+  orig: 260, 320
+  offset: 16, 35
+  index: -1
+fire_21
+  rotate: false
+  xy: 2, 606
+  size: 227, 157
+  orig: 260, 320
+  offset: 15, 35
+  index: -1
+fire_3
+  rotate: false
+  xy: 2, 765
+  size: 227, 171
+  orig: 260, 320
+  offset: 13, 35
+  index: -1
+fire_4
+  rotate: false
+  xy: 380, 881
+  size: 227, 175
+  orig: 260, 320
+  offset: 12, 35
+  index: -1
+fire_5
+  rotate: true
+  xy: 609, 762
+  size: 224, 177
+  orig: 260, 320
+  offset: 13, 36
+  index: -1
+fire_6
+  rotate: false
+  xy: 379, 438
+  size: 222, 153
+  orig: 260, 320
+  offset: 14, 35
+  index: -1
+fire_7
+  rotate: false
+  xy: 2, 140
+  size: 220, 157
+  orig: 260, 320
+  offset: 15, 35
+  index: -1
+fire_8
+  rotate: true
+  xy: 443, 2
+  size: 218, 165
+  orig: 260, 320
+  offset: 16, 34
+  index: -1
+fire_9
+  rotate: true
+  xy: 610, 110
+  size: 217, 167
+  orig: 260, 320
+  offset: 16, 32
+  index: -1
+nap_tien
+  rotate: false
+  xy: 609, 988
+  size: 178, 68
+  orig: 216, 70
+  offset: 19, 0
+  index: -1

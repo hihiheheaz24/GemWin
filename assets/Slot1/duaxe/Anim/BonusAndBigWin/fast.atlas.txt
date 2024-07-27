@@ -1,0 +1,83 @@
+
+fast.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BIGWIN 
+  rotate: false
+  xy: 1104, 289
+  size: 649, 136
+  orig: 649, 136
+  offset: 0, 0
+  index: -1
+BIGWIN2
+  rotate: false
+  xy: 2868, 763
+  size: 690, 136
+  orig: 690, 136
+  offset: 0, 0
+  index: -1
+banhxetranhg
+  rotate: true
+  xy: 3560, 664
+  size: 235, 399
+  orig: 235, 399
+  offset: 0, 0
+  index: -1
+bonus
+  rotate: false
+  xy: 2868, 627
+  size: 542, 134
+  orig: 542, 134
+  offset: 0, 0
+  index: -1
+bonus1
+  rotate: false
+  xy: 1104, 153
+  size: 602, 134
+  orig: 602, 134
+  offset: 0, 0
+  index: -1
+ef1
+  rotate: false
+  xy: 1104, 427
+  size: 854, 472
+  orig: 854, 472
+  offset: 0, 0
+  index: -1
+ef2
+  rotate: true
+  xy: 1755, 57
+  size: 360, 362
+  orig: 360, 362
+  offset: 0, 0
+  index: -1
+ef3
+  rotate: false
+  xy: 2, 200
+  size: 1100, 699
+  orig: 1100, 699
+  offset: 0, 0
+  index: -1
+thanglon
+  rotate: false
+  xy: 1960, 702
+  size: 906, 197
+  orig: 906, 197
+  offset: 0, 0
+  index: -1
+thanglon1
+  rotate: false
+  xy: 2, 2
+  size: 955, 196
+  orig: 955, 196
+  offset: 0, 0
+  index: -1
+trang
+  rotate: false
+  xy: 1960, 419
+  size: 603, 281
+  orig: 603, 281
+  offset: 0, 0
+  index: -1

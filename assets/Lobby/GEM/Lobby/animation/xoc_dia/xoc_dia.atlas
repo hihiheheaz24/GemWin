@@ -1,0 +1,90 @@
+
+xoc_dia.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 51
+  rotate: false
+  xy: 711, 95
+  size: 210, 159
+  orig: 210, 159
+  offset: 0, 0
+  index: -1
+Layer 54
+  rotate: false
+  xy: 711, 30
+  size: 204, 63
+  orig: 204, 63
+  offset: 0, 0
+  index: -1
+Layer 55
+  rotate: false
+  xy: 1193, 223
+  size: 44, 31
+  orig: 44, 31
+  offset: 0, 0
+  index: -1
+Layer 56
+  rotate: false
+  xy: 1149, 220
+  size: 42, 34
+  orig: 42, 34
+  offset: 0, 0
+  index: -1
+Layer 56 copy
+  rotate: false
+  xy: 1091, 109
+  size: 42, 34
+  orig: 42, 34
+  offset: 0, 0
+  index: -1
+Layer 57
+  rotate: false
+  xy: 1239, 227
+  size: 42, 27
+  orig: 42, 27
+  offset: 0, 0
+  index: -1
+Layer 58
+  rotate: false
+  xy: 923, 90
+  size: 166, 164
+  orig: 166, 164
+  offset: 0, 0
+  index: -1
+Layer 59
+  rotate: false
+  xy: 1091, 199
+  size: 56, 55
+  orig: 56, 55
+  offset: 0, 0
+  index: -1
+Layer 60
+  rotate: false
+  xy: 711, 2
+  size: 38, 26
+  orig: 38, 26
+  offset: 0, 0
+  index: -1
+Layer 61
+  rotate: false
+  xy: 1091, 145
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+Rectangle 1
+  rotate: true
+  xy: 362, 29
+  size: 225, 347
+  orig: 225, 347
+  offset: 0, 0
+  index: -1
+khungTo copy
+  rotate: true
+  xy: 2, 16
+  size: 238, 358
+  orig: 238, 358
+  offset: 0, 0
+  index: -1

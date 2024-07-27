@@ -1,0 +1,48 @@
+
+tom.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 282, 133
+  size: 141, 111
+  orig: 141, 111
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 425, 164
+  size: 84, 80
+  orig: 84, 80
+  offset: 0, 0
+  index: -1
+12
+  rotate: true
+  xy: 425, 95
+  size: 67, 80
+  orig: 67, 80
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 134, 132
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+bg1
+  rotate: false
+  xy: 2, 2
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 2, 113
+  size: 130, 131
+  orig: 130, 131
+  offset: 0, 0
+  index: -1

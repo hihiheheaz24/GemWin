@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "16906082-a539-41b1-a568-3b2ff9d80547",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 1024,
+  "platformSettings": {},
+  "subMetas": {
+    "Vampire-Thang-Text": {
+      "ver": "1.0.4",
+      "uuid": "6e5f3114-1cfe-4ccd-8758-ccfa5bf3262f",
+      "rawTextureUuid": "16906082-a539-41b1-a568-3b2ff9d80547",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -3.5,
+      "offsetY": 58.5,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1013,
+      "height": 903,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

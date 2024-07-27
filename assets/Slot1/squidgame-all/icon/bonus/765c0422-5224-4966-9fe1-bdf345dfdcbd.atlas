@@ -1,0 +1,34 @@
+
+765c0422-5224-4966-9fe1-bdf345dfdcbd.png
+size: 528,171
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 337, 11
+  size: 138, 158
+  orig: 138, 158
+  offset: 0, 0
+  index: -1
+Layer 1
+  rotate: true
+  xy: 477, 2
+  size: 167, 49
+  orig: 167, 49
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 2
+  size: 178, 167
+  orig: 178, 167
+  offset: 0, 0
+  index: -1
+gbb2
+  rotate: false
+  xy: 182, 13
+  size: 153, 156
+  orig: 153, 156
+  offset: 0, 0
+  index: -1

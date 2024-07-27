@@ -1,0 +1,76 @@
+{
+"skeleton": { "hash": "68RHTBH/YJ+LfJ40kUG1vSGKb7A", "spine": "3.7.94", "width": 285, "height": 252.28, "images": "C:/Users/Admin/Desktop/SLOT KUNGFU/amin/btn quay/images/", "audio": "C:\\Users\\Admin\\Desktop\\SLOT KUNGFU\\amin\\btn quay" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": -6.65, "y": 6.65 },
+	{ "name": "bone2", "parent": "root" }
+],
+"slots": [
+	{ "name": "quay", "bone": "root", "attachment": "quay" },
+	{ "name": "fx", "bone": "bone", "attachment": "fx", "blend": "additive" },
+	{ "name": "QUAY1", "bone": "bone2", "attachment": "QUAY1" },
+	{ "name": "dung", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"QUAY1": {
+			"QUAY1": { "x": -2.68, "y": 3.16, "width": 188, "height": 65 }
+		},
+		"dung": {
+			"dung": { "x": -1.18, "y": 0.16, "width": 285, "height": 249 }
+		},
+		"fx": {
+			"fx": { "x": -4.53, "y": 2.29, "width": 230, "height": 238 }
+		},
+		"quay": {
+			"quay": { "x": -1.18, "y": 0.16, "width": 285, "height": 249 }
+		}
+	}
+},
+"animations": {
+	"at": {
+		"bones": {
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.7333, "angle": 180 },
+					{ "time": 1.3333, "angle": 0 }
+				]
+			},
+			"bone2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 1.207, "y": 1.207 },
+					{ "time": 0.1667, "x": 1, "y": 1 },
+					{ "time": 0.2667, "x": 1.207, "y": 1.207 },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"at2": {
+		"slots": {
+			"QUAY1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"dung": {
+				"attachment": [
+					{ "time": 0, "name": "dung" }
+				]
+			},
+			"fx": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"quay": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	}
+}
+}

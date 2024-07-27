@@ -1,0 +1,139 @@
+
+cuopbien.png
+size: 1928,620
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L1
+  rotate: true
+  xy: 1409, 260
+  size: 91, 66
+  orig: 91, 66
+  offset: 0, 0
+  index: -1
+bg
+  rotate: true
+  xy: 510, 246
+  size: 372, 640
+  orig: 374, 642
+  offset: 1, 1
+  index: -1
+bg2
+  rotate: true
+  xy: 1152, 252
+  size: 366, 189
+  orig: 368, 191
+  offset: 1, 1
+  index: -1
+bg3
+  rotate: true
+  xy: 356, 244
+  size: 374, 152
+  orig: 434, 154
+  offset: 1, 1
+  index: -1
+bg4
+  rotate: false
+  xy: 115, 12
+  size: 320, 175
+  orig: 322, 177
+  offset: 1, 1
+  index: -1
+cb
+  rotate: true
+  xy: 1343, 353
+  size: 265, 81
+  orig: 265, 81
+  offset: 0, 0
+  index: -1
+cha
+  rotate: false
+  xy: 2, 189
+  size: 352, 429
+  orig: 352, 429
+  offset: 0, 0
+  index: -1
+dau
+  rotate: false
+  xy: 1733, 149
+  size: 193, 227
+  orig: 193, 227
+  offset: 0, 0
+  index: -1
+fx/Layer 1
+  rotate: false
+  xy: 437, 2
+  size: 214, 240
+  orig: 214, 240
+  offset: 0, 0
+  index: -1
+fx/Layer 2
+  rotate: false
+  xy: 653, 4
+  size: 214, 240
+  orig: 214, 240
+  offset: 0, 0
+  index: -1
+fx/Layer 3
+  rotate: false
+  xy: 869, 4
+  size: 214, 240
+  orig: 214, 240
+  offset: 0, 0
+  index: -1
+fx/Layer 4
+  rotate: false
+  xy: 1085, 4
+  size: 214, 240
+  orig: 214, 240
+  offset: 0, 0
+  index: -1
+fx/Layer 5
+  rotate: false
+  xy: 1301, 10
+  size: 214, 240
+  orig: 214, 240
+  offset: 0, 0
+  index: -1
+fx/Layer 6
+  rotate: false
+  xy: 1426, 378
+  size: 214, 240
+  orig: 214, 240
+  offset: 0, 0
+  index: -1
+fx/Layer 7
+  rotate: false
+  xy: 1642, 378
+  size: 214, 240
+  orig: 214, 240
+  offset: 0, 0
+  index: -1
+fx/Layer 8
+  rotate: false
+  xy: 1517, 27
+  size: 214, 240
+  orig: 214, 240
+  offset: 0, 0
+  index: -1
+l2
+  rotate: true
+  xy: 1343, 256
+  size: 95, 64
+  orig: 95, 64
+  offset: 0, 0
+  index: -1
+tay1
+  rotate: false
+  xy: 2, 4
+  size: 111, 183
+  orig: 111, 183
+  offset: 0, 0
+  index: -1
+tay2
+  rotate: true
+  xy: 1477, 269
+  size: 107, 167
+  orig: 107, 167
+  offset: 0, 0
+  index: -1

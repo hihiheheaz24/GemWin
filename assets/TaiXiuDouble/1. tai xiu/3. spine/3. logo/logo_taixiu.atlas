@@ -1,0 +1,20 @@
+
+logo_taixiu.png
+size: 514,162
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+taixiu
+  rotate: false
+  xy: 2, 2
+  size: 437, 65
+  orig: 440, 67
+  offset: 2, 1
+  index: -1
+thienha
+  rotate: false
+  xy: 2, 69
+  size: 510, 91
+  orig: 514, 96
+  offset: 2, 3
+  index: -1

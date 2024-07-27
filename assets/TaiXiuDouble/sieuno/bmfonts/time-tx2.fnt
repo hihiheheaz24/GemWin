@@ -1,0 +1,19 @@
+info face="time-tx2" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=187 base=26 scaleW=512 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="time-tx2.png"
+chars count=13
+char id=49 x=362 y=126 width=66 height=122 xoffset=0 yoffset=64 xadvance=51 page=0 chnl=0 letter="1"
+char id=50 x=92 y=0 width=91 height=124 xoffset=0 yoffset=62 xadvance=76 page=0 chnl=0 letter="2"
+char id=51 x=362 y=0 width=89 height=125 xoffset=0 yoffset=62 xadvance=74 page=0 chnl=0 letter="3"
+char id=52 x=182 y=125 width=89 height=122 xoffset=0 yoffset=64 xadvance=74 page=0 chnl=0 letter="4"
+char id=53 x=272 y=126 width=89 height=123 xoffset=0 yoffset=64 xadvance=74 page=0 chnl=0 letter="5"
+char id=54 x=0 y=0 width=91 height=125 xoffset=0 yoffset=62 xadvance=76 page=0 chnl=0 letter="6"
+char id=55 x=184 y=0 width=77 height=122 xoffset=0 yoffset=64 xadvance=62 page=0 chnl=0 letter="7"
+char id=56 x=272 y=0 width=89 height=125 xoffset=0 yoffset=62 xadvance=74 page=0 chnl=0 letter="8"
+char id=57 x=0 y=126 width=91 height=125 xoffset=0 yoffset=62 xadvance=76 page=0 chnl=0 letter="9"
+char id=48 x=92 y=125 width=89 height=125 xoffset=0 yoffset=62 xadvance=74 page=0 chnl=0 letter="0"
+char id=46 x=429 y=126 width=41 height=42 xoffset=0 yoffset=144 xadvance=26 page=0 chnl=0 letter="."
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=104 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=832 page=0 chnl=0 letter="	"
+
+kernings count=0

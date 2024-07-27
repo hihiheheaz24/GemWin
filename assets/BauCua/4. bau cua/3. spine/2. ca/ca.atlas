@@ -1,0 +1,41 @@
+
+ca.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 275, 154
+  size: 118, 96
+  orig: 118, 96
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 395, 132
+  size: 118, 96
+  orig: 118, 96
+  offset: 0, 0
+  index: -1
+BG
+  rotate: false
+  xy: 2, 113
+  size: 139, 137
+  orig: 139, 137
+  offset: 0, 0
+  index: -1
+bg1
+  rotate: false
+  xy: 2, 2
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 143, 119
+  size: 130, 131
+  orig: 130, 131
+  offset: 0, 0
+  index: -1

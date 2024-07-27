@@ -1,0 +1,13 @@
+
+btn_quay.png
+size: 154,201
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_quay
+  rotate: false
+  xy: 2, 2
+  size: 150, 197
+  orig: 152, 199
+  offset: 1, 1
+  index: -1

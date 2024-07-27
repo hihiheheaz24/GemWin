@@ -1,0 +1,55 @@
+
+avener.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 23
+  rotate: false
+  xy: 1184, 103
+  size: 244, 137
+  orig: 244, 137
+  offset: 0, 0
+  index: -1
+Layer 28
+  rotate: true
+  xy: 711, 66
+  size: 174, 229
+  orig: 174, 229
+  offset: 0, 0
+  index: -1
+Layer 29
+  rotate: true
+  xy: 942, 95
+  size: 145, 240
+  orig: 145, 240
+  offset: 0, 0
+  index: -1
+Layer 32
+  rotate: false
+  xy: 1679, 54
+  size: 191, 186
+  orig: 191, 186
+  offset: 0, 0
+  index: -1
+Layer 33
+  rotate: false
+  xy: 1430, 152
+  size: 247, 88
+  orig: 247, 88
+  offset: 0, 0
+  index: -1
+Layer 34
+  rotate: true
+  xy: 362, 15
+  size: 225, 347
+  orig: 225, 347
+  offset: 0, 0
+  index: -1
+khungTo copy
+  rotate: true
+  xy: 2, 2
+  size: 238, 358
+  orig: 238, 358
+  offset: 0, 0
+  index: -1

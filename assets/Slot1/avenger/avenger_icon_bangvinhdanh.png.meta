@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "f974a8e2-5bd1-4d0e-9b84-33d0bf6604a8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1,
+  "height": 1,
+  "platformSettings": {},
+  "subMetas": {
+    "avenger_icon_bangvinhdanh": {
+      "ver": "1.0.4",
+      "uuid": "79d1cf80-2a6f-40c4-b4cd-0705eab30a47",
+      "rawTextureUuid": "f974a8e2-5bd1-4d0e-9b84-33d0bf6604a8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1,
+      "height": 1,
+      "rawWidth": 1,
+      "rawHeight": 1,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

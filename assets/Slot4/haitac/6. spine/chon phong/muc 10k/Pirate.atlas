@@ -1,0 +1,237 @@
+
+Pirate.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nho/Earring
+  rotate: false
+  xy: 2035, 503
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+nho/Pirate_Arm
+  rotate: false
+  xy: 1266, 198
+  size: 82, 132
+  orig: 82, 132
+  offset: 0, 0
+  index: -1
+nho/Pirate_Arm1_1
+  rotate: true
+  xy: 497, 2
+  size: 114, 88
+  orig: 114, 88
+  offset: 0, 0
+  index: -1
+nho/Pirate_Arm2
+  rotate: true
+  xy: 1859, 416
+  size: 94, 174
+  orig: 94, 174
+  offset: 0, 0
+  index: -1
+nho/Pirate_Belt_buckle
+  rotate: true
+  xy: 1458, 353
+  size: 157, 222
+  orig: 157, 222
+  offset: 0, 0
+  index: -1
+nho/Pirate_Belt`s_Shadow
+  rotate: true
+  xy: 1682, 369
+  size: 141, 175
+  orig: 141, 175
+  offset: 0, 0
+  index: -1
+nho/Pirate_Cloth
+  rotate: true
+  xy: 1003, 172
+  size: 158, 261
+  orig: 158, 261
+  offset: 0, 0
+  index: -1
+nho/Pirate_Collar1
+  rotate: true
+  xy: 1859, 371
+  size: 43, 91
+  orig: 43, 91
+  offset: 0, 0
+  index: -1
+nho/Pirate_Collar2
+  rotate: true
+  xy: 104, 14
+  size: 46, 87
+  orig: 46, 87
+  offset: 0, 0
+  index: -1
+nho/Pirate_Feather
+  rotate: false
+  xy: 1372, 358
+  size: 73, 48
+  orig: 73, 48
+  offset: 0, 0
+  index: -1
+nho/Pirate_Feathers
+  rotate: false
+  xy: 2, 2
+  size: 100, 58
+  orig: 100, 58
+  offset: 0, 0
+  index: -1
+nho/Pirate_Finger1
+  rotate: false
+  xy: 989, 204
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1
+nho/Pirate_Finger2
+  rotate: false
+  xy: 1952, 395
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+nho/Pirate_Finger3
+  rotate: false
+  xy: 1372, 341
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+nho/Pirate_Finger5
+  rotate: true
+  xy: 1682, 353
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+nho/Pirate_Fingers
+  rotate: false
+  xy: 1266, 179
+  size: 44, 17
+  orig: 44, 17
+  offset: 0, 0
+  index: -1
+nho/Pirate_Hat
+  rotate: false
+  xy: 573, 141
+  size: 113, 80
+  orig: 113, 80
+  offset: 0, 0
+  index: -1
+nho/Pirate_Head
+  rotate: true
+  xy: 792, 149
+  size: 72, 104
+  orig: 72, 104
+  offset: 0, 0
+  index: -1
+nho/Pirate_Jacket
+  rotate: true
+  xy: 574, 223
+  size: 287, 427
+  orig: 287, 427
+  offset: 0, 0
+  index: -1
+nho/Pirate_Jacket_left
+  rotate: true
+  xy: 2, 62
+  size: 201, 493
+  orig: 201, 493
+  offset: 0, 0
+  index: -1
+nho/Pirate_Jacket_right
+  rotate: true
+  xy: 1003, 408
+  size: 102, 453
+  orig: 102, 453
+  offset: 0, 0
+  index: -1
+nho/Pirate_Left_hand
+  rotate: false
+  xy: 193, 6
+  size: 66, 54
+  orig: 66, 54
+  offset: 0, 0
+  index: -1
+nho/Pirate_Mustache
+  rotate: true
+  xy: 1350, 292
+  size: 38, 16
+  orig: 38, 16
+  offset: 0, 0
+  index: -1
+nho/Pirate_Shadow2
+  rotate: false
+  xy: 1003, 332
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1
+nho/Pirate_Shirt
+  rotate: true
+  xy: 2, 265
+  size: 245, 570
+  orig: 245, 570
+  offset: 0, 0
+  index: -1
+nho/Pirate_Sword
+  rotate: true
+  xy: 898, 156
+  size: 65, 89
+  orig: 65, 89
+  offset: 0, 0
+  index: -1
+nho/Pirate_bomb
+  rotate: true
+  xy: 688, 140
+  size: 81, 102
+  orig: 81, 102
+  offset: 0, 0
+  index: -1
+nho/Pirate_gun
+  rotate: true
+  xy: 497, 118
+  size: 145, 74
+  orig: 145, 74
+  offset: 0, 0
+  index: -1
+nho/Pirate_l_eye
+  rotate: false
+  xy: 261, 46
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+nho/Pirate_l_pupil
+  rotate: false
+  xy: 792, 141
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+nho/Pirate_nose
+  rotate: false
+  xy: 573, 118
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+nho/Pirate_r_eye
+  rotate: true
+  xy: 104, 2
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+nho/Pirate_r_pupil
+  rotate: false
+  xy: 1447, 400
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1

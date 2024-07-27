@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BENTLEY</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preload" href="assets/images/bg.jpg" as="image">
+    <link rel="preload" href="assets/images/bg-portrait.jpg" as="image">
+    
+    
+    <link rel="prefetch" href="assets/fonts/Roboto-Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="prefetch" href="assets/fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="prefetch" href="assets/fonts/Roboto-Regular.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="prefetch" href="assets/fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link href="assets/css/styles.css?v=1.0" rel="stylesheet" type="text/css">
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script>
+        function setCookie(cname, cvalue, exdays) {
+            const d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            let expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function getCookie(cname) {
+            let name = cname + "=";
+            let ca = document.cookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+        var apiUrl = "https://iportal.mt09l3t2.shop";
+        var playUrl = "http://mt09l3t2.shop";
+
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '758971x848112749',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v10.0'
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="btn-info">Info</div>
+        
+        <div class="box-app">
+            <div class="btn-app">App</div>
+            <div class="main-app">
+                <div class="btn-close">Close</div>
+                <ul class="main-app-content">
+                    <li>
+                        <a href="itms-services://?action=download-manifest&url=https://mt09l3t2.shop/app/manifest.plist">
+<img src="assets/images/qr-app-iso.png" />
+<img src="assets/images/btn-app-store.png" />
+</a>
+                    </li>
+                    <li>
+                        <a href="https://mt09l3t2.shop/app/BENTLEY.apk">
+<img src="assets/images/qr-app-google.png" />
+<img src="assets/images/btn-google-play.png" />
+</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="top-main">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="BENTLEY">
+            </div>
+            <div class="form">
+                <div class="form-banner">
+                    <img src="assets/images/banner-main.png" alt="Game bài quốc tế" />
+                </div>
+                <div class="form-main">
+                    <div class="form-content-item form-register" style="display: none">
+                        <form method="post" id="form-register">
+                            <div class="form-item-header">
+                                <div class="header-register">Đăng ký</div>
+                                <div class="header-login">Đăng nhập</div>
+                            </div>
+                            <input type="hidden" name="type" value="register">
+                            <div class="form-item-main">
+                                <div class="form-item-row error-msg hidden-error"></div>
+                                <div class="form-item-row">
+                                    <div class="input">
+                                        <span class="icn-user"></span>
+                                        <input type="text" id="username" name="username" placeholder="Tên đăng nhập" value="">
+                                    </div>
+                                </div>
+                                <div class="form-item-row">
+                                    <div class="input">
+                                        <span class="icn-lock"></span>
+                                        <input type="password" id="password" name="password" placeholder="Mật khẩu">
+                                        <span class="icn-view"></span>
+                                    </div>
+                                </div>
+                                <div class="form-item-row">
+                                    <div class="input">
+                                        <span class="icn-lock"></span>
+                                        <input type="password" id="password_confirm" name="password_confirm" placeholder="Nhập lại mật khẩu">
+                                        <span class="icn-view"></span>
+                                    </div>
+                                </div>
+                                <div class="form-item-row">
+                                    <div class="input">
+                                        <span class="code-hidden-agent" id="code-valid"></span>
+                                        <input type="text" id="code" name="code" placeholder="Mã đại lý (không bắt buộc)">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <input type="hidden" id="id_captcha" name="id_captcha" value="d311647458562095">
+                            <div class="form-item-footer">
+                                <button class="btn-submit" type="submit">Đăng ký</button>
+                                <a class="btn-face" id="btn-facebook1">Đăng ký với facebook</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-content-item form-login" style="display: block">
+                        <form method="post" id="form-login">
+                            <div class="form-item-header">
+                                <div class="header-register">Đăng ký</div>
+                                <div class="header-login">Đăng nhập</div>
+                            </div>
+                            <input type="hidden" name="type" value="login">
+                            <div class="form-item-main">
+                                <div class="form-item-row error-msg hidden-error"></div>
+                                <div class="form-item-row">
+                                    <div class="input">
+                                        <span class="icn-user"></span>
+                                        <input type="text" id="username-login" name="username-login" placeholder="Tên đăng nhập" value="">
+                                    </div>
+                                </div>
+                                <div class="form-item-row">
+                                    <div class="input">
+                                        <span class="icn-lock"></span>
+                                        <input type="password" id="password-login" name="password-login" placeholder="Mật khẩu">
+                                        <span class="icn-view"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-item-footer">
+                                <button class="btn-submit" type="submit">Đăng nhập</button>
+                                <a class="btn-face" id="btn-facebook">Đăng nhập với facebook</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="down-app">
+                <a href="itms-services://?action=download-manifest&url=https://mt09l3t2.shop/app/manifest.plist"><img src="assets/images/down-app.png" alt="Tải app" /></a>
+            </div>
+        </div>
+        <div class="sidebar-left">
+            <div class="sidebar-item">
+                <img src="assets/images/tai-xiu.png" alt="Tài xỉu" />
+                <div class="number counter">356,567,890</div>
+            </div>
+            <div class="sidebar-item">
+                <img src="assets/images/game-bai.png" alt="Game bài" />
+                <div class="number counter">356,567,890</div>
+            </div>
+            <div class="sidebar-item">
+                <img src="assets/images/no-hu.png" alt="Nổ hủ" />
+                <div class="number counter">356,567,890</div>
+            </div>
+            <div class="sidebar-item">
+                <img src="assets/images/live-casino.png" alt="Live casino" />
+                <div class="number counter">356,567,890</div>
+            </div>
+        </div>
+        <div class="sidebar-right">
+            <div class="sidebar-item">
+                <img src="assets/images/layer-left.png" alt="Vampire" />
+            </div>
+        </div>
+        <div class="info">
+            <div class="info-inner">
+                <div class="btn-close">Close</div>
+                <div class="info-main">
+                    <p class="info-cap">CỔNG GAME QUỐC TẾ BENTLEY- GIAO DIỆN ĐẲNG CẤP, TRẢI NGHIỆM SIÊU ĐỈNH </p>
+                    <p class="info-desc">Cổng game quốc tế BENTLEY là cổng game duy nhất tích hợp sảnh Vampire hiện nay. Không chỉ sở hữu giao diện game cuốn hút, tỷ lệ trúng thưởng hấp dẫn, cổng game còn mang tới cho các game thủ vô vàn sự kiện và chương trình khuyến mãi
+                        cực lớn. Tỷ lệ bóng đá trực tiếp update nhanh nhất, chính xác nhất, ngoài ra còn có các game như tài xỉu, xóc đĩa, slot game , nổ hũ..</p>
+                    <p class="info-cap"> I. Năng lực tài chính </p>
+                    <p class="info-desc">Để trở thành một cổng game được cấp giấy phép cá cược PAGCOR không phải đơn giản. Vì vậy cũng như sản phẩm của BENTLEY, tiềm lực cổng game BENTLEY chúng tôi phải chứng minh nhiều yếu tố khác nhau không chỉ riêng gì tiềm lực về tài chính
+                        trong đó tiềm lực tài chính là yếu tố cực kỳ quan trọng. Tiềm lực tài chính là một yếu tố tổng hợp phản ánh sức mạnh của chúng tôi thông qua khối lượng mà doanh nghiệp có thể huy động vào kinh doanh.<br>Khả năng phân phối (đầu
+                        tư) có hiệu quả các nguồn vốn, khả năng quản lí có hiệu quả các nguồn vốn trong kinh doanh thể hiện qua các chỉ tiêu như vốn chủ sở hữu (vốn tự có). Chúng tôi hoàn toàn đủ khả năng chi trả mọi kèo cược của người chơi dù là tiền
+                        tỷ cũng không thành vấn đề. </p>
+                    <p class="info-cap">II. Nạp tiền/rút tiền nhanh chóng </p>
+                    <p class="info-desc">Đây là yếu tố cực kỳ quan trọng giúp người chơi có thể tự tin nạp tiền và tin tưởng khi tham gia chơi tại bất kì cổng game nào. Khi tham gia chơi yếu tố quan trọng để tin tưởng là cổng game phải tiến hành thanh toán, trả tiền thắng
+                        cược cho người chơi theo đúng nghĩa vụ của mình khi người chơi và thắng cược. Từ lúc thành lập & hoạt động đến nay, cổng game BENTLEY đã làm rất tốt việc này. Chưa có bất kỳ sự cố hay vấn đề nào liên quan tới việc thanh toán tiền
+                        cược cho khách hàng cả. Chọn lựa BENTLEY casino chính là chọn lựa của sự tin tưởng & an tâm.<br>BENTLEY casino đổi thưởng có hình thức nạp tiền vào tài khoản cá cược qua gửi tiền từ ngân hàng. Hiện tại BENTLEY hỗ trợ giao dịch qua 30
+                        ngân hàng như: Vietcombank, Techcombank, BIDV, DongABank, Vietinbank, Sacombank, ACB, Eximbank, VIB, MB, TPbank, Maritimebank, HDbank; Internet Banking..v..v.<br>Tham gia cổng game BENTLEY sẽ nhận được nhiều khuyến mãi lớn cho người
+                        mới chơi. Như việc tặng 100% số tiền thưởng có thể lên tới hơn 7 triệu Vnđ cho thành viên cá cược mới. Tặng 79.000 Vnđ cho khách hàng đăng ký mới và có chương trình hoàn trả tiền cược không giới hạn mỗi ngày lên đến
+                        2% tại cổng game BENTLEY.</p>
+                    <p class="info-cap">1. Phương thức gửi tiền</p>
+                    <p class="info-cap">1.1 Paywell Và Onepay</p>
+                    <p class="info-desc">Để gửi tiền, Quý Khách vui lòng nhấn vào icon gửi tiền trên màn hình chủ, sau đó nhấn vào ” Nạp “, màn hình sẽ xuất hiện 2 phương thức chuyển tiền. Quý Khách có thể chọn 1 loại bất kì trong đó , Quý Khách lưu ý giúp là ở mỗi
+                        một mục chuyển tiền sẽ có hạn mức giao dịch khác nhau Quý Khách nhé :<br>Paywell : Hạn mức nạp tiền tối thiểu là 100k – hạn mức nạp tiền tối đa là 300 triệu cho một lần giao dịch.<br>OnePay : Hạn mức nạp tiền tối thiểu là 50k
+                        – hạn mức nạp tiền tối đa là 300 triệu cho một lần giao dịch.</p>
+                    <p class="info-cap">1.2 Ví Momo</p>
+                    <p class="info-desc">Để gửi tiền, Quý Khách vui lòng nhấn vào icon gửi tiền trên màn hình trang chủ, sau đó nhấn vào ” Nạp “, màn hình sẽ xuất hiện 2 phương thức chuyển tiền là Paywell và Onepay.
+                        <br>Quý Khách vui lòng bấm chọn phương thức gửi tiền Onepay và sau đó Quý Khách nhìn vào icon cuối cùng bên góc trái của bảng hiển thị trên màn hình sẽ thấy chữ Momo Quý Khách nhé Quý Khách bấm
+                        vào Momo, hệ thống sẽ yêu cầu Quý Khách điền thông tin như sau: – Họ và tên: là họ và tên của người sở hữu ví Momo, thực hiện tài khoản chuyển tiền vào BENTLEY ạ – Nhập số tiền: sô tiền Quý Khách mong
+                        muốn gửi tiền vào BENTLEY để tham gia chơi Sau khi hoàn thành cái thông tin yêu cầu như trên, hệ thống BENTLEY sẽ dẫn Quý Khách đến cổng thanh toán ví momo có mã QRcode, Quý Khách vui lòng qúet mã Qrcode và
+                        thanh toán Quý Khách nhé<br>Sau khi nạp tiền vào tài khoản cá cược, Quý Khách hãy liên lạc chat với nhân viên Hỗ trợ trực tuyến để nhận khuyến mãi cho thành viên mới. Phía cổng game mt09l3t2.shop sẽ kiểm tra và cập nhật khuyến
+                        mãi cho bạn.<br>Trong vòng khoảng 10 phút sau khi cập nhật thì số tiền trong tài khoản cá độ sẽ được thêm vào. Quá trình gửi tiền vào BENTLEY đã được hoàn thành xong. Khi chơi cá cược chiến thắng, bạn cần xem hướng dẫn cách rút tiền
+                        BENTLEY nhanh chóng nhất.</p>
+                    <p class="info-cap">2. Phương thức rút tiền</p>
+                    <p class="info-desc">BENTLEY chỉ dẫn các Quý Khách cách rút tiền siêu tốc tại cổng game BENTLEY. Yêu cầu họ tên của chủ tài khoản ngân hàng cần phải trùng với họ tên trong tài khoản cá cược trực tuyến BENTLEY.
+                        <br>Số tiền rút từ cá độ trực tuyến BENTLEY trong 1 ngày thấp nhất là 100.000 Vnđ cho tới 300.000.000 Vnđ.</p>
+                    <p class="info-cap">III. BENTLEY bảo mật tuyệt đối</p>
+                    <p class="info-desc">Được trang bị công nghệ bảo mật SSL 256bit như BENTLEY mobile mới nhất ngang bằng với các hệ thống ngân hàng – tài chính quốc tế. Điều này giúp cho mọi hoạt động giao dịch, lịch sử cược, tài khoản của bạn được an toàn tuyệt đối. BENTLEY
+                        cam đoan không hề chia sẻ thông tin của người chơi cho bất cứ bên thứ ba nào.</p>
+                    <p class="info-cap">IV. Sản phẩm đa dạng</p>
+                    <p class="info-desc">Cổng game BENTLEY luôn cung cấp đến người chơi những sản phẩm hết sức đa dạng với nhiều sự lựa chọn hấp dẫn. Kho game của BENTLEY bao gồm những trò chơi độc quyền của Slotgame như bitcoin crypto theo xu hướng đồng tiền mã hóa trên thị
+                        trường hiện nay, slot game thần tài, Wukong, Angry bird, sòng bài Live casino trực tuyến hấp dẫn. Ngoài ra cổng game BENTLEY còn được biết đến là trang giải trí game bài tích hợp sảnh Vampire Saba IBC</p>
+                    <p class="info-cap">1. Slot game & Quay Số BENTLEY</p>
+                    <p class="info-desc">Slot game đổi thưởng và quay số là loại trò chơi bằng máy với số tiền đặt cược thấp và thời gian trả thưởng nhanh chóng. Tại BENTLEY còn có nổ hũ 25 dòng mang đến tỷ lệ thắng cược cực cao . Những trò slot game độc quyền của BENTLEY với
+                        đồ họa 3D đẹp mắt và theo xu hướng 4.0 như slot game bitcoins, thần tài, wukong, angry bird<br>Luật chơi của những trò chơi quay số rất đơn giản, bạn chỉ cần nhấn nút quay (SPIN). Sau đó các cột trên máy slot sẽ quay và dừng lại
+                        với kết hợp thắng khác nhau bạn sẽ thắng tiền thưởng. Điểm nổi bật thu hút người chơi tại Slot game BENTLEY là giải thưởng quay số hấp dẫn, thưởng nhiều vòng quay miễn phí và tiền thưởng, ngoài ra âm nhạc khi chơi game hấp dẫn cũng
+                        là yếu tố được nhiều người chơi quan tâm.</p>
+                    <p class="info-cap">2. Tài xỉu BENTLEY</p>
+                    <p class="info-desc">Cung cấp các sản phẩm tài xỉu độc quyền như Tài xỉu cân bảng và tài xỉu sicbo và tài xỉu siêu tốc với cách chơi đơn giản cùng tỷ lệ trả thưởng vô cùng hấp dẫn:</p>
+                    <p class="info-cap">2.1 Tài xỉu cân bảng BENTLEY</p>
+                    <p class="info-desc">Game Bài Đổi Thưởng BENTLEY – Chơi đánh bài đổi thưởng uy tín trên ios, android, pc: Tiến lên, Poker, Phỏm, Tài xỉu, Nổ hũ, .. [Tải game nhận 79k]. Game bài đổi thưởng BENTLEY là một trò chơi có tính giải trí cao, giúp người chơi có được
+                        những phút giây thư giãn thoải mái. Đặc điểm của loại hình game bài này là ngoài chức năng giải trí ra người chơi có thể nhận được những khoản tiền thắng cược trong mỗi ván bài. Và số tiền này sẽ được quy đổi thành tiền thật, nạp
+                        rút nhanh chóng, uy tín, tỷ lệ đổi thưởng 1:1. Game bài của BENTLEY bao gồm các trò chơi dân gian được cải tiến như: Tiến lên miền Nam, tiến lên miền Nam solo, game bài ba cây.</p>
+                    <p class="info-cap">V. Khuyến mãi hot nhất của BENTLEY</p>
+                    <p class="info-desc">Trong cá cược trực tuyến, khuyến mãi là rất quan trọng giúp người chơi tối ưu tiền cược và tạo sự hứng thu có người chơi. Hiểu được nhu cầu này BENTLEY luôn đưa ra những khuyến mãi hấp dẫn người chơi nhất. Sau đây là một số chương trình
+                        khuyến mãi hot nhất của BENTLEY năm 2021<br>Thưởng 100% khoản nạp tiền lần đầu tiên lên đến 3 triệu đồng<br>Khuyến mãi tân thủ BENTLEY Đăng Ký Tài Khoản Nhận Ngay 79k Miễn Phí<br>Khuyến mãi tặng 100% khoản nạp tiền lần đầu khi tham
+                        gia chơi Live Casino
+                        <br>Khuyến mãi tặng 120% khoản nạp lần đầu khi chơi Vampire<br>Hoàn trả 1,5% Vampire<br>Hoàn trả 0.8% Casino Trực tuyến<br>Tốc độ truy cập tại BENTLEY casino đổi thưởng như thế nào?<br>Đến thời điểm hiện tại, sau nhiều lần cập
+                        nhật thì tốc độ tải trang của BENTLEY cũng cải thiện hơn trước rất nhiều. Tất cả các đường link của BENTLEY đều được trở về trang chủ BENTLEY một cách nhanh chóng. Bạn có thể thử nghiệm hẳn với mục nặng nhất là Live Casino, thời gian
+                        chờ chỉ còn dưới 5s là có thể vào bàn chơi được. Nhờ đó cảm xúc giải trí chắc chắn sẽ được vẹn nguyên, không sợ bị cụt hứng vì phải chờ đợi màn hình loading nữa.. Chúng tôi đã tối ưu đường truyền nhanh hết mức có thể.</p>
+                    <p class="info-cap">VI. Ứng dụng cổng game BENTLEY</p>
+                    <p class="info-desc">Ứng dụng BENTLEY mobile hiện đang hỗ trợ các sản phẩm của cổng game đổi thưởng BENTLEY như game đánh bài online BENTLEY, game bài dân gian, casino, jackpot…. Nhà cái nổ hũ ăn tiền BENTLEY là tập đoàn chuyên nghiệp xuất phát từ xứ sở
+                        cờ bạc Macau; chuyên về cá cược game trả thưởng có uy tín rất lớn trên thị trường. Game trả thưởng là một loại hình giải trí đỉnh cao; và BENTLEY luôn cố gắng đem lại cho bạn những giây phút giải trí thú vị cũng như kiếm thêm phần
+                        thưởng giá trị.<br>Ngay bây giờ sẽ là toàn bộ link tải, các bản download game mới nhất cho Android, IOS và link chơi trực tuyến trên PC<br>Link tải về Android: https://mt09l3t2.shop/app/BENTLEY.apk<br>Link tải về trên iOS: https://mt09l3t2.shop/app/BENTLEY.ipa
+                    </p>
+                    <p class="info-cap">VII. Dịch vụ chăm sóc khách hàng</p>
+                    <p class="info-desc">Có thể nói yếu tố quan trọng nhất để dẫn đến sự thành công của dịch vụ chính là con người; hay nói cách khách chính là sự chăm sóc khách hàng đến từ cổng game BENTLEY casino đổi thưởng này. Cổng game BENTLEY thành công từ những ngày đầu
+                        tiên là nhờ đội ngũ nhân viên chăm sóc khách hàng tận tâm và chuyên nghiệp. Dịch vụ chăm sóc khách hàng BENTLEY là yếu tố được đầu tư rất kỹ càng; với kim chỉ nam không chỉ mang đến cho khách hàng một sân chơi mang tính giải trí
+                        cao mà còn thể hiện đẳng cấp của mình qua dịch vụ chăm sóc khách hàng cực tốt của BENTLEY.<br>Nếu có bất cứ điều gì không hài lòng xin hãy liên hệ với chúng tôi. Lựa chọn BENTLEY casino đổi thưởng – Nơi gửi gắm niềm tin của dân chơi
+                        Việt.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/md5.js"></script>
+
+    <!--Start of Tawk.to Script-->
+<!--Start of Tawk.to Script-->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/62404e232abe5b455fc1d5f6/1fv5j2eud';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<!--End of Tawk.to Script-->
+<!--End of Tawk.to Script-->
+    <noscript><a href="https://www.livechatinc.com/chat-with/12767085/" rel="nofollow">Chat with us</a>, powered by <a
+            href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+</body>
+
+</html>

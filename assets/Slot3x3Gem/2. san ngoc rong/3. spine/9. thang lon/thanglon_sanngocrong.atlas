@@ -1,0 +1,27 @@
+
+thanglon_sanngocrong.png
+size: 592,414
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 588, 299
+  orig: 658, 343
+  offset: 35, 22
+  index: -1
+coin
+  rotate: false
+  xy: 2, 333
+  size: 79, 79
+  orig: 79, 79
+  offset: 0, 0
+  index: -1
+ps3
+  rotate: false
+  xy: 83, 303
+  size: 412, 109
+  orig: 414, 114
+  offset: 0, 0
+  index: -1

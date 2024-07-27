@@ -1,0 +1,62 @@
+
+KingAthur.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 160
+  size: 217, 390
+  orig: 217, 390
+  offset: 0, 0
+  index: -1
+a
+  rotate: false
+  xy: 689, 469
+  size: 104, 114
+  orig: 104, 114
+  offset: 0, 0
+  index: -1
+b
+  rotate: true
+  xy: 2, 2
+  size: 156, 92
+  orig: 156, 92
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 689, 762
+  size: 220, 260
+  orig: 220, 260
+  offset: 0, 0
+  index: -1
+chan
+  rotate: true
+  xy: 394, 183
+  size: 194, 233
+  orig: 194, 233
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 2, 379
+  size: 685, 643
+  orig: 685, 643
+  offset: 0, 0
+  index: -1
+k
+  rotate: false
+  xy: 911, 798
+  size: 85, 224
+  orig: 85, 224
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 689, 585
+  size: 212, 175
+  orig: 212, 175
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+SYMBOLS_PACKED.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+WOMB_BODY
+  rotate: true
+  xy: 196, 809
+  size: 58, 126
+  orig: 60, 129
+  offset: 1, 2
+  index: -1
+WOMB_BOXD
+  rotate: false
+  xy: 687, 567
+  size: 161, 114
+  orig: 163, 116
+  offset: 1, 1
+  index: -1
+WOMB_BOXM
+  rotate: false
+  xy: 482, 717
+  size: 159, 78
+  orig: 161, 80
+  offset: 1, 1
+  index: -1
+WOMB_BOXU
+  rotate: true
+  xy: 2, 749
+  size: 65, 156
+  orig: 67, 158
+  offset: 1, 1
+  index: -1
+WOMB_EYE 1
+  rotate: true
+  xy: 400, 912
+  size: 34, 40
+  orig: 36, 42
+  offset: 1, 1
+  index: -1
+WOMB_EYE 2
+  rotate: true
+  xy: 442, 911
+  size: 34, 40
+  orig: 37, 43
+  offset: 1, 1
+  index: -1
+WOMB_MOUTH
+  rotate: true
+  xy: 287, 952
+  size: 19, 23
+  orig: 21, 25
+  offset: 1, 1
+  index: -1
+WOMB_TW
+  rotate: false
+  xy: 173, 922
+  size: 38, 32
+  orig: 40, 34
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "0cca57b7-7096-4330-9fa5-01ac6defe662",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 20,
+  "height": 36,
+  "platformSettings": {},
+  "subMetas": {
+    "avenger_coin": {
+      "ver": "1.0.4",
+      "uuid": "0c814978-3807-4257-a609-3434f3197a25",
+      "rawTextureUuid": "0cca57b7-7096-4330-9fa5-01ac6defe662",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 20,
+      "height": 36,
+      "rawWidth": 20,
+      "rawHeight": 36,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,27 @@
+
+caf01733-2829-4b91-9b38-068c9b5edc7b.png
+size: 372,171
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 2
+  size: 174, 167
+  orig: 174, 167
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 178, 12
+  size: 142, 157
+  orig: 142, 157
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: true
+  xy: 322, 4
+  size: 165, 48
+  orig: 165, 48
+  offset: 0, 0
+  index: -1

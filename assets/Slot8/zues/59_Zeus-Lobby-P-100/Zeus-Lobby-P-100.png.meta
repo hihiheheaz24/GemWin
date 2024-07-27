@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "0f143204-5d75-409c-9d8b-f2d6d0df4274",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 1024,
+  "platformSettings": {},
+  "subMetas": {
+    "Zeus-Lobby-P-100": {
+      "ver": "1.0.4",
+      "uuid": "f2b294cd-43df-4ee0-86c6-951add6e3060",
+      "rawTextureUuid": "0f143204-5d75-409c-9d8b-f2d6d0df4274",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 5,
+      "trimX": 3,
+      "trimY": 3,
+      "width": 1018,
+      "height": 1008,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

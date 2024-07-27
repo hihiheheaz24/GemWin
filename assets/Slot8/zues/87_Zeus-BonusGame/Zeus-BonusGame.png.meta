@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "e1ad323e-170e-4141-931a-6d46c0dc4af6",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "Zeus-BonusGame": {
+      "ver": "1.0.4",
+      "uuid": "093a4e67-67d6-4781-8d16-873d29ce0b92",
+      "rawTextureUuid": "e1ad323e-170e-4141-931a-6d46c0dc4af6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -15.5,
+      "offsetY": 2.5,
+      "trimX": 2,
+      "trimY": 8,
+      "width": 989,
+      "height": 491,
+      "rawWidth": 1024,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

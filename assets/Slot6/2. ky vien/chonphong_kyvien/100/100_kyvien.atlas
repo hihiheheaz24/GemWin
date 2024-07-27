@@ -1,0 +1,20 @@
+
+100_kyvien.png
+size: 365,429
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_tien
+  rotate: true
+  xy: 280, 95
+  size: 332, 83
+  orig: 332, 84
+  offset: 0, 1
+  index: -1
+gai1
+  rotate: false
+  xy: 2, 2
+  size: 276, 425
+  orig: 326, 425
+  offset: 50, 0
+  index: -1

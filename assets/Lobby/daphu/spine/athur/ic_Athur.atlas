@@ -1,0 +1,97 @@
+
+ic_Athur.png
+size: 1646,380
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 156, 3
+  size: 1, 1
+  orig: 164, 472
+  offset: 138, 467
+  index: -1
+2
+  rotate: false
+  xy: 159, 3
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 159, 3
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+AThur
+  rotate: false
+  xy: 1062, 15
+  size: 230, 75
+  orig: 233, 77
+  offset: 1, 1
+  index: -1
+a
+  rotate: false
+  xy: 1294, 2
+  size: 104, 114
+  orig: 104, 114
+  offset: 0, 0
+  index: -1
+b
+  rotate: false
+  xy: 1400, 24
+  size: 156, 92
+  orig: 156, 92
+  offset: 0, 0
+  index: -1
+bg
+  rotate: true
+  xy: 156, 6
+  size: 372, 640
+  orig: 374, 642
+  offset: 1, 1
+  index: -1
+bg2
+  rotate: true
+  xy: 2, 4
+  size: 374, 152
+  orig: 434, 154
+  offset: 1, 1
+  index: -1
+body
+  rotate: false
+  xy: 1204, 118
+  size: 220, 260
+  orig: 220, 260
+  offset: 0, 0
+  index: -1
+chan
+  rotate: false
+  xy: 1062, 92
+  size: 140, 286
+  orig: 140, 306
+  offset: 0, 20
+  index: -1
+fx
+  rotate: true
+  xy: 1426, 150
+  size: 228, 218
+  orig: 240, 225
+  offset: 5, 7
+  index: -1
+k
+  rotate: false
+  xy: 798, 34
+  size: 85, 344
+  orig: 85, 402
+  offset: 0, 58
+  index: -1
+tien_hu
+  rotate: true
+  xy: 885, 58
+  size: 320, 175
+  orig: 322, 177
+  offset: 1, 1
+  index: -1

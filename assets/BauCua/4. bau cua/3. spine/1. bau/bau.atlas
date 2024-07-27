@@ -1,0 +1,62 @@
+
+bau.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 468, 121
+  size: 110, 124
+  orig: 110, 124
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 2, 2
+  size: 32, 49
+  orig: 32, 49
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 195, 80
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 580, 121
+  size: 110, 124
+  orig: 110, 124
+  offset: 0, 0
+  index: -1
+BG
+  rotate: false
+  xy: 195, 108
+  size: 139, 137
+  orig: 139, 137
+  offset: 0, 0
+  index: -1
+bg1
+  rotate: false
+  xy: 692, 136
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 336, 114
+  size: 130, 131
+  orig: 130, 131
+  offset: 0, 0
+  index: -1
+vecua
+  rotate: false
+  xy: 2, 53
+  size: 191, 192
+  orig: 191, 192
+  offset: 0, 0
+  index: -1

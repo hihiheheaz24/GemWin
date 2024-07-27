@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "751be1fe-c0a1-4df2-b194-2ef8ff7dd7d2",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 5041,
+  "height": 1670,
+  "platformSettings": {},
+  "subMetas": {
+    "font-squid-game": {
+      "ver": "1.0.4",
+      "uuid": "642d95d1-079a-4f54-bd9d-e05971bce705",
+      "rawTextureUuid": "751be1fe-c0a1-4df2-b194-2ef8ff7dd7d2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 5041,
+      "height": 1670,
+      "rawWidth": 5041,
+      "rawHeight": 1670,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

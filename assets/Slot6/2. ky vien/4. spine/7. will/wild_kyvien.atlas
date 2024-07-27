@@ -1,0 +1,27 @@
+
+wild_kyvien.png
+size: 342,502
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 173, 498
+  orig: 175, 500
+  offset: 1, 1
+  index: -1
+cothe
+  rotate: false
+  xy: 177, 56
+  size: 163, 444
+  orig: 173, 444
+  offset: 10, 0
+  index: -1
+will_2
+  rotate: false
+  xy: 177, 3
+  size: 130, 51
+  orig: 131, 52
+  offset: 1, 1
+  index: -1

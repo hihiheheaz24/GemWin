@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "4bdd7310-7d80-44a2-a2be-48458825048c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2048,
+  "height": 2048,
+  "platformSettings": {},
+  "subMetas": {
+    "Sindbad-Ingame-ThangLon-Coin": {
+      "ver": "1.0.4",
+      "uuid": "69bafd8e-69c6-404b-a042-8390a227e870",
+      "rawTextureUuid": "4bdd7310-7d80-44a2-a2be-48458825048c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -58,
+      "offsetY": -4,
+      "trimX": 2,
+      "trimY": 94,
+      "width": 1928,
+      "height": 1868,
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

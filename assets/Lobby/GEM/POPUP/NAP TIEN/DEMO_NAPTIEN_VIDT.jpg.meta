@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "32738ca6-1bf4-49d9-a2cd-2fe54bf9c2f5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1280,
+  "height": 720,
+  "platformSettings": {},
+  "subMetas": {
+    "DEMO_NAPTIEN_VIDT": {
+      "ver": "1.0.4",
+      "uuid": "04894a2a-e4ae-451c-a6ad-920f57d1a666",
+      "rawTextureUuid": "32738ca6-1bf4-49d9-a2cd-2fe54bf9c2f5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1280,
+      "height": 720,
+      "rawWidth": 1280,
+      "rawHeight": 720,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

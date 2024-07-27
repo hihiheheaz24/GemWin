@@ -1,0 +1,55 @@
+
+cuop_bien.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HV_1_Full-Body
+  rotate: false
+  xy: 741, 260
+  size: 214, 250
+  orig: 214, 250
+  offset: 0, 0
+  index: -1
+Layer 23
+  rotate: false
+  xy: 2, 13
+  size: 244, 137
+  orig: 244, 137
+  offset: 0, 0
+  index: -1
+Layer 26
+  rotate: true
+  xy: 248, 2
+  size: 159, 54
+  orig: 159, 54
+  offset: 0, 0
+  index: -1
+Pirates-Gold_EN
+  rotate: false
+  xy: 469, 187
+  size: 189, 61
+  orig: 189, 61
+  offset: 0, 0
+  index: -1
+Rectangle 1
+  rotate: false
+  xy: 242, 163
+  size: 225, 347
+  orig: 225, 347
+  offset: 0, 0
+  index: -1
+ba32c89cc20237bb15de463595ce4d7f
+  rotate: false
+  xy: 469, 250
+  size: 270, 260
+  orig: 270, 260
+  offset: 0, 0
+  index: -1
+khungTo copy
+  rotate: false
+  xy: 2, 152
+  size: 238, 358
+  orig: 238, 358
+  offset: 0, 0
+  index: -1

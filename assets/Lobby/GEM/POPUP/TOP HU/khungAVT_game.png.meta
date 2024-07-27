@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "c27b5d1f-1f3f-4e70-b565-723055fc600b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 83,
+  "height": 80,
+  "platformSettings": {},
+  "subMetas": {
+    "khungAVT_game": {
+      "ver": "1.0.4",
+      "uuid": "6dc41351-6b5e-4cc9-8375-9d0e1c0fde2f",
+      "rawTextureUuid": "c27b5d1f-1f3f-4e70-b565-723055fc600b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 83,
+      "height": 80,
+      "rawWidth": 83,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "7deba41f-17f9-49c6-a13c-af938714ce2a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 148,
+  "height": 134,
+  "platformSettings": {},
+  "subMetas": {
+    "POKEMON": {
+      "ver": "1.0.4",
+      "uuid": "dc569dc0-7bb6-4d1e-b3b6-4f8760129c45",
+      "rawTextureUuid": "7deba41f-17f9-49c6-a13c-af938714ce2a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 148,
+      "height": 134,
+      "rawWidth": 148,
+      "rawHeight": 134,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

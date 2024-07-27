@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "ca4a97c5-4e07-4c49-a1d8-5d222b664171",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 233,
+  "height": 57,
+  "platformSettings": {},
+  "subMetas": {
+    "kingathur_choithu": {
+      "ver": "1.0.4",
+      "uuid": "716c20bb-e04c-465d-95b5-bfdaad79867e",
+      "rawTextureUuid": "ca4a97c5-4e07-4c49-a1d8-5d222b664171",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 233,
+      "height": 57,
+      "rawWidth": 233,
+      "rawHeight": 57,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,55 @@
+
+SYMBOLS_PACKED.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TIGER FISH_BODY
+  rotate: true
+  xy: 904, 656
+  size: 121, 117
+  orig: 123, 119
+  offset: 1, 1
+  index: -1
+TIGER FISH_EYE
+  rotate: true
+  xy: 71, 963
+  size: 8, 11
+  orig: 10, 13
+  offset: 1, 1
+  index: -1
+TIGER FISH_MOUTH D
+  rotate: false
+  xy: 573, 908
+  size: 46, 36
+  orig: 48, 38
+  offset: 1, 1
+  index: -1
+TIGER FISH_TAIL 1
+  rotate: false
+  xy: 767, 943
+  size: 46, 28
+  orig: 48, 30
+  offset: 1, 1
+  index: -1
+TIGER FISH_TAIL 2
+  rotate: false
+  xy: 816, 903
+  size: 67, 38
+  orig: 69, 40
+  offset: 1, 1
+  index: -1
+TIGER FISH_TAIL 3
+  rotate: true
+  xy: 563, 946
+  size: 25, 64
+  orig: 27, 66
+  offset: 1, 1
+  index: -1
+TIGER FISH_TEETH
+  rotate: false
+  xy: 84, 963
+  size: 11, 8
+  orig: 14, 11
+  offset: 2, 2
+  index: -1

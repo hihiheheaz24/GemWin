@@ -1,0 +1,76 @@
+
+10k_kyvien.png
+size: 1443,219
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1399, 17
+  size: 42, 140
+  orig: 42, 140
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 1319, 30
+  size: 24, 57
+  orig: 24, 57
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1319, 56
+  size: 28, 46
+  orig: 28, 46
+  offset: 0, 0
+  index: -1
+AO1
+  rotate: true
+  xy: 985, 95
+  size: 122, 265
+  orig: 122, 290
+  offset: 0, 0
+  index: -1
+AO2
+  rotate: true
+  xy: 721, 20
+  size: 197, 262
+  orig: 197, 271
+  offset: 0, 0
+  index: -1
+CHa
+  rotate: true
+  xy: 241, 10
+  size: 207, 478
+  orig: 239, 478
+  offset: 0, 0
+  index: -1
+TAY1
+  rotate: true
+  xy: 1252, 104
+  size: 53, 145
+  orig: 53, 145
+  offset: 0, 0
+  index: -1
+TAY2
+  rotate: false
+  xy: 2, 2
+  size: 237, 215
+  orig: 242, 215
+  offset: 0, 0
+  index: -1
+bg_tien
+  rotate: false
+  xy: 985, 10
+  size: 332, 83
+  orig: 332, 84
+  offset: 0, 1
+  index: -1
+dau1
+  rotate: true
+  xy: 1252, 159
+  size: 58, 178
+  orig: 58, 178
+  offset: 0, 0
+  index: -1

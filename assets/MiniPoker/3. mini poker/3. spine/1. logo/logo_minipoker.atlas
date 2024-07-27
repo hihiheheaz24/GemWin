@@ -1,0 +1,20 @@
+
+logo_minipoker.png
+size: 572,230
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MINI POKER
+  rotate: false
+  xy: 2, 2
+  size: 505, 125
+  orig: 514, 131
+  offset: 4, 3
+  index: -1
+ti_le
+  rotate: false
+  xy: 2, 129
+  size: 568, 99
+  orig: 575, 107
+  offset: 4, 4
+  index: -1

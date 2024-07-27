@@ -1,0 +1,118 @@
+
+SYMBOLS_PACKED.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LOBTER_BODY
+  rotate: false
+  xy: 2, 523
+  size: 133, 125
+  orig: 135, 127
+  offset: 1, 1
+  index: -1
+LOBTER_EL1
+  rotate: false
+  xy: 18, 967
+  size: 8, 4
+  orig: 10, 6
+  offset: 1, 1
+  index: -1
+LOBTER_EL2
+  rotate: false
+  xy: 11, 968
+  size: 5, 3
+  orig: 7, 5
+  offset: 1, 1
+  index: -1
+LOBTER_EYE 1
+  rotate: true
+  xy: 59, 963
+  size: 8, 10
+  orig: 10, 12
+  offset: 1, 1
+  index: -1
+LOBTER_EYE 2
+  rotate: false
+  xy: 51, 965
+  size: 6, 6
+  orig: 8, 8
+  offset: 1, 1
+  index: -1
+LOBTER_EYE BASE 1
+  rotate: false
+  xy: 536, 946
+  size: 25, 25
+  orig: 27, 27
+  offset: 1, 1
+  index: -1
+LOBTER_EYE BASE 2
+  rotate: false
+  xy: 267, 953
+  size: 18, 18
+  orig: 20, 20
+  offset: 1, 1
+  index: -1
+LOBTER_EYE U1
+  rotate: true
+  xy: 33, 931
+  size: 30, 41
+  orig: 33, 43
+  offset: 1, 1
+  index: -1
+LOBTER_EYE U2
+  rotate: true
+  xy: 431, 948
+  size: 23, 30
+  orig: 25, 32
+  offset: 1, 1
+  index: -1
+LOBTER_HAND L
+  rotate: true
+  xy: 302, 869
+  size: 44, 55
+  orig: 47, 57
+  offset: 2, 1
+  index: -1
+LOBTER_HAND R
+  rotate: true
+  xy: 484, 910
+  size: 35, 44
+  orig: 38, 47
+  offset: 1, 1
+  index: -1
+LOBTER_HORN 1
+  rotate: true
+  xy: 324, 804
+  size: 59, 73
+  orig: 61, 76
+  offset: 1, 2
+  index: -1
+LOBTER_HORN 2
+  rotate: true
+  xy: 2, 890
+  size: 39, 65
+  orig: 41, 67
+  offset: 1, 1
+  index: -1
+LOBTER_MOUTH 2
+  rotate: false
+  xy: 248, 916
+  size: 51, 34
+  orig: 53, 36
+  offset: 1, 1
+  index: -1
+LOBTER_TAIL
+  rotate: false
+  xy: 65, 823
+  size: 61, 59
+  orig: 63, 61
+  offset: 1, 1
+  index: -1
+LOBTER_TW
+  rotate: false
+  xy: 401, 948
+  size: 28, 23
+  orig: 30, 25
+  offset: 1, 1
+  index: -1

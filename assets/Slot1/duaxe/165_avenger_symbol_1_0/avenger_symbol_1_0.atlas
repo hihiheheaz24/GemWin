@@ -1,0 +1,209 @@
+
+ALL SYMBOL AVENGERS.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CAPTAIN MARVEL WILD/1
+  rotate: false
+  xy: 504, 1926
+  size: 54, 54
+  orig: 169, 165
+  offset: 44, 78
+  index: -1
+CAPTAIN MARVEL WILD/10
+  rotate: false
+  xy: 1213, 1231
+  size: 129, 121
+  orig: 169, 165
+  offset: 6, 1
+  index: -1
+CAPTAIN MARVEL WILD/11
+  rotate: false
+  xy: 129, 1302
+  size: 131, 120
+  orig: 169, 165
+  offset: 16, 0
+  index: -1
+CAPTAIN MARVEL WILD/12
+  rotate: false
+  xy: 1470, 1221
+  size: 132, 121
+  orig: 169, 165
+  offset: 30, 0
+  index: -1
+CAPTAIN MARVEL WILD/13
+  rotate: true
+  xy: 1, 1180
+  size: 123, 125
+  orig: 169, 165
+  offset: 43, 5
+  index: -1
+CAPTAIN MARVEL WILD/14
+  rotate: true
+  xy: 538, 1267
+  size: 120, 130
+  orig: 169, 165
+  offset: 47, 10
+  index: -1
+CAPTAIN MARVEL WILD/15
+  rotate: true
+  xy: 261, 1294
+  size: 119, 132
+  orig: 169, 165
+  offset: 48, 18
+  index: -1
+CAPTAIN MARVEL WILD/16
+  rotate: true
+  xy: 1737, 1209
+  size: 122, 130
+  orig: 169, 165
+  offset: 47, 29
+  index: -1
+CAPTAIN MARVEL WILD/17
+  rotate: true
+  xy: 1061, 1118
+  size: 125, 127
+  orig: 169, 165
+  offset: 43, 35
+  index: -1
+CAPTAIN MARVEL WILD/18
+  rotate: false
+  xy: 259, 1170
+  size: 128, 123
+  orig: 169, 165
+  offset: 37, 41
+  index: -1
+CAPTAIN MARVEL WILD/19
+  rotate: false
+  xy: 669, 1265
+  size: 131, 120
+  orig: 169, 165
+  offset: 30, 45
+  index: -1
+CAPTAIN MARVEL WILD/2
+  rotate: false
+  xy: 103, 1762
+  size: 90, 90
+  orig: 169, 165
+  offset: 25, 60
+  index: -1
+CAPTAIN MARVEL WILD/20
+  rotate: false
+  xy: 664, 1622
+  size: 116, 109
+  orig: 169, 165
+  offset: 28, 52
+  index: -1
+CAPTAIN MARVEL WILD/3
+  rotate: false
+  xy: 1774, 1683
+  size: 106, 106
+  orig: 169, 165
+  offset: 15, 53
+  index: -1
+CAPTAIN MARVEL WILD/4
+  rotate: false
+  xy: 1910, 1568
+  size: 114, 114
+  orig: 169, 165
+  offset: 6, 46
+  index: -1
+CAPTAIN MARVEL WILD/5
+  rotate: true
+  xy: 1389, 1349
+  size: 117, 122
+  orig: 169, 165
+  offset: 3, 37
+  index: -1
+CAPTAIN MARVEL WILD/6
+  rotate: true
+  xy: 1763, 1332
+  size: 118, 128
+  orig: 169, 165
+  offset: 2, 26
+  index: -1
+CAPTAIN MARVEL WILD/7
+  rotate: true
+  xy: 931, 1260
+  size: 121, 133
+  orig: 169, 165
+  offset: 0, 15
+  index: -1
+CAPTAIN MARVEL WILD/8
+  rotate: true
+  xy: 127, 1178
+  size: 123, 131
+  orig: 169, 165
+  offset: 0, 6
+  index: -1
+CAPTAIN MARVEL WILD/9
+  rotate: true
+  xy: 786, 1138
+  size: 125, 126
+  orig: 169, 165
+  offset: 3, 2
+  index: -1
+CAPTAIN MARVEL WILD/BODY
+  rotate: false
+  xy: 1533, 1955
+  size: 119, 46
+  orig: 121, 48
+  offset: 1, 1
+  index: -1
+CAPTAIN MARVEL WILD/BORDER
+  rotate: true
+  xy: 152, 741
+  size: 151, 152
+  orig: 153, 154
+  offset: 1, 1
+  index: -1
+CAPTAIN MARVEL WILD/CAPTAIN MARVEL HEAD
+  rotate: true
+  xy: 1521, 1885
+  size: 69, 107
+  orig: 71, 109
+  offset: 1, 1
+  index: -1
+CAPTAIN MARVEL WILD/HAIR 1
+  rotate: false
+  xy: 314, 1757
+  size: 120, 90
+  orig: 130, 92
+  offset: 1, 1
+  index: -1
+CAPTAIN MARVEL WILD/HAIR 2
+  rotate: false
+  xy: 1837, 1951
+  size: 84, 50
+  orig: 86, 52
+  offset: 1, 1
+  index: -1
+CAPTAIN MARVEL WILD/HAIR BACK 1
+  rotate: true
+  xy: 99, 1929
+  size: 52, 109
+  orig: 55, 111
+  offset: 1, 1
+  index: -1
+CAPTAIN MARVEL WILD/HAIR BACK 2
+  rotate: false
+  xy: 1629, 1884
+  size: 87, 70
+  orig: 89, 72
+  offset: 1, 1
+  index: -1
+CAPTAIN MARVEL WILD/BACK
+  rotate: true
+  xy: 781, 1620
+  size: 109, 128
+  orig: 111, 132
+  offset: 1, 2
+  index: -1
+CAPTAIN MARVEL WILD/WILD
+  rotate: false
+  xy: 1203, 1907
+  size: 120, 59
+  orig: 122, 61
+  offset: 1, 1
+  index: -1

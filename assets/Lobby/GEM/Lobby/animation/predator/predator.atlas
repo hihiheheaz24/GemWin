@@ -1,0 +1,48 @@
+
+predator.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 1
+  rotate: false
+  xy: 992, 103
+  size: 244, 137
+  orig: 244, 137
+  offset: 0, 0
+  index: -1
+Layer 47
+  rotate: true
+  xy: 711, 13
+  size: 227, 279
+  orig: 227, 279
+  offset: 0, 0
+  index: -1
+Layer 63
+  rotate: false
+  xy: 992, 13
+  size: 225, 88
+  orig: 225, 88
+  offset: 0, 0
+  index: -1
+Rectangle 1
+  rotate: true
+  xy: 362, 15
+  size: 225, 347
+  orig: 225, 347
+  offset: 0, 0
+  index: -1
+khungTo copy
+  rotate: true
+  xy: 2, 2
+  size: 238, 358
+  orig: 238, 358
+  offset: 0, 0
+  index: -1
+predator
+  rotate: false
+  xy: 1238, 172
+  size: 255, 68
+  orig: 255, 68
+  offset: 0, 0
+  index: -1

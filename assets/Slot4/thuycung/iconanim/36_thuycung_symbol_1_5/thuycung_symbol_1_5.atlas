@@ -1,0 +1,20 @@
+
+SYMBOLS_PACKED.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GOLDEN CLAM
+  rotate: false
+  xy: 137, 498
+  size: 131, 129
+  orig: 131, 129
+  offset: 0, 0
+  index: -1
+GOLDEN CLAM_TW
+  rotate: false
+  xy: 401, 948
+  size: 28, 23
+  orig: 30, 25
+  offset: 1, 1
+  index: -1

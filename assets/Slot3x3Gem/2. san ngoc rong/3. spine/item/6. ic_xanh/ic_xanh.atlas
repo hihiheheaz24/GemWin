@@ -1,0 +1,13 @@
+
+ic_xanh.png
+size: 106,99
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ic_xanh
+  rotate: false
+  xy: 2, 2
+  size: 102, 95
+  orig: 106, 99
+  offset: 2, 2
+  index: -1

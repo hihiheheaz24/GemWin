@@ -1,0 +1,20 @@
+
+ef_taixiu.png
+size: 239,195
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: true
+  xy: 126, 2
+  size: 191, 111
+  orig: 193, 113
+  offset: 1, 1
+  index: -1
+Layer 2
+  rotate: true
+  xy: 2, 8
+  size: 185, 122
+  orig: 187, 124
+  offset: 1, 1
+  index: -1

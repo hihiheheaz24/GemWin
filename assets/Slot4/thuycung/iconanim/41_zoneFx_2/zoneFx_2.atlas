@@ -1,0 +1,104 @@
+
+zoneFx_2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BET 1,000
+  rotate: true
+  xy: 2, 14
+  size: 416, 577
+  orig: 416, 577
+  offset: 0, 0
+  index: -1
+JACK POT 1
+  rotate: true
+  xy: 581, 131
+  size: 299, 86
+  orig: 299, 86
+  offset: 0, 0
+  index: -1
+LOBTER_BODY
+  rotate: false
+  xy: 581, 2
+  size: 135, 127
+  orig: 135, 127
+  offset: 0, 0
+  index: -1
+LOBTER_EL1
+  rotate: true
+  xy: 707, 196
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+LOBTER_EYE 1
+  rotate: false
+  xy: 734, 355
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+LOBTER_EYE BASE 1
+  rotate: false
+  xy: 747, 368
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+LOBTER_EYE U1
+  rotate: true
+  xy: 747, 397
+  size: 33, 43
+  orig: 33, 43
+  offset: 0, 0
+  index: -1
+LOBTER_HAND L
+  rotate: true
+  xy: 669, 257
+  size: 47, 57
+  orig: 47, 57
+  offset: 0, 0
+  index: -1
+LOBTER_HAND R
+  rotate: false
+  xy: 669, 208
+  size: 38, 47
+  orig: 38, 47
+  offset: 0, 0
+  index: -1
+LOBTER_HORN 1
+  rotate: true
+  xy: 669, 369
+  size: 61, 76
+  orig: 61, 76
+  offset: 0, 0
+  index: -1
+LOBTER_HORN 2
+  rotate: false
+  xy: 718, 188
+  size: 41, 67
+  orig: 41, 67
+  offset: 0, 0
+  index: -1
+LOBTER_MOUTH 2
+  rotate: true
+  xy: 669, 153
+  size: 53, 36
+  orig: 53, 36
+  offset: 0, 0
+  index: -1
+LOBTER_TAIL
+  rotate: false
+  xy: 669, 306
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: -1
+LOBTER_TW
+  rotate: false
+  xy: 746, 341
+  size: 30, 25
+  orig: 30, 25
+  offset: 0, 0
+  index: -1

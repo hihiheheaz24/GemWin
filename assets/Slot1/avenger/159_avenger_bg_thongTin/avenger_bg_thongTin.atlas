@@ -1,0 +1,13 @@
+
+UI PACKER 3.8.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+WIN MONEY EFFECT 2/EFFECT
+  rotate: false
+  xy: 1, 11
+  size: 336, 58
+  orig: 336, 58
+  offset: 0, 0
+  index: -1

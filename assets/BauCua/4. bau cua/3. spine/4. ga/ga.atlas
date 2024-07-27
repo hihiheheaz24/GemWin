@@ -1,0 +1,48 @@
+
+ga.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 2
+  size: 119, 113
+  orig: 119, 113
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 245, 212
+  size: 34, 42
+  orig: 34, 42
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 245, 182
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 117, 2
+  size: 119, 113
+  orig: 119, 113
+  offset: 0, 0
+  index: -1
+bg1
+  rotate: false
+  xy: 134, 145
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 2, 123
+  size: 130, 131
+  orig: 130, 131
+  offset: 0, 0
+  index: -1

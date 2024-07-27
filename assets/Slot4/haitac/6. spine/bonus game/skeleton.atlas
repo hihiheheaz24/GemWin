@@ -1,0 +1,69 @@
+
+skeleton.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+can
+  rotate: true
+  xy: 175, 2
+  size: 42, 86
+  orig: 42, 86
+  offset: 0, 0
+  index: -1
+co
+  rotate: false
+  xy: 2, 11
+  size: 171, 115
+  orig: 171, 115
+  offset: 0, 0
+  index: -1
+fullatk_fire_0000
+  rotate: false
+  xy: 293, 46
+  size: 114, 80
+  orig: 114, 80
+  offset: 0, 0
+  index: -1
+fullatk_fire_0001
+  rotate: false
+  xy: 409, 46
+  size: 114, 80
+  orig: 114, 80
+  offset: 0, 0
+  index: -1
+fullatk_fire_0002
+  rotate: false
+  xy: 759, 48
+  size: 114, 78
+  orig: 114, 78
+  offset: 0, 0
+  index: -1
+fullatk_fire_0003
+  rotate: false
+  xy: 525, 46
+  size: 114, 80
+  orig: 114, 80
+  offset: 0, 0
+  index: -1
+fullatk_fire_0004
+  rotate: false
+  xy: 175, 46
+  size: 116, 80
+  orig: 116, 80
+  offset: 0, 0
+  index: -1
+fullatk_fire_0005
+  rotate: false
+  xy: 875, 52
+  size: 114, 74
+  orig: 114, 74
+  offset: 0, 0
+  index: -1
+fullatk_fire_0006
+  rotate: false
+  xy: 641, 48
+  size: 116, 78
+  orig: 116, 78
+  offset: 0, 0
+  index: -1

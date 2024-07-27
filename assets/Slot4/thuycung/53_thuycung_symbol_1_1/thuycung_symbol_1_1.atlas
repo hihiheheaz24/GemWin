@@ -1,0 +1,338 @@
+
+SYMBOLS_PACKED.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ JACKPOT 19
+  rotate: false
+  xy: 813, 224
+  size: 171, 156
+  orig: 199, 207
+  offset: 19, 19
+  index: -1
+ JACKPOT
+  rotate: false
+  xy: 668, 789
+  size: 208, 60
+  orig: 210, 62
+  offset: 1, 1
+  index: -1
+
+SYMBOLS_PACKED2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ JACKPOT 10
+  rotate: false
+  xy: 730, 32
+  size: 171, 178
+  orig: 199, 207
+  offset: 15, 13
+  index: -1
+ JACKPOT 22
+  rotate: true
+  xy: 551, 562
+  size: 174, 176
+  orig: 199, 207
+  offset: 16, 13
+  index: -1
+ JACKPOT 23
+  rotate: true
+  xy: 730, 742
+  size: 173, 178
+  orig: 199, 207
+  offset: 17, 14
+  index: -1
+ JACKPOT 24
+  rotate: false
+  xy: 2, 177
+  size: 174, 181
+  orig: 199, 207
+  offset: 17, 13
+  index: -1
+ JACKPOT 25
+  rotate: true
+  xy: 551, 387
+  size: 173, 188
+  orig: 199, 207
+  offset: 16, 9
+  index: -1
+ TRIDENT
+  rotate: false
+  xy: 2, 542
+  size: 184, 181
+  orig: 187, 185
+  offset: 2, 2
+  index: -1
+
+SYMBOLS_PACKED3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none 
+ JACKPOT 06
+  rotate: false
+  xy: 2, 489
+  size: 170, 171
+  orig: 199, 207
+  offset: 16, 13
+  index: -1
+ JACKPOT 07
+  rotate: true
+  xy: 352, 851
+  size: 171, 173
+  orig: 199, 207
+  offset: 15, 14
+  index: -1
+ JACKPOT 08
+  rotate: true
+  xy: 2, 662
+  size: 171, 177
+  orig: 199, 207
+  offset: 15, 12
+  index: -1
+ JACKPOT 09
+  rotate: true
+  xy: 173, 851
+  size: 171, 177
+  orig: 199, 207
+  offset: 15, 13
+  index: -1
+ JACKPOT 11
+  rotate: false
+  xy: 353, 679
+  size: 171, 170
+  orig: 199, 207
+  offset: 15, 13
+  index: -1
+ JACKPOT 12
+  rotate: true
+  xy: 181, 497
+  size: 171, 172
+  orig: 199, 207
+  offset: 15, 12
+  index: -1
+ JACKPOT 13
+  rotate: false
+  xy: 355, 327
+  size: 171, 170
+  orig: 199, 207
+  offset: 16, 14
+  index: -1
+ JACKPOT 14
+  rotate: false
+  xy: 528, 163
+  size: 174, 168
+  orig: 199, 207
+  offset: 16, 14
+  index: -1
+ JACKPOT 26
+  rotate: false
+  xy: 2, 835
+  size: 169, 187
+  orig: 199, 207
+  offset: 17, 12
+  index: -1
+ JACKPOT 27
+  rotate: true
+  xy: 704, 168
+  size: 170, 167
+  orig: 199, 207
+  offset: 16, 14
+  index: -1
+ JACKPOT 34
+  rotate: false
+  xy: 702, 853
+  size: 167, 169
+  orig: 199, 207
+  offset: 19, 12
+  index: -1
+
+SYMBOLS_PACKED4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ JACKPOT 00
+  rotate: false
+  xy: 678, 2
+  size: 165, 164
+  orig: 199, 207
+  offset: 20, 12
+  index: -1
+ JACKPOT 01
+  rotate: false
+  xy: 2, 7
+  size: 165, 163
+  orig: 199, 207
+  offset: 20, 14
+  index: -1
+ JACKPOT 02
+  rotate: false
+  xy: 845, 2
+  size: 166, 164
+  orig: 199, 207
+  offset: 20, 15
+  index: -1
+ JACKPOT 15
+  rotate: false
+  xy: 165, 501
+  size: 170, 160
+  orig: 199, 207
+  offset: 20, 16
+  index: -1
+ JACKPOT 16
+  rotate: false
+  xy: 668, 499
+  size: 171, 161
+  orig: 199, 207
+  offset: 20, 16
+  index: -1
+ JACKPOT 17
+  rotate: false
+  xy: 342, 825
+  size: 171, 158
+  orig: 199, 207
+  offset: 20, 18
+  index: -1
+ JACKPOT 18
+  rotate: false
+  xy: 2, 826
+  size: 172, 157
+  orig: 199, 207
+  offset: 19, 18
+  index: -1
+ JACKPOT 21
+  rotate: false
+  xy: 169, 6
+  size: 166, 163
+  orig: 199, 207
+  offset: 19, 13
+  index: -1
+ JACKPOT 36
+  rotate: true
+  xy: 337, 5
+  size: 163, 171
+  orig: 199, 207
+  offset: 20, 14
+  index: -1
+ JACKPOT 40
+  rotate: false
+  xy: 510, 5
+  size: 166, 163
+  orig: 199, 207
+  offset: 19, 14
+  index: -1
+
+SYMBOLS_PACKED5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none 
+JACKPOT 03
+  rotate: false
+  xy: 2, 507
+  size: 167, 164
+  orig: 199, 207
+  offset: 19, 16
+  index: -1
+JACKPOT 04
+  rotate: false
+  xy: 344, 340
+  size: 169, 165
+  orig: 199, 207
+  offset: 18, 16
+  index: -1
+JACKPOT 05
+  rotate: false
+  xy: 515, 340
+  size: 170, 165
+  orig: 199, 207
+  offset: 16, 18
+  index: -1
+JACKPOT 20
+  rotate: false
+  xy: 171, 507
+  size: 170, 164
+  orig: 199, 207
+  offset: 19, 11
+  index: -1
+JACKPOT 28
+  rotate: false
+  xy: 687, 339
+  size: 168, 165
+  orig: 199, 207
+  offset: 19, 15
+  index: -1
+JACKPOT 29
+  rotate: false
+  xy: 514, 3
+  size: 168, 167
+  orig: 199, 207
+  offset: 19, 13
+  index: -1
+JACKPOT 30
+  rotate: true
+  xy: 857, 335
+  size: 169, 165
+  orig: 199, 207
+  offset: 18, 14
+  index: -1
+JACKPOT 31
+  rotate: false
+  xy: 343, 507
+  size: 169, 164
+  orig: 199, 207
+  offset: 18, 14
+  index: -1
+JACKPOT 32
+  rotate: false
+  xy: 684, 2
+  size: 168, 167
+  orig: 199, 207
+  offset: 18, 13
+  index: -1
+JACKPOT 33
+  rotate: false
+  xy: 854, 2
+  size: 168, 167
+  orig: 199, 207
+  offset: 18, 13
+  index: -1
+JACKPOT 35
+  rotate: true
+  xy: 2, 5
+  size: 166, 170
+  orig: 199, 207
+  offset: 20, 13
+  index: -1
+JACKPOT 37
+  rotate: true
+  xy: 2, 173
+  size: 165, 171
+  orig: 199, 207
+  offset: 19, 16
+  index: -1
+ JACKPOT 38
+  rotate: false
+  xy: 514, 507
+  size: 165, 164
+  orig: 199, 207
+  offset: 19, 13
+  index: -1
+ JACKPOT 39
+  rotate: false
+  xy: 681, 507
+  size: 165, 164
+  orig: 199, 207
+  offset: 19, 15
+  index: -1
+ JACKPOT BORDER
+  rotate: false
+  xy: 174, 4
+  size: 168, 166
+  orig: 172, 168
+  offset: 2, 1
+  index: -1

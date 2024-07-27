@@ -1,0 +1,132 @@
+
+sicbo1.png
+size: 1781,382
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SICBO
+  rotate: false
+  xy: 644, 17
+  size: 308, 100
+  orig: 312, 105
+  offset: 2, 3
+  index: -1
+bg
+  rotate: true
+  xy: 2, 8
+  size: 372, 640
+  orig: 374, 642
+  offset: 1, 1
+  index: -1
+bg1
+  rotate: false
+  xy: 1020, 213
+  size: 366, 167
+  orig: 368, 169
+  offset: 1, 1
+  index: -1
+dau
+  rotate: false
+  xy: 1221, 16
+  size: 175, 195
+  orig: 175, 195
+  offset: 0, 0
+  index: -1
+dp
+  rotate: false
+  xy: 1388, 284
+  size: 307, 96
+  orig: 312, 102
+  offset: 3, 3
+  index: -1
+t1
+  rotate: false
+  xy: 984, 14
+  size: 119, 74
+  orig: 122, 76
+  offset: 1, 1
+  index: -1
+t2
+  rotate: false
+  xy: 1398, 29
+  size: 162, 108
+  orig: 164, 111
+  offset: 1, 1
+  index: -1
+t3
+  rotate: true
+  xy: 1687, 129
+  size: 35, 75
+  orig: 37, 77
+  offset: 1, 1
+  index: -1
+tay1
+  rotate: true
+  xy: 1105, 2
+  size: 86, 89
+  orig: 86, 89
+  offset: 0, 0
+  index: -1
+tay11
+  rotate: true
+  xy: 1020, 90
+  size: 121, 199
+  orig: 121, 199
+  offset: 0, 0
+  index: -1
+tay2
+  rotate: true
+  xy: 954, 14
+  size: 103, 28
+  orig: 103, 28
+  offset: 0, 0
+  index: -1
+tay22
+  rotate: false
+  xy: 1683, 70
+  size: 67, 57
+  orig: 67, 57
+  offset: 0, 0
+  index: -1
+than
+  rotate: true
+  xy: 644, 119
+  size: 261, 374
+  orig: 261, 374
+  offset: 0, 0
+  index: -1
+vang
+  rotate: false
+  xy: 1398, 139
+  size: 178, 143
+  orig: 180, 146
+  offset: 1, 1
+  index: -1
+vang1
+  rotate: true
+  xy: 1697, 287
+  size: 93, 78
+  orig: 99, 106
+  offset: 1, 1
+  index: -1
+vang2
+  rotate: true
+  xy: 1578, 143
+  size: 139, 107
+  orig: 146, 111
+  offset: 3, 1
+  index: -1
+vang3
+  rotate: false
+  xy: 1562, 15
+  size: 119, 122
+  orig: 160, 126
+  offset: 38, 1
+  index: -1
+vang4
+  rotate: false
+  xy: 1687, 166
+  size: 92, 116
+  orig: 100, 121
+  offset: 7, 3
+  index: -1

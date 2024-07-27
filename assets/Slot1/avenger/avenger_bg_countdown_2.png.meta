@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "748f22f4-e0bb-4b91-8225-39c85cdebcc9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1,
+  "height": 1,
+  "platformSettings": {},
+  "subMetas": {
+    "avenger_bg_countdown_2": {
+      "ver": "1.0.4",
+      "uuid": "463685a2-fb78-4e2d-b00e-9c57ed3a73c2",
+      "rawTextureUuid": "748f22f4-e0bb-4b91-8225-39c85cdebcc9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1,
+      "height": 1,
+      "rawWidth": 1,
+      "rawHeight": 1,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

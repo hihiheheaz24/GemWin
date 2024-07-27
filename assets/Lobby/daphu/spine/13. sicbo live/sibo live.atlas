@@ -1,0 +1,76 @@
+
+sibo live.png
+size: 867,413
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 315, 120
+  size: 291, 291
+  orig: 293, 293
+  offset: 1, 1
+  index: -1
+LIVE
+  rotate: false
+  xy: 443, 67
+  size: 106, 51
+  orig: 108, 53
+  offset: 1, 1
+  index: -1
+SicBo
+  rotate: false
+  xy: 2, 3
+  size: 256, 98
+  orig: 256, 98
+  offset: 0, 0
+  index: -1
+cha
+  rotate: true
+  xy: 608, 2
+  size: 145, 257
+  orig: 145, 257
+  offset: 0, 0
+  index: -1
+tay
+  rotate: true
+  xy: 443, 2
+  size: 63, 74
+  orig: 63, 74
+  offset: 0, 0
+  index: -1
+tay2
+  rotate: false
+  xy: 315, 17
+  size: 126, 101
+  orig: 126, 101
+  offset: 0, 0
+  index: -1
+toc
+  rotate: true
+  xy: 608, 149
+  size: 262, 220
+  orig: 262, 220
+  offset: 0, 0
+  index: -1
+toc1
+  rotate: true
+  xy: 260, 19
+  size: 82, 53
+  orig: 82, 53
+  offset: 0, 0
+  index: -1
+toc3
+  rotate: false
+  xy: 830, 332
+  size: 23, 79
+  orig: 23, 79
+  offset: 0, 0
+  index: -1
+vong
+  rotate: false
+  xy: 2, 103
+  size: 311, 308
+  orig: 316, 313
+  offset: 4, 3
+  index: -1

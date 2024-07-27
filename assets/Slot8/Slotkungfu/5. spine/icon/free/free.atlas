@@ -1,0 +1,41 @@
+
+free.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 183, 192
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+TXT
+  rotate: true
+  xy: 372, 298
+  size: 205, 63
+  orig: 205, 63
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 30
+  size: 179, 181
+  orig: 179, 181
+  offset: 0, 0
+  index: -1
+cha
+  rotate: false
+  xy: 2, 213
+  size: 368, 290
+  orig: 368, 290
+  offset: 0, 0
+  index: -1

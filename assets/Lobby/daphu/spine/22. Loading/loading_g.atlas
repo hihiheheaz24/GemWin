@@ -1,0 +1,48 @@
+
+loading_g.png
+size: 235,198
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+laod2
+  rotate: false
+  xy: 198, 161
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+load1
+  rotate: false
+  xy: 198, 124
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+load3
+  rotate: false
+  xy: 198, 87
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+load5
+  rotate: false
+  xy: 198, 87
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+load4
+  rotate: false
+  xy: 198, 50
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+logo
+  rotate: false
+  xy: 2, 2
+  size: 194, 194
+  orig: 196, 196
+  offset: 1, 1
+  index: -1

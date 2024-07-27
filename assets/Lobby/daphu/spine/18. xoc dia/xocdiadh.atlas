@@ -1,0 +1,111 @@
+
+xocdiadh.png
+size: 1507,378
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bat
+  rotate: false
+  xy: 1253, 107
+  size: 143, 143
+  orig: 145, 153
+  offset: 1, 9
+  index: -1
+bg
+  rotate: true
+  xy: 2, 4
+  size: 372, 640
+  orig: 372, 640
+  offset: 0, 0
+  index: -1
+c1
+  rotate: true
+  xy: 1422, 276
+  size: 52, 41
+  orig: 55, 47
+  offset: 1, 1
+  index: -1
+c2
+  rotate: true
+  xy: 1259, 57
+  size: 48, 37
+  orig: 51, 40
+  offset: 1, 2
+  index: -1
+c3
+  rotate: true
+  xy: 1465, 277
+  size: 51, 40
+  orig: 53, 42
+  offset: 1, 1
+  index: -1
+c4
+  rotate: true
+  xy: 1096, 2
+  size: 22, 36
+  orig: 24, 38
+  offset: 1, 1
+  index: -1
+d
+  rotate: true
+  xy: 1398, 94
+  size: 156, 106
+  orig: 158, 108
+  offset: 1, 1
+  index: -1
+dia
+  rotate: false
+  xy: 1253, 252
+  size: 167, 124
+  orig: 169, 126
+  offset: 1, 1
+  index: -1
+fx
+  rotate: false
+  xy: 644, 7
+  size: 323, 369
+  orig: 377, 377
+  offset: 17, 7
+  index: -1
+fx1
+  rotate: true
+  xy: 969, 85
+  size: 291, 282
+  orig: 294, 289
+  offset: 2, 6
+  index: -1
+m1
+  rotate: false
+  xy: 1205, 26
+  size: 52, 57
+  orig: 54, 59
+  offset: 1, 1
+  index: -1
+m2
+  rotate: false
+  xy: 1153, 22
+  size: 50, 61
+  orig: 52, 63
+  offset: 1, 1
+  index: -1
+m3
+  rotate: true
+  xy: 1096, 26
+  size: 57, 55
+  orig: 59, 57
+  offset: 1, 1
+  index: -1
+m4
+  rotate: true
+  xy: 1422, 330
+  size: 46, 52
+  orig: 50, 56
+  offset: 2, 2
+  index: -1
+x
+  rotate: false
+  xy: 969, 16
+  size: 125, 67
+  orig: 127, 69
+  offset: 1, 1
+  index: -1

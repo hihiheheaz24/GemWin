@@ -1,0 +1,117 @@
+{
+"skeleton": {
+	"hash": "7ylUI+V+IYR9Qz/3W9KTPukJtvY",
+	"spine": "3.8.75",
+	"x": -87.41,
+	"y": -87,
+	"width": 182.69,
+	"height": 174,
+	"images": "./images/",
+	"audio": "D:/JOBS/studio/ui desing new/rikvip rikwin/asset/box2/ani/squidgame/squidgame/1/icon/jackpot"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "y": -54.9 },
+	{ "name": "bone2", "parent": "root", "length": 88.6, "rotation": 91.1, "x": 1.08, "y": -74.64 },
+	{ "name": "bone3", "parent": "root", "x": -18.23, "y": -37.98 },
+	{ "name": "bone4", "parent": "root", "x": 46.31, "y": -36.58 }
+],
+"slots": [
+	{ "name": "Layer 2", "bone": "root", "attachment": "Layer 2" },
+	{ "name": "Layer 3", "bone": "root", "attachment": "Layer 3" },
+	{ "name": "Layer 4", "bone": "bone2", "attachment": "Layer 4" },
+	{ "name": "Layer 5", "bone": "bone", "attachment": "Layer 5" },
+	{ "name": "Levels 1", "bone": "bone3", "attachment": "Levels 1" },
+	{ "name": "Levels 2", "bone": "bone4", "attachment": "Levels 1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Layer 2": {
+				"Layer 2": { "width": 172, "height": 174 }
+			},
+			"Layer 3": {
+				"Layer 3": { "width": 171, "height": 159 }
+			},
+			"Layer 4": {
+				"Layer 4": { "x": 79.26, "y": 1.47, "rotation": -91.1, "width": 133, "height": 160 }
+			},
+			"Layer 5": {
+				"Layer 5": { "x": 3.09, "y": 5.98, "width": 181, "height": 52 }
+			},
+			"Levels 1": {
+				"Levels 1": { "x": 1.46, "y": -2.17, "width": 95, "height": 90 }
+			},
+			"Levels 2": {
+				"Levels 1": { "x": 1.46, "y": -2.17, "width": 95, "height": 90 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"Levels 2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2, "color": "ffffff00" },
+					{ "time": 1.2333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.4333, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"Levels 1": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.5 },
+					{ "time": 0.6333, "x": 1.405, "y": 1.405 },
+					{ "time": 0.8 },
+					{ "time": 0.9333, "x": 1.33, "y": 1.33 },
+					{ "time": 1.1 },
+					{ "time": 1.2333, "x": 1.076, "y": 1.076 },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 2.19, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 2.19 },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.3333 },
+					{ "time": 0.5667, "angle": -41.44 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1.2667 },
+					{ "time": 1.5, "angle": -41.44 }
+				],
+				"translate": [
+					{ "x": 8.62, "y": -0.23 }
+				]
+			}
+		}
+	}
+}
+}

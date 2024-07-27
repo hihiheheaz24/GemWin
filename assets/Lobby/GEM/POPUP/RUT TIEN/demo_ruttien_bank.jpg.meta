@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "d8cd3b7e-0030-4667-b74c-4470fc086bbf",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1280,
+  "height": 720,
+  "platformSettings": {},
+  "subMetas": {
+    "demo_ruttien_bank": {
+      "ver": "1.0.4",
+      "uuid": "044d7100-a86c-416b-9cab-b0f92b047238",
+      "rawTextureUuid": "d8cd3b7e-0030-4667-b74c-4470fc086bbf",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1280,
+      "height": 720,
+      "rawWidth": 1280,
+      "rawHeight": 720,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

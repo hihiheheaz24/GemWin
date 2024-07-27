@@ -1,0 +1,83 @@
+
+minipoker.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 62
+  rotate: false
+  xy: 2, 76
+  size: 192, 176
+  orig: 192, 176
+  offset: 0, 0
+  index: -1
+Layer 73
+  rotate: true
+  xy: 372, 40
+  size: 212, 108
+  orig: 212, 108
+  offset: 0, 0
+  index: -1
+Mini
+  rotate: false
+  xy: 196, 50
+  size: 84, 37
+  orig: 84, 37
+  offset: 0, 0
+  index: -1
+Rectangle 2
+  rotate: false
+  xy: 196, 89
+  size: 174, 163
+  orig: 174, 163
+  offset: 0, 0
+  index: -1
+can gat 1
+  rotate: true
+  xy: 282, 42
+  size: 45, 76
+  orig: 45, 76
+  offset: 0, 0
+  index: -1
+poker
+  rotate: false
+  xy: 2, 30
+  size: 175, 44
+  orig: 175, 44
+  offset: 0, 0
+  index: -1
+robot_2_10
+  rotate: false
+  xy: 482, 131
+  size: 26, 39
+  orig: 26, 39
+  offset: 0, 0
+  index: -1
+robot_2_a
+  rotate: false
+  xy: 482, 213
+  size: 26, 39
+  orig: 26, 39
+  offset: 0, 0
+  index: -1
+robot_2_j
+  rotate: true
+  xy: 2, 2
+  size: 26, 39
+  orig: 26, 39
+  offset: 0, 0
+  index: -1
+robot_2_k
+  rotate: false
+  xy: 482, 172
+  size: 26, 39
+  orig: 26, 39
+  offset: 0, 0
+  index: -1
+robot_2_q
+  rotate: true
+  xy: 43, 2
+  size: 26, 39
+  orig: 26, 39
+  offset: 0, 0
+  index: -1

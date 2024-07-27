@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "69c30edb-b686-402f-8af4-5ddf695dadab",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 592,
+  "height": 414,
+  "platformSettings": {},
+  "subMetas": {
+    "thanglon_sanngocrong": {
+      "ver": "1.0.4",
+      "uuid": "21f8ca36-5dad-47c5-a94d-f5d659d39122",
+      "rawTextureUuid": "69c30edb-b686-402f-8af4-5ddf695dadab",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 588,
+      "height": 410,
+      "rawWidth": 592,
+      "rawHeight": 414,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,153 @@
+
+SYMBOLS_PACKED.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ELEC FISH_BODY
+  rotate: false
+  xy: 270, 479
+  size: 145, 124
+  orig: 145, 124
+  offset: 0, 0
+  index: -1
+ELEC FISH_EL 1
+  rotate: false
+  xy: 2, 968
+  size: 7, 3
+  orig: 7, 3
+  offset: 0, 0
+  index: -1
+ELEC FISH_EL 2
+  rotate: false
+  xy: 28, 966
+  size: 7, 5
+  orig: 7, 5
+  offset: 0, 0
+  index: -1
+ELEC FISH_EYE 1
+  rotate: false
+  xy: 37, 966
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+ELEC FISH_EYE 2
+  rotate: false
+  xy: 44, 966
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+ELEC FISH_EYE BASE 1
+  rotate: false
+  xy: 129, 876
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+ELEC FISH_EYE BASE 2
+  rotate: false
+  xy: 2, 935
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+ELEC FISH_EYE D1
+  rotate: false
+  xy: 229, 954
+  size: 36, 17
+  orig: 36, 17
+  offset: 0, 0
+  index: -1
+ELEC FISH_EYE D2
+  rotate: true
+  xy: 191, 956
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+ELEC FISH_EYE U1
+  rotate: false
+  xy: 530, 908
+  size: 41, 36
+  orig: 41, 36
+  offset: 0, 0
+  index: -1
+ELEC FISH_EYE U2
+  rotate: true
+  xy: 375, 949
+  size: 22, 24
+  orig: 22, 24
+  offset: 0, 0
+  index: -1
+ELEC FISH_HORN 1
+  rotate: true
+  xy: 359, 865
+  size: 45, 61
+  orig: 45, 61
+  offset: 0, 0
+  index: -1
+ELEC FISH_HORN 2
+  rotate: true
+  xy: 788, 851
+  size: 50, 56
+  orig: 50, 56
+  offset: 0, 0
+  index: -1
+ELEC FISH_MOUTH
+  rotate: false
+  xy: 624, 856
+  size: 105, 47
+  orig: 106, 50
+  offset: 0, 1
+  index: -1
+_0000_7
+  rotate: false
+  xy: 621, 905
+  size: 96, 36
+  orig: 101, 53
+  offset: 3, 4
+  index: -1
+_0001_6
+  rotate: false
+  xy: 301, 915
+  size: 97, 32
+  orig: 101, 53
+  offset: 3, 7
+  index: -1
+_0002_5
+  rotate: false
+  xy: 815, 943
+  size: 96, 28
+  orig: 101, 53
+  offset: 3, 11
+  index: -1
+_0003_4
+  rotate: false
+  xy: 885, 903
+  size: 95, 38
+  orig: 101, 53
+  offset: 3, 11
+  index: -1
+_0004_3
+  rotate: false
+  xy: 913, 943
+  size: 94, 28
+  orig: 101, 53
+  offset: 3, 13
+  index: -1
+_0005_2
+  rotate: false
+  xy: 76, 929
+  size: 95, 28
+  orig: 101, 53
+  offset: 3, 16
+  index: -1
+_0006_1
+  rotate: false
+  xy: 719, 905
+  size: 95, 36
+  orig: 101, 53
+  offset: 3, 16
+  index: -1

@@ -1,0 +1,76 @@
+
+logo_baucua.png
+size: 580,267
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+N1
+  rotate: true
+  xy: 346, 12
+  size: 33, 70
+  orig: 33, 70
+  offset: 0, 0
+  index: -1
+bau
+  rotate: false
+  xy: 2, 18
+  size: 200, 130
+  orig: 205, 136
+  offset: 3, 3
+  index: -1
+bc
+  rotate: true
+  xy: 204, 9
+  size: 139, 140
+  orig: 139, 140
+  offset: 0, 0
+  index: -1
+c1
+  rotate: false
+  xy: 481, 31
+  size: 24, 24
+  orig: 27, 26
+  offset: 1, 1
+  index: -1
+cua
+  rotate: false
+  xy: 381, 140
+  size: 197, 125
+  orig: 201, 129
+  offset: 2, 2
+  index: -1
+may
+  rotate: false
+  xy: 2, 150
+  size: 377, 115
+  orig: 377, 124
+  offset: 0, 3
+  index: -1
+mini
+  rotate: true
+  xy: 510, 39
+  size: 99, 56
+  orig: 102, 59
+  offset: 1, 1
+  index: -1
+n2
+  rotate: false
+  xy: 346, 47
+  size: 77, 91
+  orig: 77, 91
+  offset: 0, 0
+  index: -1
+xx1
+  rotate: false
+  xy: 425, 57
+  size: 83, 81
+  orig: 85, 82
+  offset: 2, 0
+  index: -1
+xx2
+  rotate: true
+  xy: 425, 2
+  size: 53, 54
+  orig: 59, 56
+  offset: 3, 0
+  index: -1

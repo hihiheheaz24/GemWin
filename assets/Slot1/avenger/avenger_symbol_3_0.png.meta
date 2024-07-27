@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "8fe5f0db-eb06-4996-9e05-b0d192f103ca",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 151,
+  "height": 159,
+  "platformSettings": {},
+  "subMetas": {
+    "avenger_symbol_3_0": {
+      "ver": "1.0.4",
+      "uuid": "388f5f00-6202-4e71-8804-360e4587b350",
+      "rawTextureUuid": "8fe5f0db-eb06-4996-9e05-b0d192f103ca",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 151,
+      "height": 159,
+      "rawWidth": 151,
+      "rawHeight": 159,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

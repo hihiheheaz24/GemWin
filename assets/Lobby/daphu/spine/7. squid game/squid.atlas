@@ -1,0 +1,76 @@
+
+squid.png
+size: 1983,448
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+C3
+  rotate: true
+  xy: 992, 184
+  size: 262, 355
+  orig: 262, 355
+  offset: 0, 0
+  index: -1
+C4
+  rotate: true
+  xy: 1349, 256
+  size: 190, 472
+  orig: 190, 472
+  offset: 0, 0
+  index: -1
+T2
+  rotate: true
+  xy: 1311, 134
+  size: 48, 35
+  orig: 50, 37
+  offset: 1, 1
+  index: -1
+bg
+  rotate: true
+  xy: 2, 74
+  size: 372, 640
+  orig: 374, 642
+  offset: 1, 1
+  index: -1
+bg2
+  rotate: false
+  xy: 1349, 6
+  size: 363, 248
+  orig: 365, 250
+  offset: 1, 1
+  index: -1
+bg3
+  rotate: false
+  xy: 644, 4
+  size: 320, 175
+  orig: 322, 177
+  offset: 1, 1
+  index: -1
+c1
+  rotate: false
+  xy: 1823, 3
+  size: 158, 443
+  orig: 158, 443
+  offset: 0, 0
+  index: -1
+c2
+  rotate: true
+  xy: 644, 181
+  size: 265, 346
+  orig: 265, 346
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 992, 2
+  size: 317, 180
+  orig: 323, 186
+  offset: 3, 3
+  index: -1
+t1
+  rotate: true
+  xy: 1714, 192
+  size: 62, 43
+  orig: 64, 45
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,48 @@
+
+3k.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3cây copy
+  rotate: false
+  xy: 372, 127
+  size: 199, 68
+  orig: 199, 68
+  offset: 0, 0
+  index: -1
+Layer 62
+  rotate: false
+  xy: 2, 19
+  size: 192, 176
+  orig: 192, 176
+  offset: 0, 0
+  index: -1
+Layer 78
+  rotate: false
+  xy: 573, 137
+  size: 205, 58
+  orig: 205, 58
+  offset: 0, 0
+  index: -1
+Layer 80
+  rotate: true
+  xy: 372, 2
+  size: 123, 143
+  orig: 123, 143
+  offset: 0, 0
+  index: -1
+Layer 81
+  rotate: true
+  xy: 780, 89
+  size: 106, 129
+  orig: 106, 129
+  offset: 0, 0
+  index: -1
+Rectangle 2
+  rotate: false
+  xy: 196, 32
+  size: 174, 163
+  orig: 174, 163
+  offset: 0, 0
+  index: -1

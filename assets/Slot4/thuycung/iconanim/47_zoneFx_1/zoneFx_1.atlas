@@ -1,0 +1,76 @@
+
+zoneFx_1.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BET 100
+  rotate: true
+  xy: 2, 3
+  size: 416, 577
+  orig: 416, 577
+  offset: 0, 0
+  index: -1
+JACK POT 1
+  rotate: true
+  xy: 581, 120
+  size: 299, 86
+  orig: 299, 86
+  offset: 0, 0
+  index: -1
+WOMB_BODY
+  rotate: true
+  xy: 669, 208
+  size: 60, 129
+  orig: 60, 129
+  offset: 0, 0
+  index: -1
+WOMB_BOXD
+  rotate: false
+  xy: 581, 2
+  size: 163, 116
+  orig: 163, 116
+  offset: 0, 0
+  index: -1
+WOMB_BOXM
+  rotate: false
+  xy: 669, 339
+  size: 161, 80
+  orig: 161, 80
+  offset: 0, 0
+  index: -1
+WOMB_BOXU
+  rotate: true
+  xy: 669, 270
+  size: 67, 158
+  orig: 67, 158
+  offset: 0, 0
+  index: -1
+WOMB_EYE 1
+  rotate: false
+  xy: 669, 164
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+WOMB_EYE 2
+  rotate: false
+  xy: 746, 163
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+WOMB_MOUTH
+  rotate: false
+  xy: 707, 181
+  size: 21, 25
+  orig: 21, 25
+  offset: 0, 0
+  index: -1
+WOMB_TW
+  rotate: false
+  xy: 669, 128
+  size: 40, 34
+  orig: 40, 34
+  offset: 0, 0
+  index: -1

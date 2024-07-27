@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "fecfd6cd-8e11-45e4-843b-8f927e4f54fc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1195,
+  "height": 671,
+  "platformSettings": {},
+  "subMetas": {
+    "popup gioi thieu md5": {
+      "ver": "1.0.4",
+      "uuid": "7190c714-97dd-4422-9643-a05a21ad2ea4",
+      "rawTextureUuid": "fecfd6cd-8e11-45e4-843b-8f927e4f54fc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 1,
+      "trimX": 1,
+      "trimY": 0,
+      "width": 1193,
+      "height": 669,
+      "rawWidth": 1195,
+      "rawHeight": 671,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,13 @@
+
+ic_ngocan.png
+size: 87,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ic_ngocan
+  rotate: false
+  xy: 2, 2
+  size: 83, 106
+  orig: 87, 110
+  offset: 2, 2
+  index: -1

@@ -1,0 +1,34 @@
+
+ic_minigame.png
+size: 298,151
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Game
+  rotate: true
+  xy: 260, 69
+  size: 80, 36
+  orig: 84, 39
+  offset: 2, 2
+  index: -1
+Mini
+  rotate: false
+  xy: 146, 2
+  size: 65, 33
+  orig: 69, 37
+  offset: 2, 2
+  index: -1
+bg
+  rotate: false
+  xy: 146, 37
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 7
+  size: 142, 142
+  orig: 144, 144
+  offset: 1, 1
+  index: -1

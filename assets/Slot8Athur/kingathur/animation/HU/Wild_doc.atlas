@@ -1,0 +1,69 @@
+
+Wild_doc.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 38
+  size: 164, 472
+  orig: 164, 472
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 719, 346
+  size: 164, 226
+  orig: 164, 226
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 719, 299
+  size: 121, 45
+  orig: 121, 45
+  offset: 0, 0
+  index: -1
+a
+  rotate: true
+  xy: 168, 2
+  size: 104, 114
+  orig: 104, 114
+  offset: 0, 0
+  index: -1
+b
+  rotate: false
+  xy: 284, 14
+  size: 156, 92
+  orig: 156, 92
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 255, 250
+  size: 220, 260
+  orig: 220, 260
+  offset: 0, 0
+  index: -1
+chan
+  rotate: true
+  xy: 255, 108
+  size: 140, 306
+  orig: 140, 306
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 477, 285
+  size: 240, 225
+  orig: 240, 225
+  offset: 0, 0
+  index: -1
+k
+  rotate: false
+  xy: 168, 108
+  size: 85, 402
+  orig: 85, 402
+  offset: 0, 0
+  index: -1

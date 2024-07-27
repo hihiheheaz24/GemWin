@@ -1,0 +1,27 @@
+
+FAST BUTTON.png
+size: 234,147
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FAST
+  rotate: false
+  xy: 2, 2
+  size: 143, 143
+  orig: 154, 149
+  offset: 11, 1
+  index: -1
+FAST 2
+  rotate: false
+  xy: 147, 13
+  size: 85, 47
+  orig: 87, 49
+  offset: 1, 1
+  index: -1
+FAST 3
+  rotate: false
+  xy: 147, 62
+  size: 82, 83
+  orig: 86, 83
+  offset: 2, 0
+  index: -1

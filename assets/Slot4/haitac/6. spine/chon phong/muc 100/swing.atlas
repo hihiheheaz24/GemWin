@@ -1,0 +1,333 @@
+
+swing.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX/Sword_Fx_00003
+  rotate: false
+  xy: 2, 160
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00004
+  rotate: false
+  xy: 846, 160
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00005
+  rotate: true
+  xy: 920, 1199
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00011
+  rotate: false
+  xy: 1903, 800
+  size: 75, 9
+  orig: 75, 9
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00012
+  rotate: true
+  xy: 1512, 1201
+  size: 840, 339
+  orig: 840, 339
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00016
+  rotate: true
+  xy: 1690, 161
+  size: 601, 343
+  orig: 601, 343
+  offset: 0, 0
+  index: -1
+Rope_01
+  rotate: false
+  xy: 1260, 63
+  size: 271, 95
+  orig: 271, 95
+  offset: 0, 0
+  index: -1
+Top_ayes
+  rotate: false
+  xy: 2, 752
+  size: 916, 1289
+  orig: 916, 1289
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 1328, 764
+  size: 211, 573
+  orig: 211, 573
+  offset: 0, 0
+  index: -1
+foot_R
+  rotate: true
+  xy: 1690, 32
+  size: 127, 355
+  orig: 127, 355
+  offset: 0, 0
+  index: -1
+hand_05
+  rotate: false
+  xy: 1853, 1258
+  size: 183, 128
+  orig: 183, 128
+  offset: 0, 0
+  index: -1
+hand_06
+  rotate: true
+  xy: 1853, 1749
+  size: 292, 193
+  orig: 292, 193
+  offset: 0, 0
+  index: -1
+hand_12
+  rotate: true
+  xy: 1853, 1388
+  size: 359, 177
+  orig: 359, 177
+  offset: 0, 0
+  index: -1
+hand_13
+  rotate: false
+  xy: 2, 4
+  size: 321, 154
+  orig: 321, 154
+  offset: 0, 0
+  index: -1
+hand_14
+  rotate: false
+  xy: 482, 30
+  size: 552, 128
+  orig: 552, 128
+  offset: 0, 0
+  index: -1
+hand_15
+  rotate: false
+  xy: 920, 846
+  size: 406, 351
+  orig: 406, 351
+  offset: 0, 0
+  index: -1
+leg_L
+  rotate: false
+  xy: 1903, 811
+  size: 136, 164
+  orig: 136, 164
+  offset: 0, 0
+  index: -1
+leg_R
+  rotate: true
+  xy: 1036, 61
+  size: 97, 222
+  orig: 97, 222
+  offset: 0, 0
+  index: -1
+rope_03
+  rotate: true
+  xy: 1328, 977
+  size: 220, 696
+  orig: 220, 696
+  offset: 0, 0
+  index: -1
+rope_1
+  rotate: true
+  xy: 1036, 2
+  size: 57, 491
+  orig: 57, 491
+  offset: 0, 0
+  index: -1
+rope_2
+  rotate: true
+  xy: 920, 787
+  size: 57, 198
+  orig: 57, 198
+  offset: 0, 0
+  index: -1
+waist
+  rotate: false
+  xy: 325, 12
+  size: 155, 146
+  orig: 155, 146
+  offset: 0, 0
+  index: -1
+
+swing2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX/Sword_Fx_00006
+  rotate: false
+  xy: 2, 1456
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00007
+  rotate: false
+  xy: 2, 864
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00008
+  rotate: false
+  xy: 846, 1456
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00009
+  rotate: false
+  xy: 2, 272
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00013
+  rotate: false
+  xy: 846, 864
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00014
+  rotate: false
+  xy: 846, 272
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+Foot_L
+  rotate: true
+  xy: 1171, 2
+  size: 93, 357
+  orig: 93, 357
+  offset: 0, 0
+  index: -1
+hand_01
+  rotate: true
+  xy: 1690, 145
+  size: 230, 321
+  orig: 230, 321
+  offset: 0, 0
+  index: -1
+hand_02
+  rotate: true
+  xy: 1171, 97
+  size: 173, 393
+  orig: 173, 393
+  offset: 0, 0
+  index: -1
+hand_03
+  rotate: false
+  xy: 1690, 1625
+  size: 316, 421
+  orig: 316, 421
+  offset: 0, 0
+  index: -1
+hand_08
+  rotate: false
+  xy: 1690, 783
+  size: 281, 411
+  orig: 281, 411
+  offset: 0, 0
+  index: -1
+hand_09
+  rotate: true
+  xy: 425, 41
+  size: 229, 396
+  orig: 229, 396
+  offset: 0, 0
+  index: -1
+hand_11
+  rotate: false
+  xy: 2, 12
+  size: 421, 258
+  orig: 421, 258
+  offset: 0, 0
+  index: -1
+hand_16
+  rotate: false
+  xy: 1690, 1196
+  size: 293, 427
+  orig: 293, 427
+  offset: 0, 0
+  index: -1
+hand_17
+  rotate: false
+  xy: 1690, 377
+  size: 258, 404
+  orig: 258, 404
+  offset: 0, 0
+  index: -1
+hand_18
+  rotate: true
+  xy: 823, 11
+  size: 259, 346
+  orig: 259, 346
+  offset: 0, 0
+  index: -1
+
+swing3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX/Sword_Fx_00015
+  rotate: false
+  xy: 2, 1122
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00017
+  rotate: false
+  xy: 2, 530
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+FX/Sword_Fx_00018
+  rotate: false
+  xy: 846, 1122
+  size: 842, 590
+  orig: 842, 590
+  offset: 0, 0
+  index: -1
+hand_04
+  rotate: false
+  xy: 2, 2
+  size: 262, 201
+  orig: 262, 201
+  offset: 0, 0
+  index: -1
+hand_07
+  rotate: false
+  xy: 846, 802
+  size: 305, 318
+  orig: 305, 318
+  offset: 0, 0
+  index: -1
+hand_10
+  rotate: false
+  xy: 2, 205
+  size: 310, 323
+  orig: 310, 323
+  offset: 0, 0
+  index: -1
+hand_19
+  rotate: false
+  xy: 1690, 1391
+  size: 233, 321
+  orig: 233, 321
+  offset: 0, 0
+  index: -1

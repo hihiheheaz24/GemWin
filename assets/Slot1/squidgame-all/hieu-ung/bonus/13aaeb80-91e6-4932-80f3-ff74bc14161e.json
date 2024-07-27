@@ -1,0 +1,160 @@
+{
+"skeleton": {
+	"hash": "9rR8Ku7lxWQNIQUy5R54zDbio4c",
+	"spine": "3.8.75",
+	"x": -414.37,
+	"y": -303.42,
+	"width": 828,
+	"height": 628.29,
+	"images": "./images/",
+	"audio": "D:/JOBS/studio/ui desing new/rikvip rikwin/asset/box2/ani/squidgame/squidgame/1/hieuung/bonus"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Layer 6", "parent": "root", "y": 42.88 },
+	{ "name": "bone", "parent": "root", "x": 83.29, "y": 31.45 },
+	{ "name": "bone2", "parent": "root", "x": 30.75, "y": 36.77 },
+	{ "name": "b", "parent": "root", "x": -328.49, "y": -157.59 },
+	{ "name": "o", "parent": "root", "x": -158.64, "y": -152.2 },
+	{ "name": "n", "parent": "root", "x": 16.6, "y": -153.55 },
+	{ "name": "u", "parent": "root", "x": 162.19, "y": -150.85 },
+	{ "name": "s", "parent": "root", "x": 323.95, "y": -148.15 },
+	{ "name": "bone3", "parent": "root", "length": 411.31, "rotation": 80.57, "x": 9.86, "y": -241.17 },
+	{ "name": "gun", "parent": "root", "x": -64.28, "y": -30.88 }
+],
+"slots": [
+	{ "name": "Layer 6", "bone": "Layer 6", "attachment": "Layer 6" },
+	{ "name": "Layer 3", "bone": "bone2", "attachment": "Layer 3" },
+	{ "name": "Layer 10", "bone": "bone", "attachment": "Layer 10" },
+	{ "name": "Layer 7", "bone": "bone3", "attachment": "Layer 7" },
+	{ "name": "Layer 2", "bone": "gun", "attachment": "Layer 2" },
+	{ "name": "s", "bone": "s", "attachment": "s" },
+	{ "name": "u", "bone": "u", "attachment": "u" },
+	{ "name": "n", "bone": "n", "attachment": "n" },
+	{ "name": "o", "bone": "o", "attachment": "o" },
+	{ "name": "b", "bone": "b", "attachment": "b" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Layer 2": {
+				"Layer 2": { "x": -94.09, "y": 4.96, "width": 452, "height": 335 }
+			},
+			"Layer 3": {
+				"Layer 3": { "x": 45.98, "y": -11.47, "width": 81, "height": 128 }
+			},
+			"Layer 6": {
+				"Layer 6": { "width": 561, "height": 564 }
+			},
+			"Layer 7": {
+				"Layer 7": { "x": 283.64, "y": 17.95, "rotation": -80.57, "width": 358, "height": 470 }
+			},
+			"b": {
+				"b": { "x": 1.12, "y": -4.83, "width": 174, "height": 186 }
+			},
+			"n": {
+				"n": { "x": -0.47, "y": -7.87, "width": 175, "height": 188 }
+			},
+			"Layer 10": {
+				"Layer 10": { "x": -10.41, "y": 17.51, "width": 137, "height": 129 }
+			},
+			"o": {
+				"o": { "x": 0.27, "y": -9.22, "width": 188, "height": 198 }
+			},
+			"s": {
+				"s": { "x": 0.19, "y": -43.76, "width": 179, "height": 223 }
+			},
+			"u": {
+				"u": { "x": 12.45, "y": -25.07, "width": 180, "height": 189 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"Layer 6": {
+				"rotate": [
+					{},
+					{ "time": 1, "angle": 180 },
+					{ "time": 2 }
+				]
+			},
+			"b": {
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667 },
+					{ "time": 0.2333, "x": 1.4, "y": 1.4 },
+					{ "time": 0.3333 }
+				]
+			},
+			"o": {
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.3 },
+					{ "time": 0.4, "x": 1.4, "y": 1.4 },
+					{ "time": 0.4667 }
+				]
+			},
+			"n": {
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.4667 },
+					{ "time": 0.5667, "x": 1.4, "y": 1.4 },
+					{ "time": 0.6333 }
+				]
+			},
+			"u": {
+				"rotate": [
+					{}
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.6333 },
+					{ "time": 0.7333, "x": 1.4, "y": 1.4 },
+					{ "time": 0.8 }
+				]
+			},
+			"s": {
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.8333 },
+					{ "time": 0.9333, "x": 1.4, "y": 1.4 },
+					{ "time": 1 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.5333 },
+					{ "time": 1.1, "angle": -1.79 },
+					{ "time": 1.6667 }
+				]
+			},
+			"gun": {
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.7333 },
+					{ "time": 1.2667, "y": 18.66 },
+					{ "time": 2 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.4667 },
+					{ "time": 2, "x": -157.41, "y": 170.24 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.8333 },
+					{ "time": 1.5333, "x": 214.54, "y": 128.26 }
+				]
+			}
+		}
+	}
+}
+}

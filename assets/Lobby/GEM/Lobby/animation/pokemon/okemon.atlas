@@ -1,0 +1,55 @@
+
+okemon.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7d519accacabe80ffea295d634c930ae9d0fff8a946c-VPx0CM
+  rotate: false
+  xy: 2, 6
+  size: 253, 248
+  orig: 253, 248
+  offset: 0, 0
+  index: -1
+Layer 62
+  rotate: false
+  xy: 257, 78
+  size: 192, 176
+  orig: 192, 176
+  offset: 0, 0
+  index: -1
+Layer 74
+  rotate: false
+  xy: 806, 92
+  size: 113, 88
+  orig: 113, 88
+  offset: 0, 0
+  index: -1
+Layer 75
+  rotate: true
+  xy: 257, 2
+  size: 74, 82
+  orig: 74, 82
+  offset: 0, 0
+  index: -1
+Rectangle 2
+  rotate: false
+  xy: 451, 91
+  size: 174, 163
+  orig: 174, 163
+  offset: 0, 0
+  index: -1
+pngwing.com (26)
+  rotate: true
+  xy: 627, 118
+  size: 136, 177
+  orig: 136, 177
+  offset: 0, 0
+  index: -1
+title
+  rotate: false
+  xy: 806, 182
+  size: 194, 72
+  orig: 194, 72
+  offset: 0, 0
+  index: -1

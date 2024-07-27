@@ -1,0 +1,324 @@
+
+angrybirds_bonus.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BONUS_00
+  rotate: false
+  xy: 2, 310
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_01
+  rotate: false
+  xy: 347, 638
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_02
+  rotate: false
+  xy: 2, 13
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_03
+  rotate: false
+  xy: 655, 638
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_04
+  rotate: true
+  xy: 310, 299
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_05
+  rotate: false
+  xy: 310, 2
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_06
+  rotate: false
+  xy: 607, 341
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_07
+  rotate: true
+  xy: 618, 33
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+POT
+  rotate: false
+  xy: 2, 607
+  size: 343, 326
+  orig: 343, 326
+  offset: 0, 0
+  index: -1
+
+angrybirds_bonus2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BONUS_08
+  rotate: false
+  xy: 2, 618
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_09
+  rotate: true
+  xy: 310, 607
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_10
+  rotate: true
+  xy: 2, 310
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_11
+  rotate: false
+  xy: 299, 310
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_12
+  rotate: true
+  xy: 607, 607
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_13
+  rotate: true
+  xy: 607, 299
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_14
+  rotate: false
+  xy: 2, 13
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_15
+  rotate: true
+  xy: 310, 2
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_16
+  rotate: false
+  xy: 607, 2
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+
+angrybirds_bonus3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BONUS_17
+  rotate: false
+  xy: 2, 618
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_18
+  rotate: true
+  xy: 310, 607
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_19
+  rotate: true
+  xy: 2, 310
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_20
+  rotate: false
+  xy: 299, 310
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_21
+  rotate: true
+  xy: 607, 607
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_22
+  rotate: true
+  xy: 607, 299
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_23
+  rotate: false
+  xy: 2, 13
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_24
+  rotate: true
+  xy: 310, 2
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_25
+  rotate: false
+  xy: 607, 2
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+
+angrybirds_bonus4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BONUS_26
+  rotate: false
+  xy: 2, 618
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_27
+  rotate: true
+  xy: 310, 607
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_28
+  rotate: true
+  xy: 2, 310
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_29
+  rotate: false
+  xy: 299, 310
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_30
+  rotate: true
+  xy: 607, 607
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_31
+  rotate: true
+  xy: 607, 299
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_32
+  rotate: false
+  xy: 2, 13
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_33
+  rotate: true
+  xy: 310, 2
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_34
+  rotate: false
+  xy: 607, 2
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+
+angrybirds_bonus5.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BONUS_35
+  rotate: false
+  xy: 2, 144
+  size: 306, 295
+  orig: 306, 295
+  offset: 0, 0
+  index: -1
+BONUS_B
+  rotate: true
+  xy: 310, 2
+  size: 146, 135
+  orig: 146, 135
+  offset: 0, 0
+  index: -1
+BONUS_N
+  rotate: false
+  xy: 141, 7
+  size: 126, 135
+  orig: 126, 135
+  offset: 0, 0
+  index: -1
+BONUS_O
+  rotate: true
+  xy: 310, 292
+  size: 147, 140
+  orig: 147, 140
+  offset: 0, 0
+  index: -1
+BONUS_S
+  rotate: false
+  xy: 310, 150
+  size: 136, 140
+  orig: 136, 140
+  offset: 0, 0
+  index: -1
+BONUS_U
+  rotate: true
+  xy: 2, 11
+  size: 131, 137
+  orig: 131, 137
+  offset: 0, 0
+  index: -1

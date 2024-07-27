@@ -1,0 +1,55 @@
+
+thuy_cung.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 23
+  rotate: false
+  xy: 711, 103
+  size: 244, 137
+  orig: 244, 137
+  offset: 0, 0
+  index: -1
+Layer 49
+  rotate: false
+  xy: 1184, 113
+  size: 158, 127
+  orig: 158, 127
+  offset: 0, 0
+  index: -1
+Layer 80
+  rotate: false
+  xy: 1344, 214
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+Layer 81
+  rotate: true
+  xy: 711, 20
+  size: 81, 89
+  orig: 81, 89
+  offset: 0, 0
+  index: -1
+Layer 82
+  rotate: false
+  xy: 957, 90
+  size: 225, 150
+  orig: 225, 150
+  offset: 0, 0
+  index: -1
+Rectangle 1
+  rotate: true
+  xy: 362, 15
+  size: 225, 347
+  orig: 225, 347
+  offset: 0, 0
+  index: -1
+khungTo copy
+  rotate: true
+  xy: 2, 2
+  size: 238, 358
+  orig: 238, 358
+  offset: 0, 0
+  index: -1

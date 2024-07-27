@@ -1,0 +1,41 @@
+
+ong_do.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 1
+  rotate: false
+  xy: 711, 103
+  size: 244, 137
+  orig: 244, 137
+  offset: 0, 0
+  index: -1
+Layer 83
+  rotate: true
+  xy: 957, 65
+  size: 175, 200
+  orig: 175, 200
+  offset: 0, 0
+  index: -1
+Layer 84
+  rotate: false
+  xy: 1159, 137
+  size: 121, 103
+  orig: 121, 103
+  offset: 0, 0
+  index: -1
+Rectangle 1
+  rotate: true
+  xy: 362, 15
+  size: 225, 347
+  orig: 225, 347
+  offset: 0, 0
+  index: -1
+khungTo copy
+  rotate: true
+  xy: 2, 2
+  size: 238, 358
+  orig: 238, 358
+  offset: 0, 0
+  index: -1

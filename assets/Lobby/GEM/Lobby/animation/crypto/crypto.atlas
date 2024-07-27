@@ -1,0 +1,48 @@
+
+crypto.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1bee4538-dbe7-4aea-94ca-07288397373b.1c975
+  rotate: true
+  xy: 258, 8
+  size: 58, 57
+  orig: 58, 57
+  offset: 0, 0
+  index: -1
+58b0f3af-efdb-4838-981f-5ebb365f4bfb.c5c2b
+  rotate: true
+  xy: 345, 7
+  size: 63, 62
+  orig: 63, 62
+  offset: 0, 0
+  index: -1
+73cd19a8-d7ed-4462-8ec0-bbe361a85352.2fc21
+  rotate: false
+  xy: 2, 2
+  size: 254, 46
+  orig: 254, 46
+  offset: 0, 0
+  index: -1
+Layer 62
+  rotate: true
+  xy: 2, 50
+  size: 192, 176
+  orig: 192, 176
+  offset: 0, 0
+  index: -1
+Layer 77
+  rotate: true
+  xy: 345, 72
+  size: 170, 161
+  orig: 170, 161
+  offset: 0, 0
+  index: -1
+Rectangle 2
+  rotate: true
+  xy: 180, 68
+  size: 174, 163
+  orig: 174, 163
+  offset: 0, 0
+  index: -1

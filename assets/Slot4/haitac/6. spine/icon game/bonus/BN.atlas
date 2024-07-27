@@ -1,0 +1,279 @@
+
+BN.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_00000
+  rotate: true
+  xy: 662, 347
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00001
+  rotate: false
+  xy: 602, 169
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00002
+  rotate: false
+  xy: 267, 52
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00003
+  rotate: false
+  xy: 829, 355
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00004
+  rotate: true
+  xy: 976, 408
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00005
+  rotate: false
+  xy: 653, 169
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00006
+  rotate: false
+  xy: 267, 21
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00007
+  rotate: false
+  xy: 318, 52
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00008
+  rotate: false
+  xy: 829, 324
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00009
+  rotate: false
+  xy: 880, 355
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00010
+  rotate: false
+  xy: 318, 21
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00011
+  rotate: false
+  xy: 369, 52
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00012
+  rotate: false
+  xy: 880, 324
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00013
+  rotate: true
+  xy: 931, 335
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00014
+  rotate: false
+  xy: 369, 21
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00015
+  rotate: false
+  xy: 420, 52
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00016
+  rotate: false
+  xy: 420, 21
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00017
+  rotate: true
+  xy: 471, 32
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+01_00018
+  rotate: true
+  xy: 776, 216
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+BonuS
+  rotate: false
+  xy: 2, 15
+  size: 158, 66
+  orig: 158, 66
+  offset: 0, 0
+  index: -1
+Warstwa 9 kopia 5
+  rotate: false
+  xy: 162, 16
+  size: 103, 65
+  orig: 103, 65
+  offset: 0, 0
+  index: -1
+armata 1
+  rotate: false
+  xy: 502, 57
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 829, 386
+  size: 145, 124
+  orig: 145, 124
+  offset: 0, 0
+  index: -1
+explosion
+  rotate: true
+  xy: 471, 2
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+eye light
+  rotate: true
+  xy: 693, 371
+  size: 25, 16
+  orig: 25, 16
+  offset: 0, 0
+  index: -1
+flaga
+  rotate: false
+  xy: 829, 301
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1
+maszt
+  rotate: false
+  xy: 813, 294
+  size: 14, 102
+  orig: 14, 102
+  offset: 0, 0
+  index: -1
+maszt tyl
+  rotate: false
+  xy: 976, 388
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+pixel
+  rotate: false
+  xy: 813, 286
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+ship
+  rotate: true
+  xy: 2, 83
+  size: 427, 512
+  orig: 427, 512
+  offset: 0, 0
+  index: -1
+splash 4
+  rotate: false
+  xy: 516, 347
+  size: 144, 163
+  orig: 144, 163
+  offset: 0, 0
+  index: -1
+water
+  rotate: true
+  xy: 712, 267
+  size: 129, 99
+  orig: 129, 99
+  offset: 0, 0
+  index: -1
+zagle front
+  rotate: false
+  xy: 662, 398
+  size: 165, 112
+  orig: 165, 112
+  offset: 0, 0
+  index: -1
+zagle front 2
+  rotate: true
+  xy: 602, 200
+  size: 145, 108
+  orig: 145, 108
+  offset: 0, 0
+  index: -1
+zagle front 3
+  rotate: true
+  xy: 976, 459
+  size: 51, 35
+  orig: 51, 35
+  offset: 0, 0
+  index: -1
+zagle male
+  rotate: false
+  xy: 516, 151
+  size: 84, 194
+  orig: 84, 194
+  offset: 0, 0
+  index: -1
+zagle tyl
+  rotate: false
+  xy: 516, 111
+  size: 73, 38
+  orig: 73, 38
+  offset: 0, 0
+  index: -1
+zagle tyl 2
+  rotate: false
+  xy: 712, 217
+  size: 62, 48
+  orig: 62, 48
+  offset: 0, 0
+  index: -1
+zagle tyl 3
+  rotate: false
+  xy: 516, 83
+  size: 41, 26
+  orig: 41, 26
+  offset: 0, 0
+  index: -1

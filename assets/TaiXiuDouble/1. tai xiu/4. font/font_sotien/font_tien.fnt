@@ -1,0 +1,19 @@
+info face="font_tien" size=100 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=1,1,1,1 spacing=1,1
+common lineHeight=100 base=100 scaleW=272 scaleH=264 pages=1 packed=0
+page id=0 file="font_tien.png"
+chars count=15
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=26 page=0 chnl=15
+char id=33 x=121 y=178 width=40 height=83 xoffset=-8 yoffset=32 xadvance=25 page=0 chnl=15
+char id=44 x=199 y=178 width=35 height=44 xoffset=-8 yoffset=84 xadvance=20 page=0 chnl=15
+char id=46 x=235 y=178 width=37 height=32 xoffset=-8 yoffset=84 xadvance=22 page=0 chnl=15
+char id=48 x=0 y=178 width=72 height=86 xoffset=-9 yoffset=30 xadvance=55 page=0 chnl=15
+char id=49 x=73 y=178 width=47 height=85 xoffset=-7 yoffset=31 xadvance=32 page=0 chnl=15
+char id=50 x=0 y=90 width=68 height=87 xoffset=-8 yoffset=29 xadvance=52 page=0 chnl=15
+char id=51 x=69 y=90 width=61 height=87 xoffset=-8 yoffset=29 xadvance=45 page=0 chnl=15
+char id=52 x=131 y=90 width=70 height=87 xoffset=-9 yoffset=30 xadvance=52 page=0 chnl=15
+char id=53 x=134 y=0 width=64 height=88 xoffset=-9 yoffset=29 xadvance=47 page=0 chnl=15
+char id=54 x=199 y=0 width=68 height=88 xoffset=-9 yoffset=28 xadvance=51 page=0 chnl=15
+char id=55 x=202 y=90 width=70 height=84 xoffset=-9 yoffset=31 xadvance=53 page=0 chnl=15
+char id=56 x=0 y=0 width=64 height=89 xoffset=-8 yoffset=29 xadvance=48 page=0 chnl=15
+char id=57 x=65 y=0 width=68 height=89 xoffset=-9 yoffset=28 xadvance=51 page=0 chnl=15
+char id=58 x=162 y=178 width=36 height=64 xoffset=-7 yoffset=51 xadvance=22 page=0 chnl=15

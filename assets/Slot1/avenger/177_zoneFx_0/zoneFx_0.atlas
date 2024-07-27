@@ -1,0 +1,27 @@
+
+PLAY FREE BUTTON.png
+size: 203,453
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BUTTON
+  rotate: true
+  xy: 1, 52
+  size: 400, 100
+  orig: 400, 100
+  offset: 0, 0
+  index: -1
+LIGHT
+  rotate: true
+  xy: 102, 83
+  size: 369, 100
+  orig: 369, 100
+  offset: 0, 0
+  index: -1
+TEXT
+  rotate: false
+  xy: 1, 1
+  size: 184, 50
+  orig: 184, 50
+  offset: 0, 0
+  index: -1

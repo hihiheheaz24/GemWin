@@ -1,0 +1,66 @@
+{
+"skeleton": {
+	"hash": "5mq6QwA0N5wKSUDwJegNp+ghg1s",
+	"spine": "3.8.75",
+	"x": -87,
+	"y": -83.5,
+	"width": 174,
+	"height": 167,
+	"images": "./images/",
+	"audio": "D:/JOBS/studio/ui desing new/rikvip rikwin/asset/box2/ani/squidgame/squidgame/1/icon/free"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 131.3, "rotation": 100.36, "x": 12.13, "y": -76 },
+	{ "name": "bone2", "parent": "root", "x": -2.4, "y": -54.66 }
+],
+"slots": [
+	{ "name": "Layer 1", "bone": "root", "attachment": "Layer 1" },
+	{ "name": "Layer 2", "bone": "bone", "attachment": "Layer 2" },
+	{ "name": "Layer 3", "bone": "bone2", "attachment": "Layer 3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Layer 1": {
+				"Layer 1": { "width": 174, "height": 167 }
+			},
+			"Layer 2": {
+				"Layer 2": { "x": 74.98, "y": -12.6, "rotation": -100.36, "width": 142, "height": 157 }
+			},
+			"Layer 3": {
+				"Layer 3": { "x": 2.94, "y": -4.81, "width": 165, "height": 48 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone2": {
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.5 },
+					{ "time": 0.6333, "x": 1.404, "y": 1.404 },
+					{ "time": 0.7667 },
+					{ "time": 0.9, "x": 1.267, "y": 1.267 },
+					{ "time": 1.0333 },
+					{ "time": 1.1333, "x": 1.145, "y": 1.145 },
+					{ "time": 1.3, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -2.69, "curve": "stepped" },
+					{ "time": 1, "angle": -2.69 },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

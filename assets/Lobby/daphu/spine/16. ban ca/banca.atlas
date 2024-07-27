@@ -1,0 +1,76 @@
+
+banca.png
+size: 1095,319
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bb
+  rotate: false
+  xy: 1058, 26
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+bc
+  rotate: false
+  xy: 608, 2
+  size: 248, 84
+  orig: 248, 84
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 315, 26
+  size: 291, 291
+  orig: 293, 293
+  offset: 1, 1
+  index: -1
+c1
+  rotate: false
+  xy: 1003, 63
+  size: 89, 103
+  orig: 91, 105
+  offset: 1, 1
+  index: -1
+co
+  rotate: false
+  xy: 977, 9
+  size: 79, 52
+  orig: 81, 54
+  offset: 1, 1
+  index: -1
+dau
+  rotate: true
+  xy: 893, 168
+  size: 149, 147
+  orig: 149, 147
+  offset: 0, 0
+  index: -1
+ham
+  rotate: true
+  xy: 893, 10
+  size: 85, 82
+  orig: 87, 84
+  offset: 1, 1
+  index: -1
+r1
+  rotate: false
+  xy: 893, 97
+  size: 108, 69
+  orig: 111, 72
+  offset: 1, 1
+  index: -1
+than
+  rotate: false
+  xy: 608, 88
+  size: 283, 229
+  orig: 285, 232
+  offset: 1, 2
+  index: -1
+vong
+  rotate: false
+  xy: 2, 9
+  size: 311, 308
+  orig: 316, 313
+  offset: 4, 3
+  index: -1

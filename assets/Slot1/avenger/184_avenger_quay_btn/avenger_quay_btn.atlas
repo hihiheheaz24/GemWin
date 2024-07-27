@@ -1,0 +1,83 @@
+
+UI PACKER 3.8.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BUTTON SPIN FIX/BACK
+  rotate: true
+  xy: 690, 258
+  size: 253, 75
+  orig: 255, 77
+  offset: 1, 1
+  index: -1
+BUTTON SPIN FIX/BUTTON BLUE
+  rotate: true
+  xy: 292, 242
+  size: 269, 132
+  orig: 271, 134
+  offset: 1, 1
+  index: -1
+BUTTON SPIN FIX/BUTTON RED
+  rotate: true
+  xy: 425, 242
+  size: 269, 132
+  orig: 271, 134
+  offset: 1, 1
+  index: -1
+BUTTON SPIN FIX/D DOWN
+  rotate: true
+  xy: 163, 137
+  size: 374, 53
+  orig: 378, 55
+  offset: 2, 1
+  index: -1
+BUTTON SPIN FIX/DECK UP
+  rotate: true
+  xy: 107, 106
+  size: 405, 55
+  orig: 407, 57
+  offset: 1, 1
+  index: -1
+BUTTON SPIN FIX/GRAY BUTTON
+  rotate: true
+  xy: 558, 242
+  size: 269, 131
+  orig: 271, 133
+  offset: 1, 1
+  index: -1
+BUTTON SPIN FIX/HOLD TO AUTO
+  rotate: false
+  xy: 107, 87
+  size: 152, 18
+  orig: 152, 18
+  offset: 0, 0
+  index: -1
+BUTTON SPIN FIX/LIGHT
+  rotate: true
+  xy: 766, 290
+  size: 221, 155
+  orig: 225, 157
+  offset: 2, 1
+  index: -1
+BUTTON SPIN FIX/LIGHT EFFECT
+  rotate: true
+  xy: 217, 224
+  size: 287, 74
+  orig: 289, 75
+  offset: 1, 0
+  index: -1
+BUTTON SPIN FIX/SPIN
+  rotate: false
+  xy: 922, 338
+  size: 126, 36
+  orig: 126, 36
+  offset: 0, 0
+  index: -1
+BUTTON SPIN FIX/STOP
+  rotate: false
+  xy: 260, 71
+  size: 134, 36
+  orig: 134, 36
+  offset: 0, 0
+  index: -1

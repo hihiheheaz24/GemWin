@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "0f04e3ce-fc26-4bb5-bcf1-7727296d10bd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1,
+  "height": 1,
+  "platformSettings": {},
+  "subMetas": {
+    "avenger_win_jackpot_bg_gold": {
+      "ver": "1.0.4",
+      "uuid": "23146bd9-c2d1-4d89-8721-a7cde3d5cc05",
+      "rawTextureUuid": "0f04e3ce-fc26-4bb5-bcf1-7727296d10bd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1,
+      "height": 1,
+      "rawWidth": 1,
+      "rawHeight": 1,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

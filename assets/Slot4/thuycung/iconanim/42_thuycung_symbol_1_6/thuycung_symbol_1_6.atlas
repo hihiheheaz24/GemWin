@@ -1,0 +1,353 @@
+
+SYMBOLS_PACKED.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FREESPINS 00
+  rotate: false
+  xy: 327, 281
+  size: 160, 156
+  orig: 190, 199
+  offset: 18, 13
+  index: -1
+ FREESPINS 15
+  rotate: false
+  xy: 2, 184
+  size: 160, 157
+  orig: 190, 199
+  offset: 18, 12
+  index: -1
+ FREESPINS 16
+  rotate: false
+  xy: 164, 163
+  size: 160, 157
+  orig: 190, 199
+  offset: 19, 12
+  index: -1
+ FREESPINS 17
+  rotate: false
+  xy: 165, 322
+  size: 160, 155
+  orig: 190, 199
+  offset: 19, 14
+  index: -1
+ FREESPINS 18
+  rotate: false
+  xy: 2, 343
+  size: 161, 153
+  orig: 190, 199
+  offset: 19, 14
+  index: -1
+ FREESPINS 19
+  rotate: false
+  xy: 583, 414
+  size: 162, 151
+  orig: 190, 199
+  offset: 18, 16
+  index: -1
+ FREESPINS 20
+  rotate: false
+  xy: 747, 382
+  size: 163, 152
+  orig: 190, 199
+  offset: 17, 16
+  index: -1
+ FREESPINS 21
+  rotate: false
+  xy: 417, 439
+  size: 164, 150
+  orig: 190, 199
+  offset: 16, 18
+  index: -1
+ FREESPINS 30
+  rotate: false
+  xy: 485, 97
+  size: 164, 157
+  orig: 190, 199
+  offset: 16, 13
+  index: -1
+ FREESPINS 31
+  rotate: false
+  xy: 489, 256
+  size: 163, 156
+  orig: 190, 199
+  offset: 16, 14
+  index: -1
+ FREESPINS 32
+  rotate: true
+  xy: 2, 20
+  size: 162, 158
+  orig: 190, 199
+  offset: 16, 13
+  index: -1
+ FREESPINS 33
+  rotate: false
+  xy: 162, 2
+  size: 162, 159
+  orig: 190, 199
+  offset: 16, 13
+  index: -1
+ FREESPINS 37
+  rotate: false
+  xy: 326, 122
+  size: 157, 157
+  orig: 190, 199
+  offset: 17, 12
+  index: -1
+ FREESPINS 38
+  rotate: true
+  xy: 654, 224
+  size: 156, 157
+  orig: 190, 199
+  offset: 17, 13
+  index: -1
+ FREESPINS 39
+  rotate: false
+  xy: 651, 65
+  size: 158, 157
+  orig: 190, 199
+  offset: 17, 13
+  index: -1
+ FREESPINS 40
+  rotate: false
+  xy: 811, 65
+  size: 159, 157
+  orig: 190, 199
+  offset: 17, 11
+  index: -1
+CLAM D
+  rotate: false
+  xy: 160, 734
+  size: 149, 73
+  orig: 151, 75
+  offset: 1, 1
+  index: -1
+CLAM M
+  rotate: false
+  xy: 97, 959
+  size: 92, 12
+  orig: 94, 14
+  offset: 1, 1
+  index: -1
+CLAM U
+  rotate: false
+  xy: 2, 650
+  size: 138, 97
+  orig: 140, 99
+  offset: 1, 1
+  index: -1
+PEARL
+  rotate: false
+  xy: 576, 857
+  size: 46, 46
+  orig: 48, 48
+  offset: 1, 1
+  index: -1
+FREE SPINS
+  rotate: false
+  xy: 466, 797
+  size: 200, 57
+  orig: 203, 59
+  offset: 2, 1
+  index: -1
+
+SYMBOLS_PACKED3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ FREESPINS 13
+  rotate: true
+  xy: 514, 2
+  size: 159, 165
+  orig: 190, 199
+  offset: 18, 12
+  index: -1
+
+SYMBOLS_PACKED4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ FREESPINS 01
+  rotate: false
+  xy: 2, 501
+  size: 161, 161
+  orig: 190, 199
+  offset: 18, 9
+  index: -1
+ FREESPINS 02
+  rotate: false
+  xy: 2, 337
+  size: 163, 162
+  orig: 190, 199
+  offset: 17, 10
+  index: -1
+ FREESPINS 03
+  rotate: false
+  xy: 337, 500
+  size: 163, 161
+  orig: 190, 199
+  offset: 17, 12
+  index: -1
+ FREESPINS 04
+  rotate: false
+  xy: 849, 823
+  size: 164, 160
+  orig: 190, 199
+  offset: 16, 14
+  index: -1
+ FREESPINS 05
+  rotate: false
+  xy: 2, 664
+  size: 164, 160
+  orig: 190, 199
+  offset: 16, 15
+  index: -1
+ FREESPINS 06
+  rotate: false
+  xy: 167, 337
+  size: 165, 162
+  orig: 190, 199
+  offset: 15, 15
+  index: -1
+ FREESPINS 07
+  rotate: false
+  xy: 166, 172
+  size: 166, 163
+  orig: 190, 199
+  offset: 15, 16
+  index: -1
+ FREESPINS 08
+  rotate: true
+  xy: 334, 336
+  size: 162, 169
+  orig: 190, 199
+  offset: 14, 12
+  index: -1
+ FREESPINS 11
+  rotate: false
+  xy: 334, 171
+  size: 165, 163
+  orig: 190, 199
+  offset: 11, 13
+  index: -1
+ FREESPINS 12
+  rotate: true
+  xy: 502, 500
+  size: 161, 164
+  orig: 190, 199
+  offset: 15, 13
+  index: -1
+ FREESPINS 14
+  rotate: true
+  xy: 682, 824
+  size: 159, 165
+  orig: 190, 199
+  offset: 18, 10
+  index: -1
+ FREESPINS 22
+  rotate: false
+  xy: 346, 663
+  size: 163, 160
+  orig: 190, 199
+  offset: 16, 10
+  index: -1
+ FREESPINS 23
+  rotate: false
+  xy: 511, 663
+  size: 164, 160
+  orig: 190, 199
+  offset: 15, 12
+  index: -1
+ FREESPINS 24
+  rotate: false
+  xy: 505, 335
+  size: 164, 162
+  orig: 190, 199
+  offset: 14, 13
+  index: -1
+ FREESPINS 25
+  rotate: true
+  xy: 837, 333
+  size: 162, 175
+  orig: 190, 199
+  offset: 16, 13
+  index: -1
+ FREESPINS 26
+  rotate: true
+  xy: 681, 168
+  size: 163, 164
+  orig: 190, 199
+  offset: 15, 12
+  index: -1
+ FREESPINS 27
+  rotate: true
+  xy: 847, 168
+  size: 163, 164
+  orig: 190, 199
+  offset: 15, 10
+  index: -1
+ FREESPINS 28
+  rotate: false
+  xy: 671, 335
+  size: 164, 162
+  orig: 190, 199
+  offset: 15, 11
+  index: -1
+ FREESPINS 29
+  rotate: false
+  xy: 677, 662
+  size: 163, 160
+  orig: 190, 199
+  offset: 16, 12
+  index: -1
+ FREESPINS 34
+  rotate: false
+  xy: 2, 173
+  size: 162, 162
+  orig: 190, 199
+  offset: 16, 12
+  index: -1
+ FREESPINS 35
+  rotate: true
+  xy: 842, 661
+  size: 160, 162
+  orig: 190, 199
+  offset: 16, 14
+  index: -1
+ FREESPINS 36
+  rotate: true
+  xy: 176, 825
+  size: 158, 164
+  orig: 190, 199
+  offset: 17, 13
+  index: -1
+
+SYMBOLS_PACKED5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ FREESPINS 09
+  rotate: true
+  xy: 2, 340
+  size: 165, 169
+  orig: 190, 199
+  offset: 11, 14
+  index: -1
+ FREESPINS 10
+  rotate: true
+  xy: 173, 340
+  size: 165, 169
+  orig: 190, 199
+  offset: 11, 15
+  index: -1
+FREE SPINS BORDER
+  rotate: false
+  xy: 687, 171
+  size: 168, 166
+  orig: 170, 166
+  offset: 1, 0
+  index: -1

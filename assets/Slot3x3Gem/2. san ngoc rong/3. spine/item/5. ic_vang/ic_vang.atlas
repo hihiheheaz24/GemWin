@@ -1,0 +1,13 @@
+
+ic_vang.png
+size: 132,98
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ic_vang
+  rotate: false
+  xy: 2, 2
+  size: 128, 94
+  orig: 132, 98
+  offset: 2, 2
+  index: -1

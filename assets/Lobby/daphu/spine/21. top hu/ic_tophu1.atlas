@@ -1,0 +1,41 @@
+
+ic_tophu1.png
+size: 389,140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 4
+  rotate: false
+  xy: 2, 48
+  size: 277, 90
+  orig: 279, 92
+  offset: 1, 1
+  index: -1
+light
+  rotate: true
+  xy: 281, 30
+  size: 108, 106
+  orig: 110, 108
+  offset: 1, 1
+  index: -1
+muiten
+  rotate: true
+  xy: 187, 18
+  size: 28, 37
+  orig: 32, 41
+  offset: 2, 2
+  index: -1
+text
+  rotate: false
+  xy: 2, 2
+  size: 130, 44
+  orig: 134, 48
+  offset: 2, 2
+  index: -1
+vuongmien
+  rotate: false
+  xy: 134, 14
+  size: 51, 32
+  orig: 53, 34
+  offset: 1, 1
+  index: -1

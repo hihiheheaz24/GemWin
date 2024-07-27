@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "dbeeee29-19f2-4d3e-a949-d942cdd827e9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "Sieuno23": {
+      "ver": "1.0.4",
+      "uuid": "66da9b4b-063c-4960-8057-7e3d7e359dfc",
+      "rawTextureUuid": "dbeeee29-19f2-4d3e-a949-d942cdd827e9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1920,
+      "height": 1080,
+      "rawWidth": 1920,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

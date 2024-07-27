@@ -1,0 +1,13 @@
+
+ic_batquai.png
+size: 94,104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ic_batquai
+  rotate: false
+  xy: 2, 2
+  size: 90, 100
+  orig: 94, 104
+  offset: 2, 2
+  index: -1

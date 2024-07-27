@@ -1,0 +1,62 @@
+
+angrybirds_quay_btn.png
+size: 437,280
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 95, 9
+  size: 82, 83
+  orig: 86, 83
+  offset: 2, 0
+  index: -1
+GRAY
+  rotate: false
+  xy: 326, 58
+  size: 109, 109
+  orig: 125, 125
+  offset: 8, 8
+  index: -1
+HOLD TO AUTO
+  rotate: false
+  xy: 2, 9
+  size: 91, 83
+  orig: 91, 86
+  offset: 0, 1
+  index: -1
+RED BUTTON
+  rotate: false
+  xy: 326, 169
+  size: 109, 109
+  orig: 125, 125
+  offset: 8, 8
+  index: -1
+SPINS 1
+  rotate: false
+  xy: 2, 94
+  size: 180, 184
+  orig: 194, 189
+  offset: 13, 1
+  index: -1
+SPINS 2
+  rotate: false
+  xy: 184, 2
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+SPINS 3
+  rotate: false
+  xy: 184, 138
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+STOP
+  rotate: false
+  xy: 320, 8
+  size: 86, 48
+  orig: 86, 50
+  offset: 0, 1
+  index: -1

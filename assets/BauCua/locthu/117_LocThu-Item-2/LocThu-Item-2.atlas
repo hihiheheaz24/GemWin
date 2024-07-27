@@ -1,0 +1,62 @@
+
+LocThu-Item-2.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+main/Item-1-vong
+  rotate: true
+  xy: 2, 3
+  size: 230, 227
+  orig: 230, 227
+  offset: 0, 0
+  index: -1
+main/Item-1-vong-effect
+  rotate: true
+  xy: 399, 61
+  size: 172, 171
+  orig: 172, 171
+  offset: 0, 0
+  index: -1
+main/Item-1-vong-xam
+  rotate: false
+  xy: 864, 85
+  size: 151, 148
+  orig: 151, 148
+  offset: 0, 0
+  index: -1
+main/Item-2-rong-1
+  rotate: true
+  xy: 572, 50
+  size: 183, 144
+  orig: 183, 144
+  offset: 0, 0
+  index: -1
+main/Item-2-rong-2
+  rotate: true
+  xy: 718, 50
+  size: 183, 144
+  orig: 183, 144
+  offset: 0, 0
+  index: -1
+main/Item-2-rong-3
+  rotate: true
+  xy: 231, 42
+  size: 191, 166
+  orig: 191, 166
+  offset: 0, 0
+  index: -1
+main/box_thu_money
+  rotate: false
+  xy: 353, 3
+  size: 118, 37
+  orig: 118, 37
+  offset: 0, 0
+  index: -1
+main/box_thu_money_xam
+  rotate: false
+  xy: 231, 2
+  size: 120, 38
+  orig: 120, 38
+  offset: 0, 0
+  index: -1

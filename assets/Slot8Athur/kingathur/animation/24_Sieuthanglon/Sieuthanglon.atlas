@@ -1,0 +1,27 @@
+
+Sieuthanglon.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Siêu lớn
+  rotate: false
+  xy: 2, 2
+  size: 620, 135
+  orig: 620, 135
+  offset: 0, 0
+  index: -1
+fx2
+  rotate: false
+  xy: 2, 139
+  size: 822, 750
+  orig: 822, 750
+  offset: 0, 0
+  index: -1
+khung
+  rotate: true
+  xy: 826, 292
+  size: 597, 71
+  orig: 597, 71
+  offset: 0, 0
+  index: -1

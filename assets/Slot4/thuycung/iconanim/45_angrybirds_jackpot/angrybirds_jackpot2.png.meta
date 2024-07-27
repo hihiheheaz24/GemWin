@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "9a673228-74cd-44c0-bb74-46f2f8db53dd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 1024,
+  "platformSettings": {},
+  "subMetas": {
+    "angrybirds_jackpot2": {
+      "ver": "1.0.4",
+      "uuid": "8de477b1-d9ac-4a95-8878-6b8125ed4a41",
+      "rawTextureUuid": "9a673228-74cd-44c0-bb74-46f2f8db53dd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -47.5,
+      "offsetY": 38.5,
+      "trimX": 2,
+      "trimY": 8,
+      "width": 925,
+      "height": 931,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

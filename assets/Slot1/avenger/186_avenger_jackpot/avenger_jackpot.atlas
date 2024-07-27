@@ -1,0 +1,230 @@
+
+JACKPOT EFFECT.png
+size: 1744,1025
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EFFECT_0000_EFFECT_00023
+  rotate: false
+  xy: 1, 488
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0001_EFFECT_00022
+  rotate: false
+  xy: 244, 769
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0002_EFFECT_00021
+  rotate: false
+  xy: 1, 232
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0003_EFFECT_00020
+  rotate: false
+  xy: 251, 513
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0004_EFFECT_00019
+  rotate: false
+  xy: 494, 769
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0005_EFFECT_00018
+  rotate: false
+  xy: 251, 257
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0006_EFFECT_00017
+  rotate: false
+  xy: 345, 1
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0007_EFFECT_00016
+  rotate: false
+  xy: 501, 513
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0008_EFFECT_00015
+  rotate: false
+  xy: 744, 769
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0009_EFFECT_00014
+  rotate: false
+  xy: 501, 257
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0010_EFFECT_00013
+  rotate: false
+  xy: 595, 1
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0011_EFFECT_00012
+  rotate: false
+  xy: 751, 513
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0012_EFFECT_00011
+  rotate: false
+  xy: 994, 769
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0013_EFFECT_00010
+  rotate: false
+  xy: 751, 257
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0014_EFFECT_00009
+  rotate: false
+  xy: 845, 1
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0015_EFFECT_00008
+  rotate: false
+  xy: 1001, 513
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0016_EFFECT_00007
+  rotate: false
+  xy: 1244, 769
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0017_EFFECT_00006
+  rotate: false
+  xy: 1001, 257
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0018_EFFECT_00005
+  rotate: false
+  xy: 1095, 1
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0019_EFFECT_00004
+  rotate: false
+  xy: 1251, 513
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0020_EFFECT_00003
+  rotate: false
+  xy: 1494, 769
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0021_EFFECT_00002
+  rotate: false
+  xy: 1251, 257
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0022_EFFECT_00001
+  rotate: false
+  xy: 1345, 1
+  size: 249, 255
+  orig: 249, 255
+  offset: 0, 0
+  index: -1
+EFFECT_0023_EFFECT_00000
+  rotate: false
+  xy: 244, 767
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Layer 10
+  rotate: true
+  xy: 1501, 463
+  size: 152, 196
+  orig: 152, 196
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 1, 35
+  size: 186, 196
+  orig: 186, 196
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 188, 35
+  size: 156, 196
+  orig: 156, 196
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 1501, 266
+  size: 127, 196
+  orig: 127, 196
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 1595, 69
+  size: 118, 196
+  orig: 118, 196
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 1629, 266
+  size: 114, 196
+  orig: 114, 196
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: true
+  xy: 1501, 616
+  size: 152, 196
+  orig: 152, 196
+  offset: 0, 0
+  index: -1
+Levels 5 copy 6
+  rotate: false
+  xy: 1, 744
+  size: 242, 280
+  orig: 242, 280
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,117 @@
+
+Background-Back.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dark-Clouds-1
+  rotate: true
+  xy: 1412, 817
+  size: 1219, 554
+  orig: 1219, 554
+  offset: 0, 0
+  index: -1
+MB_back_cloud1
+  rotate: false
+  xy: 2, 2
+  size: 1056, 179
+  orig: 1056, 179
+  offset: 0, 0
+  index: -1
+MB_back_flag
+  rotate: true
+  xy: 1968, 1755
+  size: 281, 76
+  orig: 281, 76
+  offset: 0, 0
+  index: -1
+MB_back_flag2
+  rotate: false
+  xy: 1060, 80
+  size: 86, 101
+  orig: 86, 101
+  offset: 0, 0
+  index: -1
+MB_back_fog
+  rotate: true
+  xy: 1412, 21
+  size: 794, 602
+  orig: 794, 602
+  offset: 0, 0
+  index: -1
+MB_back_shadow ship
+  rotate: false
+  xy: 2, 183
+  size: 1373, 360
+  orig: 1373, 360
+  offset: 0, 0
+  index: -1
+MB_back_ship
+  rotate: false
+  xy: 2, 545
+  size: 1408, 1491
+  orig: 1408, 1491
+  offset: 0, 0
+  index: -1
+
+Background-Back2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lightning-1
+  rotate: false
+  xy: 2, 392
+  size: 489, 605
+  orig: 489, 605
+  offset: 0, 0
+  index: -1
+MB_back_fog1
+  rotate: false
+  xy: 2, 1532
+  size: 961, 462
+  orig: 961, 462
+  offset: 0, 0
+  index: -1
+MB_back_fog3
+  rotate: false
+  xy: 2, 999
+  size: 874, 531
+  orig: 874, 531
+  offset: 0, 0
+  index: -1
+MB_back_sail
+  rotate: false
+  xy: 2, 2
+  size: 449, 388
+  orig: 449, 388
+  offset: 0, 0
+  index: -1
+MB_back_sail2
+  rotate: false
+  xy: 965, 1495
+  size: 558, 499
+  orig: 558, 499
+  offset: 0, 0
+  index: -1
+MB_back_ship part
+  rotate: false
+  xy: 1525, 1616
+  size: 362, 378
+  orig: 362, 378
+  offset: 0, 0
+  index: -1
+MB_back_ship_rope
+  rotate: true
+  xy: 665, 696
+  size: 301, 254
+  orig: 301, 254
+  offset: 0, 0
+  index: -1
+txt2
+  rotate: true
+  xy: 493, 255
+  size: 742, 170
+  orig: 742, 170
+  offset: 0, 0
+  index: -1

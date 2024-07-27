@@ -1,0 +1,48 @@
+
+cua.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 120, 119
+  orig: 120, 119
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 309, 192
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 245, 179
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 124, 2
+  size: 120, 119
+  orig: 120, 119
+  offset: 0, 0
+  index: -1
+bg1
+  rotate: false
+  xy: 134, 145
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 2, 123
+  size: 130, 131
+  orig: 130, 131
+  offset: 0, 0
+  index: -1

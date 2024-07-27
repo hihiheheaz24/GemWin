@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Cổng Game Chính Thức Của NPH</title>
+
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="Chưa có thông tin">
+  <meta name="keywords" content="Chưa có thông tin">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes"/>
+  <meta name="x5-fullscreen" content="true"/>
+  <meta name="360-fullscreen" content="true"/>
+  
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content="landscape"/>
+  <meta name="x5-orientation" content="landscape">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+<link rel="canonical" href="https://hb789.online" />
+  <link rel="stylesheet" type="text/css" href="style-mobile.css"/>
+  <link rel="icon" href="favicon.ico"/>
+     <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+</head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KEHZ2Z1PXP"></script>
+<script>
+console.log("hostname:"+window.location.hostname);
+if(window.location.hostname == "hb789.online"){
+
+}
+else if(window.location.hostname == "hb789.online" || window.location.hostname == "hb789.online"){
+	window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KEHZ2Z1PXP');
+}
+else if(window.location.hostname == "hb789.online" || window.location.hostname == "hb789.online"){
+	window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-897N0B5VFJ');
+}
+  
+</script>
+<body>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <div id="splash">
+    <div class="progress-bar stripes">
+      <span style="width: 0%"></span>
+    </div>
+  </div>
+ <div id="recaptcha-container"></div>
+<script src="src/settings.js" charset="utf-8"></script>
+
+<script src="main.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+(function () {
+      // var firebaseConfig = {
+      //   apiKey: "AIzaSyCZjnXxH5Q1HoMnXIfkUjbCHMH6qACC85s",
+      //   authDomain: "lotvn88.firebaseapp.com",
+      //   projectId: "lotvn88",
+      //   storageBucket: "lotvn88.appspot.com",
+      //   messagingSenderId: "13764223376",
+      //   appId: "1:13764223376:web:b2e4d1800e476bb1259315",
+      //   measurementId: "G-FHNMTXT7T2"
+      // };
+
+      // firebase.initializeApp(firebaseConfig);
+    // open web debugger console
+    if (typeof VConsole !== 'undefined') {
+        window.vConsole = new VConsole();
+    }
+
+    var splash = document.getElementById('splash');
+    splash.style.display = 'block';
+
+    var cocos2d = document.createElement('script');
+    cocos2d.async = true;
+    cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.js';
+
+    var engineLoaded = function () {
+        document.body.removeChild(cocos2d);
+        cocos2d.removeEventListener('load', engineLoaded, false);
+        window.boot();
+    };
+    cocos2d.addEventListener('load', engineLoaded, false);
+    document.body.appendChild(cocos2d);
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+	window.localStorage.removeItem('u');
+	window.localStorage.removeItem('at');
+	window.localStorage.removeItem('at_fb');
+	window.localStorage.removeItem('fb_id');
+	window.localStorage.removeItem('un');
+	window.localStorage.removeItem('pw');
+    if(urlParams.has('u')) window.localStorage.setItem('u',urlParams.get('u'));
+    if(urlParams.has('at')) window.localStorage.setItem('at',urlParams.get('at'));
+    if(urlParams.has('at_fb')) window.localStorage.setItem('at_fb',urlParams.get('at_fb'));
+	if(urlParams.has('fb_id')) window.localStorage.setItem('fb_id',urlParams.get('fb_id'));
+    if(urlParams.has('un')) window.localStorage.setItem('un',urlParams.get('un'));
+    if(urlParams.has('pw')) window.localStorage.setItem('pw',urlParams.get('pw'));
+
+	window.history.pushState({}, document.title, "/" );
+})();
+</script>
+</body>
+</html>
