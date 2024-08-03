@@ -1,0 +1,41 @@
+
+pokemon_coin.png
+size: 128,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin_1
+  rotate: false
+  xy: 2, 74
+  size: 71, 70
+  orig: 71, 70
+  offset: 0, 0
+  index: -1
+coin_2
+  rotate: true
+  xy: 2, 219
+  size: 74, 71
+  orig: 74, 71
+  offset: 0, 0
+  index: -1
+coin_3
+  rotate: false
+  xy: 2, 2
+  size: 71, 70
+  orig: 71, 70
+  offset: 0, 0
+  index: -1
+coin_4
+  rotate: false
+  xy: 2, 146
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+coin_5
+  rotate: false
+  xy: 2, 295
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1

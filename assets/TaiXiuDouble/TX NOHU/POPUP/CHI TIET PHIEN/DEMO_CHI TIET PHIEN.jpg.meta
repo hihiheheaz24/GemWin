@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "57a16d08-66d1-47a1-b360-36ea0cfc8e7d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1280,
+  "height": 720,
+  "platformSettings": {},
+  "subMetas": {
+    "DEMO_CHI TIET PHIEN": {
+      "ver": "1.0.4",
+      "uuid": "5e40c56f-b5bb-4151-b056-f831945b3145",
+      "rawTextureUuid": "57a16d08-66d1-47a1-b360-36ea0cfc8e7d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1280,
+      "height": 720,
+      "rawWidth": 1280,
+      "rawHeight": 720,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

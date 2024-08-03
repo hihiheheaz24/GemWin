@@ -17,8 +17,8 @@ export default class TaiXiuMD5Controller extends MiniGame {
     @property(cc.Node)
     taiXiu1Node: cc.Node = null;
 
-    @property(cc.Node)
-    btnSwitch: cc.Node = null;
+    // @property(cc.Node)
+    // btnSwitch: cc.Node = null;
 
     taiXiu1: TaiXiuMiniController = null;
 
@@ -31,7 +31,7 @@ export default class TaiXiuMD5Controller extends MiniGame {
 
         switch (VersionConfig.CPName) {
             case VersionConfig.CP_NAME_F69:
-                this.btnSwitch.active = false;
+                // this.btnSwitch.active = false;
                 break;
             default:
               // this.btnSwitch.active = true;
@@ -100,7 +100,7 @@ export default class TaiXiuMD5Controller extends MiniGame {
     private checkShow() {
         if (this.isShowTX1) {
             this.taiXiu1.gamePlay.scale = 0.9;
-            this.taiXiu1.gamePlay.position = cc.Vec2.ZERO;
+            this.taiXiu1.gamePlay.position = cc.Vec3.ZERO;
             this.taiXiu1.nodePanelChat.active = true;
             this.taiXiu1.node.setSiblingIndex(1);
 
@@ -115,7 +115,7 @@ export default class TaiXiuMD5Controller extends MiniGame {
         //    this.taiXiu2.node.setSiblingIndex(1);
 
             this.taiXiu1.gamePlay.scale = 0.5;
-            this.taiXiu1.gamePlay.position = cc.v2(-405, 234);
+            this.taiXiu1.gamePlay.position = cc.v3(-405, 234);
             this.taiXiu1.nodePanelChat.active = false;
             this.taiXiu1.layoutBet.active = false;
         }

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "4b2de35c-74a0-45ed-9dac-8c580845eda9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1172,
+  "height": 669,
+  "platformSettings": {},
+  "subMetas": {
+    "NOI DUNG 2": {
+      "ver": "1.0.4",
+      "uuid": "8fc1378c-0a4e-418f-a119-1dded6893bcd",
+      "rawTextureUuid": "4b2de35c-74a0-45ed-9dac-8c580845eda9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1172,
+      "height": 669,
+      "rawWidth": 1172,
+      "rawHeight": 669,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

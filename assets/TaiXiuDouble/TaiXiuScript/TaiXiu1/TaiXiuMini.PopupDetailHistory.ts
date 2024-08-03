@@ -40,10 +40,10 @@ export default class PopupDetailHistory extends Dialog {
     sprDice2: cc.Sprite = null;
     @property(cc.Sprite)
     sprDice3: cc.Sprite = null;
-    @property(sp.Skeleton)
-    sprResult_Tai: sp.Skeleton = null;
-    @property(sp.Skeleton)
-    sprResult_Xiu: sp.Skeleton = null;
+    @property(cc.Node)
+    sprResult_Tai: cc.Node = null;
+    @property(cc.Node)
+    sprResult_Xiu: cc.Node = null;
 
     @property(cc.Node)
     itemTemplate: cc.Node = null;
@@ -71,7 +71,7 @@ export default class PopupDetailHistory extends Dialog {
         this.sprDice1.node.active = false;
         this.sprDice2.node.active = false;
         this.sprDice3.node.active = false;
-        this.lblSession.string = "Phiên: #" + this.session;
+        this.lblSession.string = "#" + this.session;
         this.lblResult.string = "";
 
         if (this.inited) {
@@ -102,7 +102,7 @@ export default class PopupDetailHistory extends Dialog {
         this.sprDice1.node.active = false;
         this.sprDice2.node.active = false;
         this.sprDice3.node.active = false;
-        this.lblSession.string = "Phiên: #" + this.session;
+        this.lblSession.string = "#" + this.session;
         this.lblResult.string = "";
         this.totalBetTai = 0;
         this.totalBetXiu = 0;
@@ -139,7 +139,7 @@ export default class PopupDetailHistory extends Dialog {
                 this.totalPage = Math.ceil(this.totalPage / this.items.length);
                 this.lblPage.string = this.page + "/" + this.totalPage;
 
-                this.lblSession.string = "Phiên: #" + res["resultTX"]["referenceId"];
+                this.lblSession.string = "#" + res["resultTX"]["referenceId"];
                 this.lblResult.string = res["resultTX"]["result"] == 1
                     ? "=" + (res["resultTX"]["dice1"] + res["resultTX"]["dice2"] + res["resultTX"]["dice3"]) //" - Tài " + (res["resultTX"]["dice1"] + res["resultTX"]["dice2"] + res["resultTX"]["dice3"]) + "(" + res["resultTX"]["dice1"] + "-" + res["resultTX"]["dice2"] + "-" + res["resultTX"]["dice3"] + ")"
                     : "=" + (res["resultTX"]["dice1"] + res["resultTX"]["dice2"] + res["resultTX"]["dice3"])//" - Xỉu " + (res["resultTX"]["dice1"] + res["resultTX"]["dice2"] + res["resultTX"]["dice3"]) + "(" + res["resultTX"]["dice1"] + "-" + res["resultTX"]["dice2"] + "-" + res["resultTX"]["dice3"] + ")";
@@ -154,13 +154,11 @@ export default class PopupDetailHistory extends Dialog {
                 this.sprDice3.node.active = true;
 
                 if (res["resultTX"]["result"] == 1) {
-                    this.sprResult_Tai.setAnimation(0, "animation" ,true)
-                    this.sprResult_Xiu.node.active = false;
-                    this.sprResult_Tai.node.active = true;
+                    this.sprResult_Xiu.active = false;
+                    this.sprResult_Tai.active = true;
                 } else {
-                    this.sprResult_Xiu.node.active = true;
-                    this.sprResult_Tai.node.active = false;
-                    this.sprResult_Xiu.setAnimation(0, "animation" ,true)
+                    this.sprResult_Xiu.active = true;
+                    this.sprResult_Tai.active = false;
                 }
 
                 this.loadDataPage();

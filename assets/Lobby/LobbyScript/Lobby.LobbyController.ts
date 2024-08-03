@@ -475,7 +475,7 @@ this.buttonjb.x = cc.winSize.width / 2 - 50;
                 .start();
         }
         setupListener() {
-            AudioManager.getInstance().playBackgroundMusic(this.clipBgm);
+            // AudioManager.getInstance().playBackgroundMusic(this.clipBgm);
             if (!Configs.Login.IsLogin) {
                 this.panelNotLogin.active = true;
                 this.panelLogined.active = false;
@@ -2368,11 +2368,11 @@ this.buttonjb.x = cc.winSize.width / 2 - 50;
                 App.instance.alertDialog.showMsg(App.instance.getTextLang('txt_need_login'));
                 return;
             }
-            // MiniGameNetworkClient.getInstance().checkConnect(() => {
-            //     App.instance.showLoading(false);
-            //     App.instance.openMiniGameTaiXiuMD5("TaiXiuMD5", "TaiXiuMD5");
-            // });
-            App.instance.alertDialog.showMsg(App.instance.getTextLang('txt_reparing'));
+            MiniGameNetworkClient.getInstance().checkConnect(() => {
+                App.instance.showLoading(false);
+                App.instance.openMiniGameTaiXiuMD5("TaiXiuMD5", "TaiXiuMD5");
+            });
+            // App.instance.alertDialog.showMsg(App.instance.getTextLang('txt_reparing'));
 
         }
         actDev() {

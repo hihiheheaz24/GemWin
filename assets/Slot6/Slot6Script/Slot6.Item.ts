@@ -96,37 +96,37 @@ export default class Slot6Item extends cc.Component {
         this.sprItem.sizeMode = cc.Sprite.SizeMode.TRIMMED;
         switch (id) {
             case SLOT6_ID_ITEM.JACKPOT:
-                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_1_blur")
+                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_1")
                 break;
             case SLOT6_ID_ITEM.WILD:
-                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_2_blur")
+                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_2")
                 break;
             case SLOT6_ID_ITEM.BONUS:
-                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_3_blur");
+                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_3");
                 break;
             case SLOT6_ID_ITEM.SCATTER:
-                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_4_blur");
+                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_4");
                 break;
             case SLOT6_ID_ITEM.X500:
-                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_5_blur");
+                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_5");
                 break;
             case SLOT6_ID_ITEM.X375:
-                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_6_blur");
+                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_6");
                 break;
             case SLOT6_ID_ITEM.X275:
-                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_7_blur");
+                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_7");
                 break;
             case SLOT6_ID_ITEM.X150:
-                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_8_blur");
+                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_8");
                 break;
             case SLOT6_ID_ITEM.X50:
-                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_9_blur");
+                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_9");
                 break;
             case SLOT6_ID_ITEM.X25:
-                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_10_blur");
+                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_10");
                 break;
             case SLOT6_ID_ITEM.X5:
-                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_11_blur");
+                this.sprItem.spriteFrame = this.sprAtlast.getSpriteFrame("item_11");
                 break;
         }
         this.sprItem.node.setContentSize(cc.size(this.sprItem.node.width / 1.2, this.sprItem.node.height / 1.2));

@@ -1,0 +1,68 @@
+{
+"skeleton": { "hash": "Icxv1ukv9Mj/GRSjyQAJX3f0OEs", "spine": "3.6.53", "width": 221, "height": 121, "images": "../Images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bung", "parent": "root", "length": 123.71, "rotation": -165.63, "x": 45.8, "y": 10.39 }
+],
+"slots": [
+	{ "name": "bung", "bone": "bung", "attachment": "bung" }
+],
+"skins": {
+	"default": {
+		"bung": {
+			"bung": { "x": 52.68, "y": -4.26, "rotation": 165.63, "width": 221, "height": 121 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bung": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1,
+						"angle": -10.6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1,
+						"x": 1.093,
+						"y": 1.093,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

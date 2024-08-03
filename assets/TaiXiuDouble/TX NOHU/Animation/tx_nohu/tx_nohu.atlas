@@ -1,0 +1,20 @@
+
+tx_nohu.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tai
+  rotate: false
+  xy: 197, 5
+  size: 183, 105
+  orig: 183, 105
+  offset: 0, 0
+  index: -1
+xiu
+  rotate: false
+  xy: 2, 2
+  size: 193, 108
+  orig: 193, 108
+  offset: 0, 0
+  index: -1

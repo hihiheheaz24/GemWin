@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "371c7f31-1d15-4a1e-9788-cac656ed356c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 922,
+  "height": 46,
+  "platformSettings": {},
+  "subMetas": {
+    "CHÚC MỪNG BẠN ĐÃ HOÀN THÀNH MINI GAME": {
+      "ver": "1.0.4",
+      "uuid": "2d6960f4-ef4f-401d-bf85-f619ae1fabd1",
+      "rawTextureUuid": "371c7f31-1d15-4a1e-9788-cac656ed356c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 922,
+      "height": 46,
+      "rawWidth": 922,
+      "rawHeight": 46,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

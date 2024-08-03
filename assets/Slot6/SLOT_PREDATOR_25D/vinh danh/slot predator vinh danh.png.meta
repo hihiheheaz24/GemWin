@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "61075318-b924-4eb2-bc15-87266a9b4716",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot predator vinh danh": {
+      "ver": "1.0.4",
+      "uuid": "a7f402d5-40aa-46e0-a897-ad38935d55a9",
+      "rawTextureUuid": "61075318-b924-4eb2-bc15-87266a9b4716",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

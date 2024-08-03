@@ -1,0 +1,34 @@
+
+jackpot.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5922f17aa7af6f9d9d67bf24da2023bde7abd1f2b1546-4RQDNB_fw1200
+  rotate: false
+  xy: 2, 61
+  size: 425, 434
+  orig: 425, 434
+  offset: 0, 0
+  index: -1
+Layer 32
+  rotate: true
+  xy: 694, 133
+  size: 362, 97
+  orig: 362, 97
+  offset: 0, 0
+  index: -1
+pngwing.com (26)
+  rotate: false
+  xy: 429, 155
+  size: 263, 340
+  orig: 263, 340
+  offset: 0, 0
+  index: -1
+txt_jackpot
+  rotate: false
+  xy: 2, 2
+  size: 315, 57
+  orig: 315, 57
+  offset: 0, 0
+  index: -1

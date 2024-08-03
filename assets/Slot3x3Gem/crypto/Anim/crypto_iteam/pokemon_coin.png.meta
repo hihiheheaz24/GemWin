@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "76edf807-2998-4c63-8b00-f666dc29bc00",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 128,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "pokemon_coin": {
+      "ver": "1.0.4",
+      "uuid": "3cb6288f-12f7-408a-9f8b-1d46957d2d41",
+      "rawTextureUuid": "76edf807-2998-4c63-8b00-f666dc29bc00",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -25.5,
+      "offsetY": 71,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 73,
+      "height": 366,
+      "rawWidth": 128,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "30ac05f5-fd3a-49f0-a1f7-cec1d9f3ef62",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1119,
+  "height": 658,
+  "platformSettings": {},
+  "subMetas": {
+    "BANG THUONG 1": {
+      "ver": "1.0.4",
+      "uuid": "57d0db83-66a0-48d9-b463-c67f56cb36bc",
+      "rawTextureUuid": "30ac05f5-fd3a-49f0-a1f7-cec1d9f3ef62",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1119,
+      "height": 658,
+      "rawWidth": 1119,
+      "rawHeight": 658,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

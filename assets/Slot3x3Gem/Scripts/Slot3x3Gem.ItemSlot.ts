@@ -32,9 +32,9 @@ export default class ItemSlot extends cc.Component {
     setId(id) {
         this.sprite.spriteFrame = this.listSpr[id];
         this.spine.skeletonData = this.listSpine[id];
-        this.sprite.node.active = false;
-        this.spine.node.active = true;
-        this.spine.setAnimation(0, "animation", true);
+        // this.sprite.node.active = false;
+        // this.spine.node.active = true;
+        // this.spine.setAnimation(0, "animation", true);
     }
     setBlur() {
         this.sprite.spriteFrame = this.listSpr[this.id]

@@ -214,7 +214,8 @@ export default class Slot3x3GemController extends MiniGame {
         App.instance.showBgMiniGame("Slot3x3Gem");
         super.show();
         this.lblToast.node.parent.active = false;
-        this.lblWinCash.parent.active = false;
+        // this.lblWinCash.parent.active = false;
+        this.lblWinCash.getComponent(cc.Label).string = "0";
 
         for (let i = 0; i < this.linesWin.childrenCount; i++) {
             this.linesWin.children[i].active = false;
@@ -260,6 +261,7 @@ export default class Slot3x3GemController extends MiniGame {
         for (var i = 0; i < this.buttonBets.length; i++) {
             this.buttonBets[i].button.interactable = false;
         }
+        this.lblWinCash.getComponent(cc.Label).string = "0";
         MiniGameNetworkClient.getInstance().send(new cmd.SendSpin(this.listBet[this.betIdx], this.arrLineSelect.toString()));
     }
 
@@ -425,23 +427,15 @@ export default class Slot3x3GemController extends MiniGame {
     }
 
     private showWinCash(coin: number) {
-        let parent = this.lblWinCash.parent;
+        // let parent = this.lblWinCash.parent;
         let label = this.lblWinCash.getComponent(cc.Label);
-        parent.stopAllActions();
-        parent.active = true;
+        // parent.stopAllActions();
+        // parent.active = true;
         label.string = "0";
-        parent.opacity = 0;
-        parent.runAction(cc.sequence(
-            cc.fadeIn(0.3),
-            cc.callFunc(() => {
-                Tween.numberTo(label, coin, 0.5);
-            }),
-            cc.delayTime(1.5),
-            cc.fadeOut(0.3),
-            cc.callFunc(() => {
-                parent.active = false;
-            })
-        ));
+        // parent.opacity = 0;
+        label.node.runAction(  cc.callFunc(() => {
+            Tween.numberTo(label, coin, 0.5);
+        }));
     }
 
     private stopAllEffects() {

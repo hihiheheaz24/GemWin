@@ -65,8 +65,6 @@ export default class TaiXiuMiniController extends cc.Component {
     dice2: cc.Sprite = null;
     @property(cc.Sprite)
     dice3: cc.Sprite = null;
-    @property(cc.Animation)
-    diceAnim: cc.Animation = null;
     @property(cc.Node)
     bowl: cc.Node = null;
     @property(cc.Node)
@@ -98,8 +96,6 @@ export default class TaiXiuMiniController extends cc.Component {
     lblMD5Text: cc.Label = null;
     @property(PopupDetailHistory)
     popupDetailHistory: PopupDetailHistory = null;
-    @property(cc.Node)
-    animDiceNew: cc.Node = null;
 
     @property([cc.Node])
     public popups: cc.Node[] = [];
@@ -108,6 +104,16 @@ export default class TaiXiuMiniController extends cc.Component {
     @property(cc.Node)
     layoutBetNumber: cc.Node = null;
 
+    @property(sp.Skeleton)
+    animDice1: sp.Skeleton = null;
+
+    @property(sp.Skeleton)
+    animDice2: sp.Skeleton = null;
+
+    @property(sp.Skeleton)
+    animDice3: sp.Skeleton = null;
+
+    private popupTransaction = null;
     private isBetting = false;
     private remainTime = 0;
     private canBet = true;
@@ -124,8 +130,8 @@ export default class TaiXiuMiniController extends cc.Component {
     private isCanChat = true;
     private panelChat: PanelChat = null;
     private readonly maxBetValue = 999999999;
-    private listBets = [1000, 10000, 50000, 100000, 500000, 1000000, 10000000, 50000000];
-    private readonly bowlStartPos = cc.v2(0, 0);
+    private listBets = [1000, 10000, 50000, 100000, 500000, 5000000, 10000000, 50000000];
+    private readonly bowlStartPos = cc.v2(71.14, -40);
     private md5CodeResult = "";
     onLoad() {
         TaiXiuMiniController.instance = this;
@@ -169,8 +175,6 @@ export default class TaiXiuMiniController extends cc.Component {
                         this.lblRemainTime2.string = "00:" + (res.remainTime < 10 ? "0" + res.remainTime : "" + res.remainTime);
                         this.showResult();
                     }
-                    this.diceAnim.node.active = false;
-                    this.animDiceNew.active = false;
                     Tween.numberTo(this.lblTotalBetTai, res.potTai, 0.3);
                     Tween.numberTo(this.lblTotalBetXiu, res.potXiu, 0.3);
                     this.betedTai = res.betTai;
@@ -222,48 +226,29 @@ export default class TaiXiuMiniController extends cc.Component {
                     let res = new cmdMD5.ReceiveDicesResult(data);
                     this.lastScore = res.dice1 + res.dice2 + res.dice3;
                     this.lblRemainTime.node.active = false;
-                    this.dice1.spriteFrame = this.sprDices[res.dice1];
-                    this.dice2.spriteFrame = this.sprDices[res.dice2];
-                    this.dice3.spriteFrame = this.sprDices[res.dice3];
 
-                    this.diceAnim.node.active = true;
-                    this.animDiceNew.active = true;
-                    console.log("result");
-                    this.diceAnim.play("diceAnimNew");
-                    this.diceAnim.on("finished", () => {
-                        this.diceAnim.node.active = false;
-                        this.dice1.node.active = true;
-                        this.dice2.node.active = true;
-                        this.dice3.node.active = true;
+                    this.animDice1.node.active = true;
+                    this.animDice2.node.active = true;
+                    this.animDice3.node.active = true;
+                    this.playSpine(this.animDice1.node, "roll", false, ()=>{
+                        this.animDice1.setAnimation(0, (res.dice1).toString(), false);
+                    })
+                    this.playSpine(this.animDice2.node, "roll", false, ()=>{
+                        this.animDice2.setAnimation(0, (res.dice2).toString(), false);
+                    })
+                    this.playSpine(this.animDice3.node, "roll", false, ()=>{
+                        this.animDice3.setAnimation(0, (res.dice3).toString(), false);
+                      
                         this.md5CodeResult = res.md5code;
-                        this.animDiceNew.active = false;
 
-                        console.log("ohhhhhhhhhhhhhhhh: " + this.isNan);
                         if (!this.isNan) {
                             this.showResult();
                         } else {
-                            this.bowl.position = this.bowlStartPos;
+                            this.bowl.position =cc.v3(this.bowlStartPos.x, this.bowlStartPos.y, 0);
                             this.bowl.active = true;
                         }
-                    });
-                  //  this.diceAnim.setCompleteListener();
-                    // this.scheduleOnce(() => {
-                    //     this.diceAnim.node.active = true;
-                    //     this.scheduleOnce(() => {
-                    //         this.diceAnim.active = false;
-                    //         this.dice1.node.active = true;
-                    //         this.dice2.node.active = true;
-                    //         this.dice3.node.active = true;
-
-                    //         if (!this.isNan) {
-                    //             this.showResult();
-                    //         } else {
-                    //             this.bowl.position = this.bowlStartPos;
-                    //             this.bowl.active = true;
-                    //         }
-                    //     }, 0.95);
-                    // }, 1.1);
-
+                    })
+                    
                     if (this.histories.length >= 100) {
                         this.histories.slice(0, 1);
                     }
@@ -290,12 +275,14 @@ export default class TaiXiuMiniController extends cc.Component {
                 case cmdMD5.Code.NEW_GAME: {
                     let res = new cmdMD5.ReceiveNewGame(data);
                     console.log("new game md5 " + res.md5code);
-
-                    this.diceAnim.node.active = false;
-                    this.animDiceNew.active = false;
                     this.dice1.node.active = false;
                     this.dice2.node.active = false;
                     this.dice3.node.active = false;
+
+                    this.animDice1.node.active = false;
+                    this.animDice2.node.active = false;
+                    this.animDice3.node.active = false;
+
                     this.lblTotalBetTai.string = "0";
                     this.lblTotalBetXiu.string = "0";
                     this.lblBetedTai.string = "0";
@@ -417,7 +404,7 @@ export default class TaiXiuMiniController extends cc.Component {
             } else if (value >= 1000) {
                 strValue = (value / 1000) + "K";
             }
-            btn.getComponentInChildren(cc.Label).string = strValue;
+            // btn.getComponentInChildren(cc.Label).string = strValue;
             btn.node.on("click", () => {
                 if (this.betingDoor === BetDoor.None) return;
                 let lblBet = this.betingDoor === BetDoor.Tai ? this.lblBetTai : this.lblBetXiu;
@@ -455,14 +442,26 @@ export default class TaiXiuMiniController extends cc.Component {
         }, this);
     }
 
+    playSpine(nAnim , animName, loop, func) {
+        let spine = nAnim.getComponent(sp.Skeleton);
+        let track = spine.setAnimation(0, animName, loop);
+        if (track) {
+            // Register the end callback of the animation
+            spine.setCompleteListener((trackEntry, loopCount) => {
+                let name = trackEntry.animation ? trackEntry.animation.name : '';
+                if (name === animName && func) {
+                    func && func(); // Execute your own logic after the animation ends
+                }
+            });
+        }
+    }
+
     show() {
         App.instance.buttonMiniGame.showTimeTaiXiu(false);
         this.layoutBet.active = false;
         this.lblToast.node.parent.active = false;
         this.lblWinCash.node.active = false;
         this.layoutBet.active = false;
-        this.diceAnim.node.active = false;
-        this.animDiceNew.active = false;
         this.bowl.active = false;
         this.dice1.node.active = false;
         this.dice2.node.active = false;
@@ -687,7 +686,7 @@ export default class TaiXiuMiniController extends cc.Component {
         this.lblWinCash.node.stopAllActions();
         this.lblWinCash.node.active = true;
         this.lblWinCash.node.scale = 0;
-        this.lblWinCash.node.position = cc.Vec2.ZERO;
+        // this.lblWinCash.node.position = cc.Vec3.ZERO;
         Tween.numberTo(this.lblWinCash, this.lastWinCash, 0.5, (n) => { return "+" + Utils.formatNumber(n) });
         this.lblWinCash.node.runAction(cc.sequence(
             cc.scaleTo(0.5, 1),

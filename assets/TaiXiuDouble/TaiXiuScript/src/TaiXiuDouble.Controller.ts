@@ -17,10 +17,6 @@ export default class TaiXiuDoubleController extends MiniGame {
     @property(cc.Node)
     taiXiu1Node: cc.Node = null;
 
-    
-
-    @property(cc.Node)
-    btnSwitch: cc.Node = null;
 
     taiXiu1: TaiXiuMiniController = null;
 

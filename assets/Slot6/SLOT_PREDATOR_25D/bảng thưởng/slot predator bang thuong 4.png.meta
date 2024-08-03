@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "77dd6804-9b4f-4e4b-a7ae-93b3ca33c668",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot predator bang thuong 4": {
+      "ver": "1.0.4",
+      "uuid": "02d508f3-c556-4304-80ac-057ad04c2658",
+      "rawTextureUuid": "77dd6804-9b4f-4e4b-a7ae-93b3ca33c668",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

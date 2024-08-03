@@ -1,0 +1,132 @@
+
+ICON.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Comp 2_00010
+  rotate: false
+  xy: 2, 2
+  size: 514, 497
+  orig: 514, 497
+  offset: 0, 0
+  index: -1
+Comp 2_00011
+  rotate: false
+  xy: 2, 501
+  size: 514, 504
+  orig: 514, 504
+  offset: 0, 0
+  index: -1
+Comp 2_00012
+  rotate: false
+  xy: 2, 1514
+  size: 514, 507
+  orig: 514, 507
+  offset: 0, 0
+  index: -1
+Comp 2_00013
+  rotate: false
+  xy: 2, 1007
+  size: 514, 505
+  orig: 514, 505
+  offset: 0, 0
+  index: -1
+Comp 2_00014
+  rotate: false
+  xy: 518, 1516
+  size: 514, 505
+  orig: 514, 505
+  offset: 0, 0
+  index: -1
+Comp 2_00015
+  rotate: false
+  xy: 518, 1010
+  size: 514, 504
+  orig: 514, 504
+  offset: 0, 0
+  index: -1
+Comp 2_00016
+  rotate: false
+  xy: 1034, 1522
+  size: 514, 499
+  orig: 514, 499
+  offset: 0, 0
+  index: -1
+Comp 2_00017
+  rotate: false
+  xy: 518, 512
+  size: 514, 496
+  orig: 514, 496
+  offset: 0, 0
+  index: -1
+Comp 2_00018
+  rotate: false
+  xy: 1034, 1030
+  size: 514, 490
+  orig: 514, 490
+  offset: 0, 0
+  index: -1
+Comp 2_00019
+  rotate: false
+  xy: 1550, 1535
+  size: 513, 486
+  orig: 513, 486
+  offset: 0, 0
+  index: -1
+Comp 2_00020
+  rotate: false
+  xy: 518, 33
+  size: 501, 477
+  orig: 501, 477
+  offset: 0, 0
+  index: -1
+Comp 2_00021
+  rotate: false
+  xy: 1034, 562
+  size: 490, 466
+  orig: 490, 466
+  offset: 0, 0
+  index: -1
+Comp 2_00022
+  rotate: false
+  xy: 1550, 1075
+  size: 471, 458
+  orig: 471, 458
+  offset: 0, 0
+  index: -1
+Comp 2_00023
+  rotate: false
+  xy: 2065, 1580
+  size: 451, 441
+  orig: 451, 441
+  offset: 0, 0
+  index: -1
+Comp 2_00024
+  rotate: false
+  xy: 2518, 1605
+  size: 436, 416
+  orig: 436, 416
+  offset: 0, 0
+  index: -1
+Comp 2_00025
+  rotate: false
+  xy: 2956, 1622
+  size: 420, 399
+  orig: 420, 399
+  offset: 0, 0
+  index: -1
+Comp 2_00026
+  rotate: false
+  xy: 3378, 1680
+  size: 384, 341
+  orig: 384, 341
+  offset: 0, 0
+  index: -1
+Comp 2_00027
+  rotate: false
+  xy: 3764, 1726
+  size: 325, 295
+  orig: 325, 295
+  offset: 0, 0
+  index: -1

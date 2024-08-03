@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "73aaa047-06b2-434a-8f66-eeeebf080e43",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 227,
+  "height": 41,
+  "platformSettings": {},
+  "subMetas": {
+    "TỔNG TIỀN": {
+      "ver": "1.0.4",
+      "uuid": "1a212f76-a08a-4a0d-86a7-39b1e66977a5",
+      "rawTextureUuid": "73aaa047-06b2-434a-8f66-eeeebf080e43",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 227,
+      "height": 41,
+      "rawWidth": 227,
+      "rawHeight": 41,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

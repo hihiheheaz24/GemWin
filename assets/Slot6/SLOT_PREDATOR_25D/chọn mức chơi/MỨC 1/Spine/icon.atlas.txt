@@ -1,0 +1,55 @@
+
+icon.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+456
+  rotate: true
+  xy: 2, 2
+  size: 478, 593
+  orig: 478, 593
+  offset: 0, 0
+  index: -1
+bapphai
+  rotate: false
+  xy: 597, 211
+  size: 229, 269
+  orig: 229, 269
+  offset: 0, 0
+  index: -1
+baptrai
+  rotate: true
+  xy: 1319, 299
+  size: 181, 194
+  orig: 181, 194
+  offset: 0, 0
+  index: -1
+tayphai
+  rotate: true
+  xy: 1047, 302
+  size: 178, 270
+  orig: 178, 270
+  offset: 0, 0
+  index: -1
+taytrai
+  rotate: false
+  xy: 828, 245
+  size: 217, 235
+  orig: 217, 235
+  offset: 0, 0
+  index: -1
+vaiphai
+  rotate: false
+  xy: 597, 7
+  size: 193, 202
+  orig: 193, 202
+  offset: 0, 0
+  index: -1
+vaitrai
+  rotate: false
+  xy: 1515, 352
+  size: 123, 128
+  orig: 123, 128
+  offset: 0, 0
+  index: -1

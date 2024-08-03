@@ -1,0 +1,229 @@
+{
+"skeleton": {
+	"hash": "2lDXwFeQ0SvE8lm3odEaC1icvPs",
+	"spine": "3.8.99",
+	"x": -122,
+	"y": -142,
+	"width": 244,
+	"height": 284,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "roll12", "parent": "root" }
+],
+"slots": [
+	{ "name": "roll12", "bone": "roll12", "attachment": "roll12/x_00" },
+	{ "name": "xx1", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"roll12": {
+				"roll12/x_00": { "width": 244, "height": 284 },
+				"roll12/x_01": { "x": 2.5, "y": 56.5, "width": 273, "height": 315 },
+				"roll12/x_02": { "x": 1.5, "y": 112.5, "width": 301, "height": 333 },
+				"roll12/x_03": { "x": 1.5, "y": 169.5, "width": 333, "height": 337 },
+				"roll12/x_04": { "x": 2.5, "y": 229.5, "width": 355, "height": 317 },
+				"roll12/x_05": { "x": 2.5, "y": 299, "width": 349, "height": 348 },
+				"roll12/x_06": { "x": 10.5, "y": 357, "width": 373, "height": 358 },
+				"roll12/x_07": { "x": 10, "y": 397.5, "width": 414, "height": 379 },
+				"roll12/x_08": { "x": 8.5, "y": 442.5, "width": 431, "height": 433 },
+				"roll12/x_09": { "x": 8, "y": 466, "width": 434, "height": 438 },
+				"roll12/x_10": { "x": 9, "y": 473.5, "width": 428, "height": 423 },
+				"roll12/x_11": { "x": 7.5, "y": 473.5, "width": 429, "height": 423 },
+				"roll12/x_12": { "x": 7.5, "y": 440.5, "width": 419, "height": 381 },
+				"roll12/x_13": { "x": 9, "y": 394, "width": 406, "height": 370 },
+				"roll12/x_14": { "x": 11, "y": 344, "width": 392, "height": 364 },
+				"roll12/x_15": { "x": 13, "y": 287.5, "width": 376, "height": 353 },
+				"roll12/x_16": { "x": 14, "y": 228.5, "width": 354, "height": 337 },
+				"roll12/x_17": { "x": 13, "y": 170.5, "width": 336, "height": 319 },
+				"roll12/x_18": { "x": 12, "y": 113, "width": 318, "height": 298 },
+				"roll12/x_19": { "x": 11.5, "y": 59, "width": 299, "height": 274 },
+				"roll12/x_20": { "x": 9.5, "y": 8, "width": 279, "height": 248 },
+				"roll12/x_21": { "x": 2.5, "y": 46.5, "width": 271, "height": 231 },
+				"roll12/x_22": { "x": 8.5, "y": 100, "width": 293, "height": 242 },
+				"roll12/x_23": { "x": 9, "y": 151.5, "width": 306, "height": 251 },
+				"roll12/x_24": { "x": 8.5, "y": 198, "width": 321, "height": 298 },
+				"roll12/x_25": { "x": 8, "y": 247, "width": 340, "height": 352 },
+				"roll12/x_26": { "x": 7.5, "y": 288.5, "width": 361, "height": 391 },
+				"roll12/x_27": { "x": 6.5, "y": 317, "width": 379, "height": 412 },
+				"roll12/x_28": { "x": 6, "y": 329.5, "width": 392, "height": 411 },
+				"roll12/x_29": { "x": 4, "y": 321.5, "width": 402, "height": 403 },
+				"roll12/x_30": { "x": 5, "y": 297, "width": 386, "height": 366 },
+				"roll12/x_31": { "x": 4.5, "y": 249.5, "width": 369, "height": 343 },
+				"roll12/x_32": { "x": 4.5, "y": 192.5, "width": 351, "height": 327 },
+				"roll12/x_33": { "x": 3.5, "y": 141.5, "width": 331, "height": 321 },
+				"roll12/x_34": { "x": 3, "y": 92, "width": 312, "height": 312 },
+				"roll12/x_35": { "x": 2.5, "y": 45, "width": 293, "height": 300 },
+				"roll12/x_36": { "x": -4, "y": -2, "width": 264, "height": 274 },
+				"roll12/x_37": { "x": 1, "y": 23.5, "width": 282, "height": 291 },
+				"roll12/x_38": { "x": 2, "y": 49, "width": 290, "height": 296 },
+				"roll12/x_39": { "x": 2.5, "y": 75.5, "width": 299, "height": 295 },
+				"roll12/x_40": { "x": 3.5, "y": 101, "width": 307, "height": 284 },
+				"roll12/x_41": { "x": 4.5, "y": 112, "width": 315, "height": 274 },
+				"roll12/x_42": { "x": 6.5, "y": 118.5, "width": 319, "height": 271 },
+				"roll12/x_43": { "x": 8.5, "y": 108, "width": 319, "height": 270 },
+				"roll12/x_44": { "x": 10, "y": 89.5, "width": 308, "height": 301 },
+				"roll12/x_45": { "x": 11, "y": 67.5, "width": 292, "height": 317 },
+				"roll12/x_46": { "x": 11.5, "y": 44.5, "width": 275, "height": 315 },
+				"roll12/x_47": { "x": 7.5, "y": 23, "width": 265, "height": 306 },
+				"roll12/x_48": { "width": 244, "height": 284 }
+			},
+			"xx1": {
+				"xucxac/xx1": { "width": 244, "height": 284 },
+				"xucxac/xx2": { "width": 244, "height": 284 },
+				"xucxac/xx3": { "width": 244, "height": 284 },
+				"xucxac/xx4": { "width": 244, "height": 284 },
+				"xucxac/xx5": { "width": 244, "height": 284 },
+				"xucxac/xx6": { "width": 244, "height": 284 }
+			}
+		}
+	}
+],
+"animations": {
+	"roll": {
+		"slots": {
+			"roll12": {
+				"attachment": [
+					{ "name": "roll12/x_00" },
+					{ "time": 0.0333, "name": "roll12/x_01" },
+					{ "time": 0.0667, "name": "roll12/x_02" },
+					{ "time": 0.1, "name": "roll12/x_03" },
+					{ "time": 0.1333, "name": "roll12/x_04" },
+					{ "time": 0.1667, "name": "roll12/x_05" },
+					{ "time": 0.2, "name": "roll12/x_06" },
+					{ "time": 0.2333, "name": "roll12/x_07" },
+					{ "time": 0.2667, "name": "roll12/x_08" },
+					{ "time": 0.3, "name": "roll12/x_09" },
+					{ "time": 0.3333, "name": "roll12/x_10" },
+					{ "time": 0.3667, "name": "roll12/x_11" },
+					{ "time": 0.4, "name": "roll12/x_12" },
+					{ "time": 0.4333, "name": "roll12/x_13" },
+					{ "time": 0.4667, "name": "roll12/x_14" },
+					{ "time": 0.5, "name": "roll12/x_15" },
+					{ "time": 0.5333, "name": "roll12/x_16" },
+					{ "time": 0.5667, "name": "roll12/x_17" },
+					{ "time": 0.6, "name": "roll12/x_18" },
+					{ "time": 0.6333, "name": "roll12/x_19" },
+					{ "time": 0.6667, "name": "roll12/x_20" },
+					{ "time": 0.7, "name": "roll12/x_21" },
+					{ "time": 0.7333, "name": "roll12/x_22" },
+					{ "time": 0.7667, "name": "roll12/x_23" },
+					{ "time": 0.8, "name": "roll12/x_24" },
+					{ "time": 0.8333, "name": "roll12/x_25" },
+					{ "time": 0.8667, "name": "roll12/x_26" },
+					{ "time": 0.9, "name": "roll12/x_27" },
+					{ "time": 0.9333, "name": "roll12/x_28" },
+					{ "time": 0.9667, "name": "roll12/x_29" },
+					{ "time": 1, "name": "roll12/x_30" },
+					{ "time": 1.0333, "name": "roll12/x_31" },
+					{ "time": 1.0667, "name": "roll12/x_32" },
+					{ "time": 1.1, "name": "roll12/x_33" },
+					{ "time": 1.1333, "name": "roll12/x_34" },
+					{ "time": 1.1667, "name": "roll12/x_35" },
+					{ "time": 1.2, "name": "roll12/x_36" },
+					{ "time": 1.2333, "name": "roll12/x_37" },
+					{ "time": 1.2667, "name": "roll12/x_38" },
+					{ "time": 1.3, "name": "roll12/x_39" },
+					{ "time": 1.3333, "name": "roll12/x_40" },
+					{ "time": 1.3667, "name": "roll12/x_41" },
+					{ "time": 1.4, "name": "roll12/x_42" },
+					{ "time": 1.4333, "name": "roll12/x_43" },
+					{ "time": 1.4667, "name": "roll12/x_44" },
+					{ "time": 1.5, "name": "roll12/x_45" },
+					{ "time": 1.5333, "name": "roll12/x_46" },
+					{ "time": 1.5667, "name": "roll12/x_47" },
+					{ "time": 1.6, "name": "roll12/x_48" }
+				]
+			}
+		}
+	},
+	"1": {
+		"slots": {
+			"roll12": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"xx1": {
+				"attachment": [
+					{ "name": "xucxac/xx1" }
+				]
+			}
+		}
+	},
+	"2": {
+		"slots": {
+			"roll12": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"xx1": {
+				"attachment": [
+					{ "name": "xucxac/xx2" }
+				]
+			}
+		}
+	},
+	"3": {
+		"slots": {
+			"roll12": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"xx1": {
+				"attachment": [
+					{ "name": "xucxac/xx3" }
+				]
+			}
+		}
+	},
+	"4": {
+		"slots": {
+			"roll12": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"xx1": {
+				"attachment": [
+					{ "name": "xucxac/xx4" }
+				]
+			}
+		}
+	},
+	"5": {
+		"slots": {
+			"roll12": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"xx1": {
+				"attachment": [
+					{ "name": "xucxac/xx5" }
+				]
+			}
+		}
+	},
+	"6": {
+		"slots": {
+			"roll12": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"xx1": {
+				"attachment": [
+					{ "name": "xucxac/xx6" }
+				]
+			}
+		}
+	}
+}
+}

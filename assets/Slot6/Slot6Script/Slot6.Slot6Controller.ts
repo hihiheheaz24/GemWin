@@ -39,8 +39,8 @@ export default class Slot6Controller extends cc.Component {
     @property(cc.Node)
     nodeCoin: cc.Node = null;
 
-    @property(sp.Skeleton)
-    skeSpin: sp.Skeleton = null;
+    // @property(sp.Skeleton)
+    // skeSpin: sp.Skeleton = null;
 
     @property(cc.Prefab)
     preItem: cc.Prefab = null;
@@ -52,8 +52,6 @@ export default class Slot6Controller extends cc.Component {
     mWidthItem: number = 140;
     @property(cc.Node)
     reels: cc.Node = null; // reel
-    @property(cc.Node)
-    effSpin: cc.Node = null; // reel
     // @property(cc.Node)
     // itemTemplate: cc.Node = null;
     @property(cc.Node)
@@ -111,18 +109,18 @@ export default class Slot6Controller extends cc.Component {
     effectBigWin: cc.Node = null;
     @property(cc.Node)
     effectJackpot: cc.Node = null;
-    @property(cc.ParticleSystem)
-    particleJackpt: cc.ParticleSystem = null;
-    @property(cc.ParticleSystem)
-    particleJackpt1: cc.ParticleSystem = null;
-    @property(cc.ParticleSystem)
-    particleBigWin: cc.ParticleSystem = null;
-    @property(cc.ParticleSystem)
-    particleBigWin1: cc.ParticleSystem = null;
-    @property(cc.ParticleSystem)
-    particleFreeSpin: cc.ParticleSystem = null;
-    @property(cc.ParticleSystem)
-    particleBonus: cc.ParticleSystem = null;
+    // @property(cc.ParticleSystem)
+    // particleJackpt: cc.ParticleSystem = null;
+    // @property(cc.ParticleSystem)
+    // particleJackpt1: cc.ParticleSystem = null;
+    // @property(cc.ParticleSystem)
+    // particleBigWin: cc.ParticleSystem = null;
+    // @property(cc.ParticleSystem)
+    // particleBigWin1: cc.ParticleSystem = null;
+    // @property(cc.ParticleSystem)
+    // particleFreeSpin: cc.ParticleSystem = null;
+    // @property(cc.ParticleSystem)
+    // particleBonus: cc.ParticleSystem = null;
     @property(cc.Node)
     effectBonus: cc.Node = null;
     @property(cc.Node)
@@ -401,8 +399,8 @@ export default class Slot6Controller extends cc.Component {
 
 
     public onJoinRoom() {
-        this.skeSpin.animation = "btnquaythuong";
-        this.skeSpin.loop = true;
+        // this.skeSpin.animation = "btnquaythuong";
+        // this.skeSpin.loop = true;
         this.lblBet.string = this.listBetLabel[this.betIdx];
         let totalbet = (this.arrLineSelect.length * this.listBet[this.betIdx]);
         Tween.numberTo(this.lblTotalBet, totalbet, 0.3);
@@ -427,7 +425,6 @@ export default class Slot6Controller extends cc.Component {
         this.btnLine.interactable = enabled;
         this.btnPlayTry.interactable = false;
         this.btnPlayReal.interactable = false;
-        this.effSpin.active = false;
     }
 
     private stopAllEffects() {
@@ -492,8 +489,8 @@ export default class Slot6Controller extends cc.Component {
             this.stopShowLinesWin();
             this.changeAllItemToDark(false);
             this.setEnabledAllButtons(false);
-            this.skeSpin.animation = "btnquayclick";
-            this.skeSpin.loop = true;
+            // this.skeSpin.animation = "btnquayclick";
+            // this.skeSpin.loop = true;
             SlotNetworkClient.getInstance().send(new cmd.SendPlay(this.arrLineSelect.toString()));
         } else {
             this.changeAllItemToDark(false);
@@ -501,8 +498,8 @@ export default class Slot6Controller extends cc.Component {
             this.stopAllEffects();
             this.stopShowLinesWin();
             this.setEnabledAllButtons(false);
-            this.skeSpin.animation = "btnquayclick";
-            this.skeSpin.loop = true;
+            // this.skeSpin.animation = "btnquayclick";
+            // this.skeSpin.loop = true;
             var rIdx = Utils.randomRangeInt(0, TrialResults.results.length);
             this.onSpinResult(TrialResults.results[rIdx]);
         }
@@ -646,8 +643,8 @@ export default class Slot6Controller extends cc.Component {
         this.effectBigWin.getComponentInChildren(sp.Skeleton).setAnimation(0, "thang sieu lon fx", true);
         let label = this.effectBigWin.getComponentInChildren(cc.Label);
         label.node.active = false;
-        this.particleBigWin.resetSystem();
-        this.particleBigWin1.resetSystem();
+        // this.particleBigWin.resetSystem();
+        // this.particleBigWin1.resetSystem();
         this.effectBigWin.runAction(cc.sequence(
             cc.delayTime(1),
             cc.callFunc(() => {
@@ -671,7 +668,7 @@ export default class Slot6Controller extends cc.Component {
         this.effectFreeSpin.active = true;
         this.effectFreeSpin.getComponentInChildren(sp.Skeleton).setAnimation(0, "freespin fx", true);
 
-        this.particleFreeSpin.resetSystem();
+        // this.particleFreeSpin.resetSystem();
         this.effectFreeSpin.runAction(cc.sequence(
             cc.delayTime(1),
             cc.delayTime(3),
@@ -694,8 +691,8 @@ export default class Slot6Controller extends cc.Component {
         this.effectJackpot.runAction(cc.sequence(
             cc.delayTime(0.4),
             cc.callFunc(() => {
-                this.particleJackpt.resetSystem();
-                this.particleJackpt1.resetSystem();
+                // this.particleJackpt.resetSystem();
+                // this.particleJackpt1.resetSystem();
             }),
             cc.delayTime(0.6),
             cc.callFunc(() => {
@@ -715,7 +712,7 @@ export default class Slot6Controller extends cc.Component {
         this.effectBonus.stopAllActions();
         this.effectBonus.active = true;
         // this.effectBonus.getComponentInChildren(sp.Skeleton).setAnimation(0, "bonus fx", true);
-        this.particleBonus.resetSystem();
+        // this.particleBonus.resetSystem();
         this.effectBonus.runAction(cc.sequence(
             cc.delayTime(3),
             cc.callFunc(() => {
@@ -851,8 +848,8 @@ export default class Slot6Controller extends cc.Component {
     }
 
     private spined() {
-        this.skeSpin.animation = "btnquaythuong";
-        this.skeSpin.loop = true;
+        // this.skeSpin.animation = "btnquaythuong";
+        // this.skeSpin.loop = true;
         this.currentNumberFreeSpin = this.lastSpinRes.currentNumberFreeSpin;
         if (this.lastSpinRes.currentNumberFreeSpin > 0) {
             this.lblFreeSpinCount.node.parent.active = true;

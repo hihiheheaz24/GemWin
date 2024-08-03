@@ -104,6 +104,15 @@ export default class TaiXiuMiniController extends cc.Component {
     @property(cc.Sprite)
     dice3: cc.Sprite = null;
 
+    @property(sp.Skeleton)
+    animDice1: sp.Skeleton = null;
+
+    @property(sp.Skeleton)
+    animDice2: sp.Skeleton = null;
+
+    @property(sp.Skeleton)
+    animDice3: sp.Skeleton = null;
+
     @property(cc.Node)
     bowl: cc.Node = null;
     @property(cc.Node)
@@ -139,8 +148,8 @@ export default class TaiXiuMiniController extends cc.Component {
     @property(cc.Label)
     lbJackPotXiu: cc.Label = null;
 
-    @property([cc.BitmapFont])
-    fontTime: cc.BitmapFont[] = [];
+    // @property([cc.BitmapFont])
+    // fontTime: cc.BitmapFont[] = [];
 
     @property(SoundManager)
     soundManager: SoundManager = null;
@@ -173,8 +182,8 @@ export default class TaiXiuMiniController extends cc.Component {
     private isCanChat = true;
     private panelChat: PanelChat = null;
     private readonly maxBetValue = 999999999;
-    private listBets = [1000, 5000, 10000, 50000, 100000, 200000, 500000, 1000000, 5000000, 10000000];
-    private readonly bowlStartPos = cc.v2(-550.597, 0);
+    private listBets = [1000, 10000, 50000, 100000, 500000, 5000000, 50000000];
+    private readonly bowlStartPos = cc.v2(-151.945, 90);
     private currentBtnBet = null;
     private arrTimeoutDice = [];
     private popupHonor: TaiXiuMiniPopupHonors = null;
@@ -276,7 +285,7 @@ export default class TaiXiuMiniController extends cc.Component {
         this.lblBetTai.string = "";
         this.lblBetXiu.string = "ĐẶT CƯỢC";
         this.layoutBet.active = true;
-        cc.tween(this.layoutBet).to(0.5, { y: -301 }, { easing: cc.easing.sineOut }).start();
+        cc.tween(this.layoutBet).to(0.5, { y: -174 }, { easing: cc.easing.sineOut }).start();
         this.layoutBet1.active = true;
     }
 
@@ -315,7 +324,7 @@ export default class TaiXiuMiniController extends cc.Component {
         this.lblBetTai.string = "ĐẶT CƯỢC";
         this.lblBetXiu.string = "";
         this.layoutBet.active = true;
-        cc.tween(this.layoutBet).to(0.5, { y: -301 }, { easing: cc.easing.sineOut }).start();
+        cc.tween(this.layoutBet).to(0.5, { y: -174 }, { easing: cc.easing.sineOut }).start();
         this.layoutBet1.active = true;
     }
 
@@ -356,7 +365,7 @@ export default class TaiXiuMiniController extends cc.Component {
                         this.dice3.node.active = false;
                         this.lblRemainTime.node.active = true;
                         this.lblRemainTime.string = res.remainTime < 10 ? "0" + res.remainTime : "" + res.remainTime;
-                        this.lblRemainTime.font = res.remainTime < 10 ? this.fontTime[1] : this.fontTime[0];
+                        // this.lblRemainTime.font = res.remainTime < 10 ? this.fontTime[1] : this.fontTime[0];
                         this.lblRemainTime2.node.parent.active = false;
                         this.lblRemainTime2.node.active = false;
                         this.lblScore.node.parent.active = false;
@@ -418,7 +427,7 @@ export default class TaiXiuMiniController extends cc.Component {
                         this.isBetting = true;
                         this.lblRemainTime.node.active = true;
                         this.lblRemainTime.string = res.remainTime < 10 ? "0" + res.remainTime : "" + res.remainTime;
-                        this.lblRemainTime.font = res.remainTime < 10 ? this.fontTime[1] : this.fontTime[0];
+                        // this.lblRemainTime.font = res.remainTime < 10 ? this.fontTime[1] : this.fontTime[0];
                         this.lblRemainTime2.node.parent.active = false;
                         this.lblRemainTime2.node.active = false;
                         this.lblScore.node.parent.active = false;
@@ -469,19 +478,22 @@ export default class TaiXiuMiniController extends cc.Component {
                     
                     this.lblRemainTime2.node.parent.active = false;  
 
-                    this.dice1.spriteFrame = this.sprDices[res.dice1];
-                    this.dice2.spriteFrame = this.sprDices[res.dice2];
-                    this.dice3.spriteFrame = this.sprDices[res.dice3];
-
-                    this.diceAnim.node.active = true;
-                    console.log("result");
-                    this.playSpine(this.diceAnim.node, "animation", false, ()=>{
-                        this.diceAnim.node.active = false;
-                        this.dice1.node.active = true;
-                        this.dice2.node.active = true;
-                        this.dice3.node.active = true;
-
+                    // this.dice1.spriteFrame = this.sprDices[res.dice1];
+                    // this.dice2.spriteFrame = this.sprDices[res.dice2];
+                    // this.dice3.spriteFrame = this.sprDices[res.dice3];
+                    
+                    this.animDice1.node.active = true;
+                    this.animDice2.node.active = true;
+                    this.animDice3.node.active = true;
+                    this.playSpine(this.animDice1.node, "roll", false, ()=>{
+                        this.animDice1.setAnimation(0, (res.dice1).toString(), false);
+                    })
+                    this.playSpine(this.animDice2.node, "roll", false, ()=>{
+                        this.animDice2.setAnimation(0, (res.dice2).toString(), false);
+                    })
+                    this.playSpine(this.animDice3.node, "roll", false, ()=>{
                         console.log("ohhhhhhhhhhhhhhhh: " + this.isNan);
+                        this.animDice3.setAnimation(0, (res.dice3).toString(), false);
                         if (!this.isNan) {
                             this.lblRemainTime2.node.parent.active = true;
                             this.lblRemainTime2.node.active = true;
@@ -531,6 +543,11 @@ export default class TaiXiuMiniController extends cc.Component {
                     this.dice1.node.active = false;
                     this.dice2.node.active = false;
                     this.dice3.node.active = false;
+
+                    this.animDice1.node.active = false;
+                    this.animDice2.node.active = false;
+                    this.animDice3.node.active = false;
+
                     for (var i = 0; i < this.arrTimeoutDice.length; i++) {
                         clearTimeout(this.arrTimeoutDice[i]);
                     }
@@ -681,7 +698,7 @@ export default class TaiXiuMiniController extends cc.Component {
                     this.currentBtnBet.color = cc.Color.WHITE
                 }
                 this.currentBtnBet = btn.node;
-                this.currentBtnBet.color = new cc.Color().fromHEX("#FFBE34")
+                this.currentBtnBet.color = cc.Color.RED//new cc.Color().fromHEX("#FFBE34")
                 let lblBet = this.betingDoor === BetDoor.Tai ? this.lblBetTai : this.lblBetXiu;
                 let number = Utils.stringToInt(lblBet.string) + value;
                 if (number > this.maxBetValue) number = this.maxBetValue;

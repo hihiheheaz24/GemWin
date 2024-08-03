@@ -103,9 +103,9 @@ namespace taixiumini {
             item.getChildByName("bg").opacity = i % 2 !== 0 ? 255 : 0;
             item.getChildByName("lblSession").getComponent(cc.Label).string = "#" + itemData["referenceId"];
             item.getChildByName("lblTime").getComponent(cc.Label).string = itemData["timestamp"];
-            item.getChildByName("layout").getChildByName("lblBetDoor").getComponent(cc.Label).string = itemData["betSide"] == 1 ? "TÀI" : "XỈU";
+            item.getChildByName("lblBetDoor").getComponent(cc.Label).string = itemData["betSide"] == 1 ? "TÀI" : "XỈU";
             item.getChildByName("lblResult").getComponent(cc.Label).string = itemData["resultPhien"];
-            item.getChildByName("layout").getChildByName("lblBet").getComponent(cc.Label).string = Utils.formatNumber(itemData["betValue"]);
+            item.getChildByName("lblBet").getComponent(cc.Label).string = Utils.formatNumber(itemData["betValue"]);
             item.getChildByName("lblRefund").getComponent(cc.Label).string = Utils.formatNumber(itemData["totalRefund"]);
             item.getChildByName("lblJackpot").getComponent(cc.Label).string = Utils.formatNumber(itemData["totalJp"]);
             item.getChildByName("lblRefund").getComponent(cc.Label).node.color = itemData['totalRefund'] > 0 ? new cc.Color(240, 191, 11) : new cc.Color(240, 48, 11);

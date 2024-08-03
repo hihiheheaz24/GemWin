@@ -1,0 +1,90 @@
+
+Btn_TrialMode.png
+size: 676,329
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ChoiThat
+  rotate: false
+  xy: 527, 149
+  size: 130, 42
+  orig: 130, 42
+  offset: 0, 0
+  index: -1
+ChoiThu
+  rotate: false
+  xy: 527, 110
+  size: 113, 37
+  orig: 113, 37
+  offset: 0, 0
+  index: -1
+Co
+  rotate: true
+  xy: 659, 69
+  size: 122, 13
+  orig: 122, 13
+  offset: 0, 0
+  index: -1
+Light
+  rotate: true
+  xy: 2, 3
+  size: 324, 523
+  orig: 324, 523
+  offset: 0, 0
+  index: -1
+Lixi
+  rotate: false
+  xy: 527, 74
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+Sparkle
+  rotate: false
+  xy: 527, 3
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+cam1
+  rotate: false
+  xy: 623, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+cam2
+  rotate: true
+  xy: 584, 9
+  size: 23, 18
+  orig: 23, 18
+  offset: 0, 0
+  index: -1
+cam2bongdam
+  rotate: false
+  xy: 604, 13
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+cam3
+  rotate: true
+  xy: 557, 2
+  size: 30, 25
+  orig: 30, 25
+  offset: 0, 0
+  index: -1
+cay
+  rotate: false
+  xy: 527, 193
+  size: 147, 134
+  orig: 147, 134
+  offset: 0, 0
+  index: -1
+tantaitanloc
+  rotate: true
+  xy: 527, 34
+  size: 33, 133
+  orig: 33, 133
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+skeleton.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HŨ
+  rotate: false
+  xy: 1205, 39
+  size: 109, 70
+  orig: 109, 70
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 1316, 37
+  size: 78, 72
+  orig: 78, 72
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: true
+  xy: 1110, 22
+  size: 87, 93
+  orig: 87, 93
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 1396, 40
+  size: 68, 69
+  orig: 68, 69
+  offset: 0, 0
+  index: -1
+SĂN
+  rotate: false
+  xy: 826, 29
+  size: 175, 80
+  orig: 175, 80
+  offset: 0, 0
+  index: -1
+TÀI
+  rotate: false
+  xy: 654, 10
+  size: 170, 99
+  orig: 170, 99
+  offset: 0, 0
+  index: -1
+XỈU
+  rotate: false
+  xy: 479, 5
+  size: 173, 104
+  orig: 173, 104
+  offset: 0, 0
+  index: -1
+b2e55fdede8de553b84e3f27a2549f7a
+  rotate: false
+  xy: 1003, 20
+  size: 105, 89
+  orig: 105, 89
+  offset: 0, 0
+  index: -1
+pedestal
+  rotate: false
+  xy: 2, 2
+  size: 475, 107
+  orig: 475, 107
+  offset: 0, 0
+  index: -1

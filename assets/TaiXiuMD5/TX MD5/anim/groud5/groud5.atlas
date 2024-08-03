@@ -1,0 +1,20 @@
+
+groud5.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5-01
+  rotate: false
+  xy: 2, 2
+  size: 239, 235
+  orig: 239, 235
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 243, 2
+  size: 232, 235
+  orig: 232, 235
+  offset: 0, 0
+  index: -1

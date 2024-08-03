@@ -289,7 +289,7 @@ export default class Slot3Controller extends cc.Component {
         SlotNetworkClient.getInstance().checkConnect(() => {
             App.instance.showLoading(false);
         });
-        cc.tween(this.btnSpin.node.getChildByName("ic_arrow")).by(1.0, { angle: -360 }).repeatForever().start();
+        // cc.tween(this.btnSpin.node.getChildByName("ic_arrow")).by(1.0, { angle: -360 }).repeatForever().start();
         //this.initMutipleJPNode();
     }
     initMutipleJPNode() {
@@ -332,13 +332,13 @@ export default class Slot3Controller extends cc.Component {
         this.btnBetDown.interactable = enabled;
         this.btnLine.interactable = enabled;
         this.toggleTrial.interactable = enabled;
-        if (enabled) {
-            this.btnSpin.node.getChildByName("ic_arrow").active = true;
-            cc.Tween.stopAllByTarget(this.btnSpin.node.getChildByName("ic_arrow"));
-            cc.tween(this.btnSpin.node.getChildByName("ic_arrow")).by(1.0, { angle: -360 }).repeatForever().start();
-        } else {
-            this.btnSpin.node.getChildByName("ic_arrow").active = false;
-        }
+        // if (enabled) {
+        //     this.btnSpin.node.getChildByName("ic_arrow").active = true;
+        //     cc.Tween.stopAllByTarget(this.btnSpin.node.getChildByName("ic_arrow"));
+        //     cc.tween(this.btnSpin.node.getChildByName("ic_arrow")).by(1.0, { angle: -360 }).repeatForever().start();
+        // } else {
+        //     this.btnSpin.node.getChildByName("ic_arrow").active = false;
+        // }
 
     }
 
@@ -701,18 +701,18 @@ export default class Slot3Controller extends cc.Component {
                         //replace wild items in columns
                         for (let j = 0; j < this.columnsWild.length; j++) {
                             let c = this.columnsWild[j];
-                            let children = this.columns.children[c].children;
-                            for (let i = 0; i < 3; i++) {
-                                let itemAnimIcon = children[i].getComponentInChildren(sp.Skeleton);
-                                itemAnimIcon.node.active = false;
-                                itemAnimIcon.skeletonData = this.spineIconList[0];
-                                itemAnimIcon.setAnimation(0, "Jackpot", true); //thuc ra la wild.ba Fio de nham ten.
-                                itemAnimIcon.node.y = -60;
-                                this.setItemSprite(children[i].getComponentInChildren(cc.Sprite), this.sprFrameItems[2]);
-                                children[i]['id'] = 3;
-                                children[i]['animationName'] = "Jackpot";
-                                // children[i].getComponentInChildren(cc.Sprite).node.active = false;
-                            }
+                            // let children = this.columns.children[c].children;
+                            // for (let i = 0; i < 3; i++) {
+                            //     let itemAnimIcon = children[i].getComponentInChildren(sp.Skeleton);
+                            //     itemAnimIcon.node.active = false;
+                            //     itemAnimIcon.skeletonData = this.spineIconList[0];
+                            //     itemAnimIcon.setAnimation(0, "Jackpot", true); //thuc ra la wild.ba Fio de nham ten.
+                            //     itemAnimIcon.node.y = -60;
+                            //     this.setItemSprite(children[i].getComponentInChildren(cc.Sprite), this.sprFrameItems[2]);
+                            //     children[i]['id'] = 3;
+                            //     children[i]['animationName'] = "Jackpot";
+                            //     // children[i].getComponentInChildren(cc.Sprite).node.active = false;
+                            // }
                             this.iconWildColumns.children[c].active = true;
                             this.iconWildColumns.children[c].getComponent(sp.Skeleton).animation = "wild dai";
                             this.iconWildColumns.children[c].getComponent(sp.Skeleton).loop = false;
@@ -759,12 +759,12 @@ export default class Slot3Controller extends cc.Component {
                     this.setItemSprite(item1.children[0].getComponent(cc.Sprite), this.sprFrameItems[parseInt(matrix[i])]);
                     this.setItemSprite(item2.children[0].getComponent(cc.Sprite), this.sprFrameItems[parseInt(matrix[5 + i])]);
                     this.setItemSprite(item3.children[0].getComponent(cc.Sprite), this.sprFrameItems[parseInt(matrix[10 + i])]);
-                    this.checkIconSpine(children[2], parseInt(matrix[i]));
-                    this.checkIconSpine(children[1], parseInt(matrix[5 + i]));
-                    this.checkIconSpine(children[0], parseInt(matrix[10 + i]));
-                    this.checkIconSpine(item3, parseInt(matrix[10 + i]));
-                    this.checkIconSpine(item2, parseInt(matrix[5 + i]));
-                    this.checkIconSpine(item1, parseInt(matrix[i]));
+                    // this.checkIconSpine(children[2], parseInt(matrix[i]));
+                    // this.checkIconSpine(children[1], parseInt(matrix[5 + i]));
+                    // this.checkIconSpine(children[0], parseInt(matrix[10 + i]));
+                    // this.checkIconSpine(item3, parseInt(matrix[10 + i]));
+                    // this.checkIconSpine(item2, parseInt(matrix[5 + i]));
+                    // this.checkIconSpine(item1, parseInt(matrix[i]));
                 }).start();
         }
     }

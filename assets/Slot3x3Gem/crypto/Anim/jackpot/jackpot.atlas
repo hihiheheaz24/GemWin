@@ -1,0 +1,48 @@
+
+jackpot.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HIe╠ú╠éu u╠¢╠üng ro╠¢i va╠âi, a╠ünh sa╠üng xanh to╠ëa ra
+  rotate: false
+  xy: 2, 152
+  size: 379, 355
+  orig: 379, 355
+  offset: 0, 0
+  index: -1
+Layer 10
+  rotate: true
+  xy: 2, 2
+  size: 69, 116
+  orig: 69, 116
+  offset: 0, 0
+  index: -1
+Layer 11
+  rotate: false
+  xy: 661, 397
+  size: 82, 110
+  orig: 82, 110
+  offset: 0, 0
+  index: -1
+Layer 12
+  rotate: false
+  xy: 383, 242
+  size: 269, 44
+  orig: 269, 44
+  offset: 0, 0
+  index: -1
+Layer 13
+  rotate: false
+  xy: 2, 73
+  size: 310, 77
+  orig: 310, 77
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 383, 288
+  size: 276, 219
+  orig: 276, 219
+  offset: 0, 0
+  index: -1

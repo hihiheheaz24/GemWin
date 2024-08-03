@@ -68,7 +68,7 @@ export default class PopupHistory extends Dialog {
             if (res["success"]) {
 
                 if (this.items.length == 0) {
-                    for (var i = 0; i < 7; i++) {
+                    for (var i = 0; i < 8; i++) {
                         let item = cc.instantiate(this.itemTemplate);
                         item.parent = this.itemTemplate.parent;
                         this.items.push(item);

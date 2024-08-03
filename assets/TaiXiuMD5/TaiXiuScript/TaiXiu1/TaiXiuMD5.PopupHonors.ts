@@ -55,7 +55,7 @@ namespace taixiumini {
                 if (res["success"]) {
 
                     if (this.items.length == 0) {
-                        for (var i = 0; i < 10; i++) {
+                        for (var i = 0; i < 9; i++) {
                             let item = cc.instantiate(this.itemTemplate);
                             item.parent = this.itemTemplate.parent;
                             this.items.push(item);

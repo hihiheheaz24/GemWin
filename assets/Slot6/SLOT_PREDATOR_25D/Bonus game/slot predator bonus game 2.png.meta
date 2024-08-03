@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "bb831f62-613a-40ff-8c8b-949d9c6fa20b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot predator bonus game 2": {
+      "ver": "1.0.4",
+      "uuid": "1a301c8e-a9cf-4591-a6ef-29606a1c7547",
+      "rawTextureUuid": "bb831f62-613a-40ff-8c8b-949d9c6fa20b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

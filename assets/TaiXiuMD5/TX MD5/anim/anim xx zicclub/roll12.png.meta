@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "a1ae9f36-6423-44fa-a8b3-795065486d46",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2043,
+  "height": 1848,
+  "platformSettings": {},
+  "subMetas": {
+    "roll12": {
+      "ver": "1.0.4",
+      "uuid": "fdf7f94b-94cf-4ec8-b644-7147531d0756",
+      "rawTextureUuid": "a1ae9f36-6423-44fa-a8b3-795065486d46",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 2039,
+      "height": 1844,
+      "rawWidth": 2043,
+      "rawHeight": 1848,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
