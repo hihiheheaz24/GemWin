@@ -83,8 +83,6 @@ export default class PopupHistory extends Dialog {
                     let item = this.items[i];
                     if (i < res["results"].length) {
                         let itemData = res["results"][i];
-                        cc.log("Check data item la : ",itemData)
-                        item.getChildByName("bg").active = i%2 !== 0 ? true : false;
                         item.getChildByName("Time").getComponent(cc.Label).string = itemData["timestamp"];
                         item.getChildByName("Bet").getComponent(cc.Label).string = Utils.formatNumber(itemData["betValue"]);
                         item.getChildByName("Result").getComponent(cc.Label).string = itemData["cards"].replace(/,/g, '  ');

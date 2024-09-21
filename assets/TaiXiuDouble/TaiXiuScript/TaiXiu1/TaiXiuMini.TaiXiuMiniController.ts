@@ -54,6 +54,8 @@ export default class TaiXiuMiniController extends cc.Component {
     @property(cc.Node)
     scrollChat: cc.Node = null;
     @property(cc.Node)
+    circleRotation: cc.Node = null;
+    @property(cc.Node)
     chatNhanh: cc.Node = null;
     @property(cc.Node)
     contentChatNhanh: cc.Node = null;
@@ -420,10 +422,12 @@ export default class TaiXiuMiniController extends cc.Component {
                             this.showToast(App.instance.getTextLang('txt_taixiu_new_session'));
                         }
                         if (res.remainTime < 6) {
+                            this.circleRotation.active = false;
                             this.lblRemainTime.node.color = cc.Color.RED
-                              }else{
-                                this.lblRemainTime.node.color = cc.Color.WHITE
-                              }
+                        } else {
+                            this.circleRotation.active = true;
+                            this.lblRemainTime.node.color = cc.Color.WHITE
+                        }
                         this.isBetting = true;
                         this.lblRemainTime.node.active = true;
                         this.lblRemainTime.string = res.remainTime < 10 ? "0" + res.remainTime : "" + res.remainTime;
@@ -478,9 +482,9 @@ export default class TaiXiuMiniController extends cc.Component {
                     
                     this.lblRemainTime2.node.parent.active = false;  
 
-                    // this.dice1.spriteFrame = this.sprDices[res.dice1];
-                    // this.dice2.spriteFrame = this.sprDices[res.dice2];
-                    // this.dice3.spriteFrame = this.sprDices[res.dice3];
+                    this.dice1.spriteFrame = this.sprDices[res.dice1];
+                    this.dice2.spriteFrame = this.sprDices[res.dice2];
+                    this.dice3.spriteFrame = this.sprDices[res.dice3];
                     
                     this.animDice1.node.active = true;
                     this.animDice2.node.active = true;
@@ -494,6 +498,16 @@ export default class TaiXiuMiniController extends cc.Component {
                     this.playSpine(this.animDice3.node, "roll", false, ()=>{
                         console.log("ohhhhhhhhhhhhhhhh: " + this.isNan);
                         this.animDice3.setAnimation(0, (res.dice3).toString(), false);
+                        this.animDice3.setCompleteListener(()=>{
+
+                            this.animDice1.node.active = false;
+                            this.animDice2.node.active = false;
+                            this.animDice3.node.active = false;
+
+                            this.dice1.node.active = true;
+                            this.dice2.node.active = true;
+                            this.dice3.node.active = true;
+                        })
                         if (!this.isNan) {
                             this.lblRemainTime2.node.parent.active = true;
                             this.lblRemainTime2.node.active = true;

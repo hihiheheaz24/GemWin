@@ -29,10 +29,21 @@ export default class XocDiaRoom extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
     private itemData = null;
     init(itemData){
+       // cc.warn (itemData)
+        if(itemData.id == 1){
+            itemData["userCount"] = itemData["userCount"] + 400;
+        } else  if(itemData.id == 2){
+            itemData["userCount"] = itemData["userCount"] + 80;
+        } else  if(itemData.id == 3){
+            itemData["userCount"] = itemData["userCount"] + 80;
+        } else  if(itemData.id == 4){
+            itemData["userCount"] = itemData["userCount"] + 70;
+        }
         this.itemData = itemData;
         this.lblBet.string = Utils.formatNumber(itemData["id"]);
         this.lblMin.string = Utils.formatNumber(itemData["requiredMoney"]);
-        this.lblPlayers.string = itemData["userCount"] + "/" + itemData["maxUserPerRoom"];
+       // this.lblPlayers.string = itemData["userCount"] + "/" + itemData["maxUserPerRoom"];
+       this.lblPlayers.string = itemData["userCount"];
         this.sprPlayers.fillRange = itemData["userCount"] / itemData["maxUserPerRoom"];
     }
 
@@ -43,5 +54,9 @@ export default class XocDiaRoom extends cc.Component {
         } else {
             App.instance.showToast("Số dư của bạn không đủ! Vui lòng nạp thêm.")
         }
+    }
+
+    onCommingSoon() {
+        App.instance.showToast("Phòng đã đủ người. Vui lòng chọn phòng Hoàng Kim Long.");
     }
 }

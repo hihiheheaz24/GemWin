@@ -1,0 +1,264 @@
+GHD.png
+size: 1635,394
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+$
+  rotate: true
+  xy: 263, 53
+  size: 61, 69
+  orig: 61, 69
+  offset: 0, 0
+  index: -1
+$HL
+  rotate: true
+  xy: 334, 10
+  size: 61, 69
+  orig: 61, 69
+  offset: 0, 0
+  index: -1
+DK
+  rotate: false
+  xy: 746, 5
+  size: 182, 55
+  orig: 182, 55
+  offset: 0, 0
+  index: -1
+DKHL
+  rotate: false
+  xy: 930, 5
+  size: 182, 55
+  orig: 182, 55
+  offset: 0, 0
+  index: -1
+DKbtn
+  rotate: false
+  xy: 0, 116
+  size: 541, 83
+  orig: 541, 83
+  offset: 0, 0
+  index: -1
+DN
+  rotate: true
+  xy: 1429, 157
+  size: 237, 62
+  orig: 237, 62
+  offset: 0, 0
+  index: -1
+DNHL
+  rotate: true
+  xy: 1493, 157
+  size: 237, 62
+  orig: 237, 62
+  offset: 0, 0
+  index: -1
+DNbtn
+  rotate: false
+  xy: 0, 201
+  size: 542, 83
+  orig: 542, 83
+  offset: 0, 0
+  index: -1
+E
+  rotate: false
+  xy: 1114, 10
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+G
+  rotate: false
+  xy: 492, 21
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+M
+  rotate: false
+  xy: 263, 0
+  size: 65, 51
+  orig: 65, 51
+  offset: 0, 0
+  index: -1
+Win
+  rotate: false
+  xy: 1166, 17
+  size: 95, 43
+  orig: 95, 43
+  offset: 0, 0
+  index: -1
+avatar
+  rotate: false
+  xy: 543, 25
+  size: 151, 95
+  orig: 151, 95
+  offset: 0, 0
+  index: -1
+avs1
+  rotate: true
+  xy: 1598, 118
+  size: 40, 32
+  orig: 40, 32
+  offset: 0, 0
+  index: -1
+avs2
+  rotate: true
+  xy: 544, 217
+  size: 38, 14
+  orig: 38, 14
+  offset: 0, 0
+  index: -1
+avs3
+  rotate: true
+  xy: 1345, 11
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+btncut1
+  rotate: false
+  xy: 152, 38
+  size: 109, 76
+  orig: 109, 76
+  offset: 0, 0
+  index: -1
+btncut2
+  rotate: true
+  xy: 1314, 28
+  size: 198, 29
+  orig: 198, 29
+  offset: 0, 0
+  index: -1
+btncut3
+  rotate: true
+  xy: 696, 10
+  size: 110, 48
+  orig: 110, 48
+  offset: 0, 0
+  index: -1
+btncut4
+  rotate: true
+  xy: 1557, 160
+  size: 234, 78
+  orig: 234, 78
+  offset: 0, 0
+  index: -1
+btncut5
+  rotate: false
+  xy: 334, 73
+  size: 190, 41
+  orig: 190, 41
+  offset: 0, 0
+  index: -1
+btncut6
+  rotate: true
+  xy: 1355, 72
+  size: 322, 35
+  orig: 322, 35
+  offset: 0, 0
+  index: -1
+btncut7
+  rotate: false
+  xy: 1429, 92
+  size: 167, 63
+  orig: 167, 63
+  offset: 0, 0
+  index: -1
+btncut8
+  rotate: false
+  xy: 405, 13
+  size: 85, 58
+  orig: 85, 58
+  offset: 0, 0
+  index: -1
+cham
+  rotate: false
+  xy: 1598, 104
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+dice1
+  rotate: false
+  xy: 1345, 41
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+dice2
+  rotate: false
+  xy: 544, 257
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+glare
+  rotate: false
+  xy: 0, 286
+  size: 570, 108
+  orig: 570, 108
+  offset: 0, 0
+  index: -1
+gpink
+  rotate: true
+  xy: 1392, 92
+  size: 302, 35
+  orig: 302, 35
+  offset: 0, 0
+  index: -1
+hdcut
+  rotate: false
+  xy: 572, 312
+  size: 781, 82
+  orig: 781, 82
+  offset: 0, 0
+  index: -1
+hdcutHL
+  rotate: false
+  xy: 572, 228
+  size: 781, 82
+  orig: 781, 82
+  offset: 0, 0
+  index: -1
+mockup
+  rotate: false
+  xy: 1392, 0
+  size: 150, 90
+  orig: 150, 90
+  offset: 0, 0
+  index: -1
+name
+  rotate: false
+  xy: 772, 62
+  size: 539, 81
+  orig: 539, 81
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 560, 122
+  size: 210, 104
+  orig: 210, 104
+  offset: 0, 0
+  index: -1
+w
+  rotate: false
+  xy: 0, 24
+  size: 150, 90
+  orig: 150, 90
+  offset: 0, 0
+  index: -1
+whole
+  rotate: false
+  xy: 772, 145
+  size: 540, 81
+  orig: 540, 81
+  offset: 0, 0
+  index: -1
+yspar
+  rotate: false
+  xy: 1544, 1
+  size: 88, 89
+  orig: 88, 89
+  offset: 0, 0
+  index: -1

@@ -12,9 +12,6 @@ export default class PopupHonors extends Dialog {
     @property(cc.Node)
     itemTemplate: cc.Node = null;
 
-    @property([cc.SpriteFrame])
-    listSprTop: cc.SpriteFrame[] = [];
-
     private items = new Array<cc.Node>();
 
     show() {
@@ -58,18 +55,8 @@ export default class PopupHonors extends Dialog {
                     let item = this.items[i];
                     if (i < res["topBC"].length) {
                         let itemData = res["topBC"][i];
-                        item.getChildByName("bg").opacity = i % 2 !== 0 ? 255 : 0;
-                       
-                        if(i <= 2){
-                            item.getChildByName("Rank").active = false;
-                            item.getChildByName("icTop").active = true;
-                            item.getChildByName("icTop").getComponent(cc.Sprite).spriteFrame = this.listSprTop[i];
-                        }
-                        else{
-                            item.getChildByName("Rank").active = true;
-                            item.getChildByName("icTop").active = false;
-                            item.getChildByName("Rank").getComponent(cc.Label).string = (i + 1).toString();
-                        }
+                        item.getChildByName("bg").opacity = i % 2 == 0 ? 10 : 0;
+                        item.getChildByName("Rank").getComponent(cc.Label).string = (i + 1).toString();
                         item.getChildByName("Account").getComponent(cc.Label).string = itemData["username"];
                         item.getChildByName("Win").getComponent(cc.Label).string = Utils.formatNumber(itemData["money"]);
                         item.active = true;

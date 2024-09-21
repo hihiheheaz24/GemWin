@@ -1,0 +1,215 @@
+XDLive.png
+size: 1254,221
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 0, 13
+  size: 208, 347
+  orig: 208, 347
+  offset: 0, 0
+  index: -1
+BGpart1
+  rotate: true
+  xy: 349, 0
+  size: 101, 123
+  orig: 101, 123
+  offset: 0, 0
+  index: -1
+LArm
+  rotate: false
+  xy: 640, 53
+  size: 133, 61
+  orig: 133, 61
+  offset: 0, 0
+  index: -1
+Leyelid
+  rotate: false
+  xy: 1191, 147
+  size: 18, 9
+  orig: 18, 9
+  offset: 0, 0
+  index: -1
+Live
+  rotate: false
+  xy: 1017, 119
+  size: 172, 37
+  orig: 172, 37
+  offset: 0, 0
+  index: -1
+LupperArm
+  rotate: true
+  xy: 1017, 83
+  size: 34, 104
+  orig: 34, 104
+  offset: 0, 0
+  index: -1
+RArm
+  rotate: true
+  xy: 1211, 98
+  size: 123, 43
+  orig: 123, 43
+  offset: 0, 0
+  index: -1
+Reyelid
+  rotate: false
+  xy: 474, 0
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+RupperArm
+  rotate: false
+  xy: 976, 8
+  size: 36, 105
+  orig: 36, 105
+  offset: 0, 0
+  index: -1
+XD
+  rotate: false
+  xy: 815, 158
+  size: 196, 63
+  orig: 196, 63
+  offset: 0, 0
+  index: -1
+XD1
+  rotate: false
+  xy: 1013, 158
+  size: 196, 63
+  orig: 196, 63
+  offset: 0, 0
+  index: -1
+earing
+  rotate: true
+  xy: 0, 0
+  size: 11, 21
+  orig: 11, 21
+  offset: 0, 0
+  index: -1
+girl_body
+  rotate: true
+  xy: 349, 103
+  size: 118, 289
+  orig: 118, 289
+  offset: 0, 0
+  index: -1
+girl_face
+  rotate: false
+  xy: 1042, 19
+  size: 50, 62
+  orig: 50, 62
+  offset: 0, 0
+  index: -1
+girl_hair1
+  rotate: true
+  xy: 1094, 43
+  size: 38, 65
+  orig: 38, 65
+  offset: 0, 0
+  index: -1
+girl_hair2
+  rotate: false
+  xy: 1161, 24
+  size: 26, 57
+  orig: 26, 57
+  offset: 0, 0
+  index: -1
+girl_hair3
+  rotate: false
+  xy: 1014, 0
+  size: 26, 81
+  orig: 26, 81
+  offset: 0, 0
+  index: -1
+girl_hair4
+  rotate: false
+  xy: 1189, 25
+  size: 24, 56
+  orig: 24, 56
+  offset: 0, 0
+  index: -1
+girl_hair5
+  rotate: true
+  xy: 1123, 83
+  size: 34, 75
+  orig: 34, 75
+  offset: 0, 0
+  index: -1
+girl_hair6
+  rotate: true
+  xy: 1094, 11
+  size: 30, 61
+  orig: 30, 61
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 775, 6
+  size: 107, 107
+  orig: 107, 107
+  offset: 0, 0
+  index: -1
+glowpink
+  rotate: false
+  xy: 884, 23
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+jp
+  rotate: false
+  xy: 815, 115
+  size: 200, 41
+  orig: 200, 41
+  offset: 0, 0
+  index: -1
+plate
+  rotate: false
+  xy: 635, 0
+  size: 86, 51
+  orig: 86, 51
+  offset: 0, 0
+  index: -1
+red
+  rotate: true
+  xy: 1247, 80
+  size: 16, 7
+  orig: 16, 7
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: true
+  xy: 474, 10
+  size: 91, 159
+  orig: 91, 159
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 1215, 66
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+sparkle1
+  rotate: false
+  xy: 723, 17
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+spotlight
+  rotate: true
+  xy: 640, 116
+  size: 105, 173
+  orig: 105, 174
+  offset: 0, 1
+  index: -1
+white
+  rotate: false
+  xy: 759, 45
+  size: 14, 6
+  orig: 14, 6
+  offset: 0, 0
+  index: -1

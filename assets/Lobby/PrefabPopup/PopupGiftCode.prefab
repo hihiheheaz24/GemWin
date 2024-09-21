@@ -27,14 +27,14 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 69
+        "__id__": 68
       },
       {
-        "__id__": 70
+        "__id__": 69
       }
     ],
     "_prefab": {
-      "__id__": 71
+      "__id__": 70
     },
     "_opacity": 255,
     "_color": {
@@ -294,7 +294,7 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 68
+      "__id__": 67
     },
     "_opacity": 255,
     "_color": {
@@ -382,11 +382,11 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 66
+        "__id__": 65
       }
     ],
     "_prefab": {
-      "__id__": 67
+      "__id__": 66
     },
     "_opacity": 255,
     "_color": {
@@ -1870,11 +1870,11 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 64
+        "__id__": 63
       }
     ],
     "_prefab": {
-      "__id__": 65
+      "__id__": 64
     },
     "_opacity": 255,
     "_color": {
@@ -1944,14 +1944,14 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 60
+        "__id__": 59
       },
       {
-        "__id__": 62
+        "__id__": 61
       }
     ],
     "_prefab": {
-      "__id__": 63
+      "__id__": 62
     },
     "_opacity": 255,
     "_color": {
@@ -1964,7 +1964,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 283,
-      "height": 37
+      "height": 31
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1976,7 +1976,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        0.649,
         0,
         0,
         0,
@@ -2133,19 +2133,19 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 380,
-      "height": 84
+      "height": 45
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": 1
+      "y": 0.5
     },
     "_trs": {
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
         -141.686,
-        44.986,
+        0,
         0,
         0,
         0,
@@ -2227,38 +2227,35 @@
     "_components": [
       {
         "__id__": 57
-      },
-      {
-        "__id__": 58
       }
     ],
     "_prefab": {
-      "__id__": 59
+      "__id__": 58
     },
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 177,
+      "g": 177,
+      "b": 177,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 380,
-      "height": 84
+      "height": 45
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": 1
+      "y": 0.5
     },
     "_trs": {
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
         -141.686,
-        44.986,
+        0,
         0,
         0,
         0,
@@ -2297,8 +2294,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Nhập mã Giftcode",
-    "_N$string": "Nhập mã Giftcode",
+    "_string": "Nhập mã GIFTCODE",
+    "_N$string": "Nhập mã GIFTCODE",
     "_fontSize": 25,
     "_lineHeight": 30,
     "_enableWrapText": false,
@@ -2315,18 +2312,6 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 1,
     "_N$cacheMode": 1,
-    "_id": ""
-  },
-  {
-    "__type__": "47fcfrB4HZCEqoTqVimESy9",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 56
-    },
-    "_enabled": true,
-    "id": "txt_giftcode_input",
-    "isUpperCase": false,
     "_id": ""
   },
   {
@@ -2355,7 +2340,7 @@
     "editingDidBegan": [],
     "textChanged": [
       {
-        "__id__": 61
+        "__id__": 60
       }
     ],
     "editingDidEnded": [],
@@ -2541,7 +2526,7 @@
     "bg": null,
     "container": null,
     "edbCode": {
-      "__id__": 60
+      "__id__": 59
     },
     "_id": ""
   },

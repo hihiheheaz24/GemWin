@@ -8,12 +8,8 @@ export default class ButtonPayBet extends cc.Component {
     lblTotal: cc.Label = null;
     @property(cc.Label)
     lblBeted: cc.Label = null;
-    @property(sp.Skeleton)
-    overlay: sp.Skeleton = null;
-    @property(cc.Sprite)
-    lblFactor: cc.Sprite = null;
-
-    @property([cc.SpriteFrame])
-    listSprFactor: cc.SpriteFrame[] = [];
-
+    @property(cc.Node)
+    overlay: cc.Node = null;
+    @property(cc.Label)
+    lblFactor: cc.Label = null;
 }

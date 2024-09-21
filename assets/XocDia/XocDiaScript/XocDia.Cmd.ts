@@ -64,6 +64,7 @@ export namespace cmd {
     }
     export class ReceiveGetListRoom extends InPacket {
         list: any[] = [];
+        jackpot = 0;
 
         constructor(data: Uint8Array) {
             super(data);
@@ -84,6 +85,7 @@ export namespace cmd {
                 item["quyban"] = this.getLong();
                 this.list.push(item)
             }
+            this.jackpot = this.getLong();
         }
     }
 
@@ -135,8 +137,8 @@ export namespace cmd {
             this.gameState = this.getByte();
             this.countTime = this.getInt();
             this.playerCount = this.getByte();
-            this.potID = [];
-            for (let a = 0; 6 > a; a++) {
+            let listTemp = [];        
+            for (let a = 0; a < 6; a++) {
                 let b: any = {};
                 b["id"] = this.getByte();
                 b["ratio"] = this.getInt();
@@ -144,9 +146,11 @@ export namespace cmd {
                 b["totalMoney"] = this.getLong();
                 b["moneyBet"] = this.getLong();
                 b["isLock"] = this.getBool();
-                this.potID.push(b);
+            
+                listTemp.push(b);
             }
-            this.playerInfos = [];
+            this.potID = listTemp;
+            let listPlayTemp = [];      
             for (let a = 0; a < this.playerCount; a++) {
                 let b: any = {};
                 b["nickname"] = this.getString();
@@ -155,9 +159,9 @@ export namespace cmd {
                 b["banker"] = this.getBool();
                 b["isSubBanker"] = this.getBool();
                 b["reqKickroom"] = this.getBool();
-                this.playerInfos.push(b);
-
-            }
+                listPlayTemp.push(b);
+            }   
+            this.playerInfos = listPlayTemp;        
             this.money = this.getLong();
             this.banker = this.getBool();
             this.isSubBanker = this.getBool();
@@ -379,6 +383,7 @@ export namespace cmd {
         playerInfoWin = [];
         subListCount = 0;
         infoSubBanker = [];
+        jackpot = 0;
 
         constructor(data: Uint8Array) {
             super(data);
@@ -415,6 +420,7 @@ export namespace cmd {
                 b["currentMoneySubBanker"] = this.getLong();
                 this.infoSubBanker.push(b);
             }
+            this.jackpot = this.getLong();
         }
     }
 

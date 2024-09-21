@@ -1,0 +1,173 @@
+Sicbo.png
+size: 271,745
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B
+  rotate: true
+  xy: 210, 484
+  size: 37, 61
+  orig: 37, 61
+  offset: 0, 0
+  index: -1
+BG
+  rotate: false
+  xy: 0, 398
+  size: 208, 347
+  orig: 208, 347
+  offset: 0, 0
+  index: -1
+C
+  rotate: true
+  xy: 210, 451
+  size: 31, 61
+  orig: 31, 61
+  offset: 0, 0
+  index: -1
+Dice1
+  rotate: true
+  xy: 202, 324
+  size: 59, 69
+  orig: 59, 69
+  offset: 0, 0
+  index: -1
+Dice2
+  rotate: true
+  xy: 210, 523
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+I_pink
+  rotate: false
+  xy: 121, 47
+  size: 19, 61
+  orig: 19, 61
+  offset: 0, 0
+  index: -1
+MD5
+  rotate: false
+  xy: 202, 298
+  size: 69, 24
+  orig: 69, 24
+  offset: 0, 0
+  index: -1
+O
+  rotate: true
+  xy: 210, 418
+  size: 31, 61
+  orig: 31, 61
+  offset: 0, 0
+  index: -1
+P1
+  rotate: true
+  xy: 127, 10
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+P3
+  rotate: true
+  xy: 0, 0
+  size: 44, 54
+  orig: 44, 54
+  offset: 0, 0
+  index: -1
+P3a
+  rotate: true
+  xy: 173, 220
+  size: 30, 23
+  orig: 30, 23
+  offset: 0, 0
+  index: -1
+PHU
+  rotate: true
+  xy: 202, 202
+  size: 94, 66
+  orig: 94, 66
+  offset: 0, 0
+  index: -1
+PHUw
+  rotate: false
+  xy: 173, 134
+  size: 94, 66
+  orig: 94, 66
+  offset: 0, 0
+  index: -1
+S
+  rotate: true
+  xy: 210, 385
+  size: 31, 61
+  orig: 31, 61
+  offset: 0, 0
+  index: -1
+TAI
+  rotate: true
+  xy: 210, 668
+  size: 77, 61
+  orig: 77, 61
+  offset: 0, 0
+  index: -1
+TAIw
+  rotate: true
+  xy: 210, 589
+  size: 77, 61
+  orig: 77, 61
+  offset: 0, 0
+  index: -1
+cc
+  rotate: false
+  xy: 0, 252
+  size: 200, 144
+  orig: 200, 144
+  offset: 0, 0
+  index: -1
+cceye
+  rotate: false
+  xy: 121, 110
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+ccp
+  rotate: false
+  xy: 92, 12
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+ccp1
+  rotate: false
+  xy: 147, 41
+  size: 120, 91
+  orig: 120, 91
+  offset: 0, 0
+  index: -1
+chip
+  rotate: false
+  xy: 0, 46
+  size: 119, 83
+  orig: 119, 83
+  offset: 0, 0
+  index: -1
+par
+  rotate: true
+  xy: 0, 149
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+robe
+  rotate: false
+  xy: 0, 131
+  size: 145, 16
+  orig: 145, 16
+  offset: 0, 0
+  index: -1
+spar
+  rotate: false
+  xy: 56, 10
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1

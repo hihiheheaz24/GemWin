@@ -1,0 +1,103 @@
+TX.png
+size: 1039,232
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 224, 24
+  size: 208, 347
+  orig: 208, 347
+  offset: 0, 0
+  index: -1
+BGglow
+  rotate: false
+  xy: 0, 7
+  size: 222, 225
+  orig: 222, 225
+  offset: 0, 0
+  index: -1
+D1
+  rotate: true
+  xy: 759, 4
+  size: 99, 96
+  orig: 99, 96
+  offset: 0, 0
+  index: -1
+D1HL
+  rotate: true
+  xy: 857, 4
+  size: 99, 96
+  orig: 99, 96
+  offset: 0, 0
+  index: -1
+D2
+  rotate: false
+  xy: 863, 145
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+D2HL
+  rotate: false
+  xy: 952, 145
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+D3
+  rotate: true
+  xy: 955, 74
+  size: 69, 80
+  orig: 69, 80
+  offset: 0, 0
+  index: -1
+D3HL
+  rotate: true
+  xy: 955, 3
+  size: 69, 80
+  orig: 69, 80
+  offset: 0, 0
+  index: -1
+DiceE
+  rotate: true
+  xy: 616, 33
+  size: 199, 141
+  orig: 199, 141
+  offset: 0, 0
+  index: -1
+JP
+  rotate: true
+  xy: 573, 32
+  size: 200, 41
+  orig: 200, 41
+  offset: 0, 0
+  index: -1
+S1
+  rotate: true
+  xy: 573, 0
+  size: 30, 44
+  orig: 30, 44
+  offset: 0, 0
+  index: -1
+effect
+  rotate: true
+  xy: 224, 9
+  size: 13, 258
+  orig: 13, 258
+  offset: 0, 0
+  index: -1
+par
+  rotate: false
+  xy: 759, 105
+  size: 102, 127
+  orig: 102, 127
+  offset: 0, 0
+  index: -1
+spar
+  rotate: false
+  xy: 619, 1
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1

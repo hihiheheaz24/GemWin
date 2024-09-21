@@ -2109,7 +2109,7 @@
       "ctor": "Float64Array",
       "array": [
         70.152,
-        -38.482,
+        -44.604,
         0,
         0,
         0,
@@ -4170,7 +4170,7 @@
       "__id__": 4
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 110
@@ -4277,7 +4277,7 @@
       "__id__": 4
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 113
@@ -4384,7 +4384,7 @@
       "__id__": 4
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 116
@@ -4522,8 +4522,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        72.333,
-        -78.057,
+        35.238,
+        -6.444,
         0,
         0,
         0,
@@ -4639,8 +4639,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        110.322,
-        -10.928,
+        112.372,
+        -9.561,
         0,
         0,
         0,
@@ -4756,8 +4756,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        34.346,
-        -8.326,
+        73.932,
+        -78.278,
         0,
         0,
         0,
@@ -19708,9 +19708,7 @@
     "_fontSize": 18,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "ef6604ac-51c0-4a67-bc1a-0c03f1be4b0d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -19818,9 +19816,7 @@
     "_fontSize": 18,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "ef6604ac-51c0-4a67-bc1a-0c03f1be4b0d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -19928,9 +19924,7 @@
     "_fontSize": 18,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "ef6604ac-51c0-4a67-bc1a-0c03f1be4b0d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -20478,9 +20472,7 @@
     "_fontSize": 18,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "ef6604ac-51c0-4a67-bc1a-0c03f1be4b0d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -20588,9 +20580,7 @@
     "_fontSize": 18,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "ef6604ac-51c0-4a67-bc1a-0c03f1be4b0d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -20698,9 +20688,7 @@
     "_fontSize": 18,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "ef6604ac-51c0-4a67-bc1a-0c03f1be4b0d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -20808,9 +20796,7 @@
     "_fontSize": 18,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "ef6604ac-51c0-4a67-bc1a-0c03f1be4b0d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -20918,9 +20904,7 @@
     "_fontSize": 18,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "ef6604ac-51c0-4a67-bc1a-0c03f1be4b0d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -21028,9 +21012,7 @@
     "_fontSize": 18,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "ef6604ac-51c0-4a67-bc1a-0c03f1be4b0d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -21138,9 +21120,7 @@
     "_fontSize": 18,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "ef6604ac-51c0-4a67-bc1a-0c03f1be4b0d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -39044,6 +39024,9 @@
     "_enabled": true,
     "gamePlay": {
       "__id__": 4
+    },
+    "circleRotation": {
+      "__id__": 52
     },
     "sprDices": [
       null,

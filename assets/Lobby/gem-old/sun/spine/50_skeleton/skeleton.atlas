@@ -1,0 +1,146 @@
+
+skeleton.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MĐGT
+  rotate: true
+  xy: 1210, 24
+  size: 218, 42
+  orig: 218, 42
+  offset: 0, 0
+  index: -1
+MĐGT light
+  rotate: true
+  xy: 1254, 24
+  size: 218, 42
+  orig: 218, 42
+  offset: 0, 0
+  index: -1
+Na Tra
+  rotate: false
+  xy: 2, 11
+  size: 236, 77
+  orig: 236, 77
+  offset: 0, 0
+  index: -1
+Na Tra light
+  rotate: false
+  xy: 240, 11
+  size: 236, 77
+  orig: 236, 77
+  offset: 0, 0
+  index: -1
+Rectangle 1
+  rotate: false
+  xy: 478, 2
+  size: 256, 105
+  orig: 256, 105
+  offset: 0, 0
+  index: -1
+background
+  rotate: false
+  xy: 2, 90
+  size: 266, 420
+  orig: 266, 420
+  offset: 0, 0
+  index: -1
+bang_1
+  rotate: true
+  xy: 1298, 29
+  size: 213, 136
+  orig: 213, 136
+  offset: 0, 0
+  index: -1
+bang_2
+  rotate: false
+  xy: 270, 109
+  size: 266, 401
+  orig: 266, 401
+  offset: 0, 0
+  index: -1
+lb_khung_ten
+  rotate: false
+  xy: 538, 109
+  size: 258, 51
+  orig: 258, 51
+  offset: 0, 0
+  index: -1
+lb_money_icon
+  rotate: true
+  xy: 853, 88
+  size: 24, 44
+  orig: 24, 44
+  offset: 0, 0
+  index: -1
+long
+  rotate: false
+  xy: 951, 167
+  size: 222, 343
+  orig: 222, 343
+  offset: 0, 0
+  index: -1
+long_mat
+  rotate: true
+  xy: 1362, 415
+  size: 95, 92
+  orig: 95, 92
+  offset: 0, 0
+  index: -1
+long_toc_1
+  rotate: false
+  xy: 911, 3
+  size: 168, 161
+  orig: 168, 161
+  offset: 0, 0
+  index: -1
+long_toc_2
+  rotate: true
+  xy: 798, 114
+  size: 46, 111
+  orig: 46, 111
+  offset: 0, 0
+  index: -1
+lua_1
+  rotate: false
+  xy: 1175, 244
+  size: 185, 266
+  orig: 185, 266
+  offset: 0, 0
+  index: -1
+natra
+  rotate: false
+  xy: 802, 166
+  size: 147, 344
+  orig: 147, 344
+  offset: 0, 0
+  index: -1
+natra_mat
+  rotate: true
+  xy: 1362, 318
+  size: 95, 92
+  orig: 95, 92
+  offset: 0, 0
+  index: -1
+natra_toc
+  rotate: false
+  xy: 1081, 26
+  size: 127, 139
+  orig: 127, 139
+  offset: 0, 0
+  index: -1
+par_1
+  rotate: true
+  xy: 736, 4
+  size: 103, 115
+  orig: 103, 115
+  offset: 0, 0
+  index: -1
+â__Pngtreeâ__light effect abstract superimposed holographic_6671960
+  rotate: false
+  xy: 538, 162
+  size: 262, 348
+  orig: 262, 348
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,104 @@
+
+Minigame.png
+size: 136,693
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MINIGAME
+  rotate: false
+  xy: 0, 440
+  size: 127, 35
+  orig: 127, 37
+  offset: 0, 1
+  index: -1
+MINIGAME1
+  rotate: false
+  xy: 0, 403
+  size: 127, 35
+  orig: 127, 37
+  offset: 0, 1
+  index: -1
+MINIGAME2
+  rotate: false
+  xy: 0, 366
+  size: 127, 35
+  orig: 127, 37
+  offset: 0, 1
+  index: -1
+MINIGAME3
+  rotate: false
+  xy: 0, 329
+  size: 127, 35
+  orig: 127, 37
+  offset: 0, 1
+  index: -1
+MINIGAME4
+  rotate: false
+  xy: 0, 292
+  size: 127, 35
+  orig: 127, 37
+  offset: 0, 1
+  index: -1
+MINIGAME5
+  rotate: false
+  xy: 0, 255
+  size: 127, 35
+  orig: 127, 37
+  offset: 0, 1
+  index: -1
+MINIGAME6
+  rotate: false
+  xy: 0, 218
+  size: 127, 35
+  orig: 127, 37
+  offset: 0, 1
+  index: -1
+MINIGAME7
+  rotate: false
+  xy: 0, 181
+  size: 127, 35
+  orig: 127, 37
+  offset: 0, 1
+  index: -1
+MINIGAME8
+  rotate: false
+  xy: 0, 144
+  size: 127, 35
+  orig: 127, 37
+  offset: 0, 1
+  index: -1
+candy
+  rotate: false
+  xy: 0, 23
+  size: 76, 37
+  orig: 77, 38
+  offset: 0, 1
+  index: -1
+gamepad
+  rotate: false
+  xy: 0, 477
+  size: 134, 66
+  orig: 134, 66
+  offset: 0, 0
+  index: -1
+gp2
+  rotate: true
+  xy: 82, 0
+  size: 142, 49
+  orig: 142, 50
+  offset: 0, 1
+  index: -1
+wspar
+  rotate: false
+  xy: 0, 545
+  size: 136, 148
+  orig: 150, 156
+  offset: 7, 4
+  index: -1
+yspar
+  rotate: false
+  xy: 0, 62
+  size: 80, 80
+  orig: 88, 89
+  offset: 4, 5
+  index: -1

@@ -27,10 +27,15 @@ export default class Lobby extends cc.Component {
     
     @property(cc.ScrollView)
     scrRoom: cc.ScrollView = null;
+    @property([cc.Node])
+    listBtnRoom: cc.Node[] = [];
+    @property(cc.Label)
+    lblCoin1: cc.Label = null;
+
 
     private inited = false;
-    private quickPlay = true;
     private dataRoom = [];
+    private jackpot = 500000000;
     // onLoad () {}
 
     start() {
@@ -92,6 +97,7 @@ export default class Lobby extends cc.Component {
         this.inited = true;
         this.sprAvatar.spriteFrame = App.instance.getAvatarSpriteFrame(Configs.Login.Avatar);
         this.lblNickname.string = Configs.Login.Nickname;
+        this.listBtnRoom.forEach(item =>{item.active = false})
         BroadcastReceiver.register(BroadcastReceiver.USER_UPDATE_COIN, () => {
             if (!this.node.active) return;
             this.lblCoin.string = Utils.formatNumber(Configs.Login.Coin);
@@ -112,21 +118,24 @@ export default class Lobby extends cc.Component {
                         let res = new cmd.ReceiveGetListRoom(data);
                         //  cc.log("GETLISTROOM:" + JSON.stringify(res));
                         //  cc.log(res);
+                        this.jackpot = res.jackpot;
+                        this.lblCoin1.string = Utils.formatNumber(res.jackpot);
                         this.scrRoom.content.removeAllChildren();
                         this.dataRoom = res.list;
-                        cc.warn("GETLISTROOM", this.quickPlay)
-                        if(this.quickPlay){
-                            this.quickPlay = false;
-                            this.actQuickPlay();
-                        }
                         this.dataRoom.sort((x, y) => {
                             return x.id - y.id;
                         })
                         for(var i=0;i<this.dataRoom.length;i++){
-                            var item = cc.instantiate(this.itemPrefab);
-                            item.active = true;
-                            this.scrRoom.content.addChild(item);
-                            item.getComponent("XocDia.Room").init(this.dataRoom[i]);
+                            const roomItem  = this.listBtnRoom[i];
+                            if(roomItem){
+                                roomItem.active = true;
+                                roomItem.getComponent("XocDia.Room").init(this.dataRoom[i]);
+                            }
+                        
+                            // var item = cc.instantiate(this.itemPrefab);
+                            // item.active = true;
+                            // this.scrRoom.content.addChild(item);
+                            // item.getComponent("XocDia.Room").init(this.dataRoom[i]);
                         }
                         // let cb = (item, itemData) => {
                         //     item.getComponent("XocDia.Room").init(itemData);
@@ -178,6 +187,15 @@ export default class Lobby extends cc.Component {
                                 msg = App.instance.getTextLang("txt_room_err10")
                         }
                         App.instance.alertDialog.showMsg(msg);
+
+
+                        // if(res.getError() == 3){
+                        //     App.instance.alertDialog.showMsgWithOnDismissed(App.instance.getTextLang("txt_room_err3"), () => {
+                        //         this.actBack();
+                        //     });
+                        // } else {
+                        //     App.instance.alertDialog.showMsg(msg);
+                        // }
                     }
                     break;
                 case cmd.Code.JOIN_ROOM_SUCCESS:
@@ -192,7 +210,6 @@ export default class Lobby extends cc.Component {
                     break;
             }
         }, this);
-        cc.warn("init", this.quickPlay)
 
     }
 
@@ -203,28 +220,7 @@ export default class Lobby extends cc.Component {
     }
 
     public actQuickPlay() {
-      
-         cc.warn("actQuickPlay:"+this.dataRoom);
-        if (this.dataRoom == null) {
-            App.instance.alertDialog.showMsg(App.instance.getTextLang("txt_room_err2"));
-            return;
-        }
-        //find all room bet < coin
-        let listRoom = [];
-        for (let i = 0; i < this.dataRoom.length; i++) {
-            if (this.dataRoom[i].requiredMoney <= Configs.Login.Coin) {
-                let room = this.dataRoom[i];
-                listRoom.push(room);
-            }
-        }
-        if (listRoom.length <= 0) {
-            App.instance.alertDialog.showMsg(App.instance.getTextLang("txt_room_err2"));
-            return;
-        }
-        let randomIdx = Utils.randomRangeInt(0, listRoom.length);
-        let room = listRoom[randomIdx];
-        //  cc.log("room :"+room["id"]);
-        XocDiaNetworkClient.getInstance().send(new cmd.SendJoinRoomById(room["id"]));
+        XocDiaNetworkClient.getInstance().send(new cmd.SendJoinRoomById(1));
     }
 
     public actRefesh() {
@@ -243,6 +239,14 @@ export default class Lobby extends cc.Component {
 
     public actCreateTable() {
         App.instance.alertDialog.showMsg(App.instance.getTextLang('txt_room_err12'));
+    }
+
+    public updateJack(jack) {
+        this.lblCoin1.string = Utils.formatNumber(jack);
+    }
+
+    public getJack() {
+        return this.jackpot;
     }
 
     // update (dt) {}

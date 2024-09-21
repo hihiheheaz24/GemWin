@@ -519,7 +519,7 @@ export default class PopupProfile extends Dialog {
 
         BroadcastReceiver.register(BroadcastReceiver.USER_INFO_UPDATED, () => {
             if (!this.node.active) return;
-            // this.tabProfile.spriteAvatar.spriteFrame = App.instance.getAvatarSpriteFrame(Configs.Login.Avatar);
+            this.tabProfile.avatar.spriteFrame = App.instance.getAvatarSpriteFrame(Configs.Login.Avatar);
         }, this);
 
         MiniGameNetworkClient.getInstance().addListener((data) => {

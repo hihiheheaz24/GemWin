@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+33
+  rotate: false
+  xy: 2, 2
+  size: 284, 144
+  orig: 284, 144
+  offset: 0, 0
+  index: -1
+Rounded Rectangle 518 copy 6
+  rotate: false
+  xy: 24, 148
+  size: 230, 91
+  orig: 230, 91
+  offset: 0, 0
+  index: -1
+lighh2 copy 4
+  rotate: false
+  xy: 2, 222
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1

@@ -173,13 +173,13 @@ export default class PopupTransaction extends Dialog {
                 return "Live casino WM";
             case "IBC2_DEPOSIT":
             case "IBC2_WITHDRAW":
-                return "Vampire IBC";
+                return "Thể Thao IBC";
             case "AG_DEPOSIT":
             case "AG_WITHDRAW":
                 return "Live casino AG";
             case "CMD_DEPOSIT":
             case "CMD_WITHDRAW":
-                return "Vampire CMD368";
+                return "Thể thao CMD368";
             case "Cashout":
                 return "Rút tiền";
             case "190":

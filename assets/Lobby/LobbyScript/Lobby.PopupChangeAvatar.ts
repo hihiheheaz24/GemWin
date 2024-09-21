@@ -27,11 +27,12 @@ export default class PopupChangeAvatar extends Dialog {
   
               item.on("click", () => {
                   this.selectedIdx = i;
-                  for (let i = 0; i < this.items.childrenCount; i++) {
-                   const itemAvt = this.items.children[i];
-                       itemAvt.getChildByName("selected").active = false;
-                  }
-                  item.getChildByName("selected").active = true;
+                  this.actSubmit();
+                //   for (let i = 0; i < this.items.childrenCount; i++) {
+                //    const itemAvt = this.items.children[i];
+                //        itemAvt.getChildByName("selected").active = false;
+                //   }
+                //   item.getChildByName("selected").active = true;
                   // this.actSubmit();
               });
               this.selectedIdx = i;
@@ -47,9 +48,9 @@ export default class PopupChangeAvatar extends Dialog {
             let item = this.items.children[i];
             if (item.name == Configs.Login.Avatar) {
                 this.selectedIdx = i;
-                item.getChildByName("selected").active = true;
+                // item.getChildByName("selected").active = true;
             } else {
-                item.getChildByName("selected").active = false;
+                // item.getChildByName("selected").active = false;
             }
         }
     }

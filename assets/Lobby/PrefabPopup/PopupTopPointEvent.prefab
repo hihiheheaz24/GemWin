@@ -2852,9 +2852,7 @@
     "_fontSize": 15,
     "_lineHeight": 20,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "9d7b6b36-b1df-4361-ae6e-cd86d6cd5333"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,

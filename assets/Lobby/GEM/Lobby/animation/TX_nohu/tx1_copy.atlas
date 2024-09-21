@@ -1,0 +1,97 @@
+
+tx1_copy.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1249, 187
+  size: 240, 53
+  orig: 240, 53
+  offset: 0, 0
+  index: -1
+1.234.567.890
+  rotate: false
+  xy: 711, 48
+  size: 153, 31
+  orig: 153, 31
+  offset: 0, 0
+  index: -1
+1.234.567.890 copy
+  rotate: false
+  xy: 1249, 113
+  size: 140, 17
+  orig: 140, 17
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1249, 132
+  size: 240, 53
+  orig: 240, 53
+  offset: 0, 0
+  index: -1
+IC_tai
+  rotate: false
+  xy: 1755, 190
+  size: 85, 50
+  orig: 85, 50
+  offset: 0, 0
+  index: -1
+IC_xiu
+  rotate: false
+  xy: 1662, 187
+  size: 91, 53
+  orig: 91, 53
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: true
+  xy: 1085, 87
+  size: 153, 162
+  orig: 153, 162
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 1491, 144
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 1589, 164
+  size: 71, 76
+  orig: 71, 76
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: true
+  xy: 362, 15
+  size: 225, 347
+  orig: 225, 347
+  offset: 0, 0
+  index: -1
+bat
+  rotate: false
+  xy: 923, 80
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+dia
+  rotate: false
+  xy: 711, 81
+  size: 210, 159
+  orig: 210, 159
+  offset: 0, 0
+  index: -1
+khungTo copy
+  rotate: true
+  xy: 2, 2
+  size: 238, 358
+  orig: 238, 358
+  offset: 0, 0
+  index: -1

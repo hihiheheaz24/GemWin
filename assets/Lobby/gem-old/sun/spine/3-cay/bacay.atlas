@@ -1,0 +1,76 @@
+
+bacay.png
+size: 960,228
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+English
+  rotate: true
+  xy: 910, 67
+  size: 159, 48
+  orig: 159, 48
+  offset: 0, 0
+  index: -1
+English2
+  rotate: false
+  xy: 908, 64
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Group 31233
+  rotate: false
+  xy: 679, 8
+  size: 169, 75
+  orig: 169, 75
+  offset: 0, 0
+  index: -1
+Group 31234
+  rotate: false
+  xy: 850, 23
+  size: 56, 60
+  orig: 56, 60
+  offset: 0, 0
+  index: -1
+Layer 1
+  rotate: true
+  xy: 241, 29
+  size: 197, 251
+  orig: 197, 251
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: true
+  xy: 494, 7
+  size: 77, 183
+  orig: 77, 183
+  offset: 0, 0
+  index: -1
+Layer 601
+  rotate: true
+  xy: 638, 95
+  size: 131, 143
+  orig: 131, 143
+  offset: 0, 0
+  index: -1
+Layer 602
+  rotate: false
+  xy: 494, 86
+  size: 142, 140
+  orig: 142, 140
+  offset: 0, 0
+  index: -1
+Layer 603
+  rotate: true
+  xy: 783, 85
+  size: 141, 125
+  orig: 141, 125
+  offset: 0, 0
+  index: -1
+bacaybg
+  rotate: false
+  xy: 2, 2
+  size: 237, 224
+  orig: 237, 224
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "8bc390f1-814d-4ad1-8155-7fc0e4ff0b92",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1985,
+  "height": 808,
+  "platformSettings": {},
+  "subMetas": {
+    "VUASANCA": {
+      "ver": "1.0.4",
+      "uuid": "5bd8b086-94cc-43c7-baee-dfcac87905c3",
+      "rawTextureUuid": "8bc390f1-814d-4ad1-8155-7fc0e4ff0b92",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1985,
+      "height": 808,
+      "rawWidth": 1985,
+      "rawHeight": 808,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

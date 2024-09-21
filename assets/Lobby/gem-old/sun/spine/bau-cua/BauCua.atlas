@@ -1,0 +1,55 @@
+
+BauCua.png
+size: 716,244
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ENG
+  rotate: false
+  xy: 226, 13
+  size: 228, 41
+  orig: 228, 41
+  offset: 0, 0
+  index: -1
+ENG2
+  rotate: false
+  xy: 2, 5
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Group 31185
+  rotate: true
+  xy: 594, 38
+  size: 107, 116
+  orig: 107, 116
+  offset: 0, 0
+  index: -1
+Group 31186
+  rotate: true
+  xy: 456, 2
+  size: 143, 136
+  orig: 143, 136
+  offset: 0, 0
+  index: -1
+Group 31187
+  rotate: false
+  xy: 226, 56
+  size: 184, 186
+  orig: 184, 186
+  offset: 0, 0
+  index: -1
+Layer 49
+  rotate: false
+  xy: 412, 147
+  size: 302, 95
+  orig: 302, 95
+  offset: 0, 0
+  index: -1
+baucuabg
+  rotate: true
+  xy: 2, 8
+  size: 234, 222
+  orig: 234, 222
+  offset: 0, 0
+  index: -1

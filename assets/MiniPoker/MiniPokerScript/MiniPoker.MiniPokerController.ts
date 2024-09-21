@@ -36,8 +36,6 @@ export class ButtonBet {
 export default class MiniPokerController extends MiniGame {
     @property(cc.SpriteAtlas)
     sprAtlasCards: cc.SpriteAtlas = null;
-    @property(cc.SpriteAtlas)
-    sprAtlasCardsBlur: cc.SpriteAtlas = null;
     @property(cc.Node)
     columns: cc.Node = null;
     @property(cc.Node)
@@ -48,8 +46,8 @@ export default class MiniPokerController extends MiniGame {
     buttonBets: ButtonBet[] = [];
     @property(cc.Label)
     lblToast: cc.Label = null;
-    @property(sp.Skeleton)
-    btnSpinAnim: sp.Skeleton = null;
+    @property(cc.Animation)
+    btnSpinAnim: cc.Animation = null;
     @property(cc.Button)
     btnSpin: cc.Button = null;
     @property(cc.Button)
@@ -58,14 +56,13 @@ export default class MiniPokerController extends MiniGame {
     toggleAuto: cc.Toggle = null;
     @property(cc.Toggle)
     btnBoost: cc.Toggle = null;
-    // @property(sp.Skeleton)
-    // sprResult: sp.Skeleton = null;
+    @property(sp.Skeleton)
+    sprResult: sp.Skeleton = null;
     @property(cc.Node)
     lblWinCash: cc.Node = null;
     @property(cc.Node)
     popupContainer: cc.Node = null;
-    @property(cc.Label)
-    lblTypeWin: cc.Label = null;
+
     @property([cc.Node])
     public popups: cc.Node[] = [];
 
@@ -94,17 +91,9 @@ export default class MiniPokerController extends MiniGame {
                 let item = cc.instantiate(this.itemTemplate);
                 item.parent = column;
                 if (j >= 1) {
-                    item.children[0].getComponent(cc.Sprite).spriteFrame = this.sprAtlasCardsBlur.getSpriteFrame("card" + Utils.randomRangeInt(1, 15));
+                    item.children[0].getComponent(cc.Sprite).spriteFrame = this.sprAtlasCards.getSpriteFrame("cardBlur_" + Utils.randomRangeInt(1, 15));
                 } else {
-                    let cartSurfix = this.defaultCards[i];
-                    if (cartSurfix == 52) {
-                        item.children[0].getComponent(cc.Sprite).spriteFrame = this.sprAtlasCardsBlur.getSpriteFrame("card" + cartSurfix);
-                    } else if (cartSurfix > 22 && cartSurfix < 52) {
-                        cartSurfix += 1;
-                        item.children[0].getComponent(cc.Sprite).spriteFrame = this.sprAtlasCards.getSpriteFrame("card" + cartSurfix);
-                    } else 
-                        item.children[0].getComponent(cc.Sprite).spriteFrame = this.sprAtlasCards.getSpriteFrame("card" + cartSurfix);
-                    
+                    item.children[0].getComponent(cc.Sprite).spriteFrame = this.sprAtlasCards.getSpriteFrame("card" + this.defaultCards[i]);
                 }
             }
         }
@@ -137,9 +126,9 @@ export default class MiniPokerController extends MiniGame {
             App.instance.showBgMiniGame("MiniPoker");
             if (this.toggleAuto.isChecked) {
                 if (this.isSpined) this.actSpin();
-                // this.btnBoost.interactable = false;
+                this.btnBoost.interactable = false;
             } else {
-                // this.btnBoost.interactable = true;
+                this.btnBoost.interactable = true;
                 if (this.isSpined) {
                     this.setEnableAllButtons(true);
                 }
@@ -150,11 +139,11 @@ export default class MiniPokerController extends MiniGame {
             App.instance.showBgMiniGame("MiniPoker");
             this.isBoost = !this.isBoost;
             if (this.isBoost) {
-                // if (this.isSpined) this.actSpin();
-                // this.toggleAuto.interactable = false;
+                if (this.isSpined) this.actSpin();
+                this.toggleAuto.interactable = false;
                 this.btnBoost.isChecked = true;
             } else {
-                // this.toggleAuto.interactable = true;
+                this.toggleAuto.interactable = true;
                 this.btnBoost.isChecked = false;
                 if (this.isSpined) {
                     this.setEnableAllButtons(true);
@@ -199,8 +188,8 @@ export default class MiniPokerController extends MiniGame {
         super.show();
 
         this.lblToast.node.parent.active = false;
-        // this.sprResult.node.active = false;
-        this.lblWinCash.parent.active = false;
+        this.sprResult.node.active = false;
+        this.lblWinCash.active = false;
 
         this.isSpined = true;
         this.isCanChangeBet = true;
@@ -213,35 +202,18 @@ export default class MiniPokerController extends MiniGame {
 
     actSpin() {
         // cc.log("actSpin");
-        App.instance.showBgMiniGame("MiniPoker");
+        //App.instance.showBgMiniGame("MiniPoker");
         if (!this.isSpined) {
             this.showToast(App.instance.getTextLang('txt_notify_fast_action'));
             return;
         }
-        this.playSpine(this.btnSpinAnim.node, "at", false, ()=>{
-            this.btnSpinAnim.setAnimation(0, "iat", true);
-        })
-       
+        this.btnSpinAnim.play("spin", 0);
         this.isSpined = false;
         this.setEnableAllButtons(false);
         for (var i = 0; i < this.buttonBets.length; i++) {
             this.buttonBets[i].button.interactable = false;
         }
         MiniGameNetworkClient.getInstance().send(new cmd.SendSpin(this.listBet[this.betIdx]));
-    }
-
-    playSpine(nAnim , animName, loop, func) {
-        let spine = nAnim.getComponent(sp.Skeleton);
-        let track = spine.setAnimation(0, animName, loop);
-        if (track) {
-            // Register the end callback of the animation
-            spine.setCompleteListener((trackEntry, loopCount) => {
-                let name = trackEntry.animation ? trackEntry.animation.name : '';
-                if (name === animName && func) {
-                    func && func(); // Execute your own logic after the animation ends
-                }
-            });
-        }
     }
 
     private showToast(message: string) {
@@ -327,15 +299,7 @@ export default class MiniPokerController extends MiniGame {
                     let children = roll.children;
                     let bottomSprite = children[0].children[0].getComponent(cc.Sprite);
                     let topSprite = children[children.length - 1].children[0].getComponent(cc.Sprite);
-                    let cartSurfix = result[i];
-                    if (cartSurfix == 52) {
-                        bottomSprite.spriteFrame = topSprite.spriteFrame = this.sprAtlasCardsBlur.getSpriteFrame("card" + cartSurfix);
-                    } else if (cartSurfix > 22 && cartSurfix < 52) {
-                        cartSurfix += 1;
-                        bottomSprite.spriteFrame = topSprite.spriteFrame = this.sprAtlasCards.getSpriteFrame("card" + cartSurfix);
-                    } else 
-                        bottomSprite.spriteFrame = topSprite.spriteFrame = this.sprAtlasCards.getSpriteFrame("card" + cartSurfix);
-                    
+                    bottomSprite.spriteFrame = topSprite.spriteFrame = this.sprAtlasCards.getSpriteFrame("card" + result[i]);
                 })
             ));
         }
@@ -347,67 +311,61 @@ export default class MiniPokerController extends MiniGame {
         this.setEnableAllButtons(true);
         if (this.lastSpinRes.prize > 0) {
             // this.lastSpinRes.result = 9;
-            let textWin = "";
             switch (this.lastSpinRes.result) {
                 case 1:
-                    // this.sprResult.animation = "jackport";
-                    // this.sprResult.loop = false;
+                    this.sprResult.animation = "jackport";
+                    this.sprResult.loop = false;
                     // this.sprResult.getComponent(cc.Sprite).spriteFrame = this.sfTxtNoHu;
                     break;
                 case 2:
-                    // this.sprResult.animation = "thùng phá sảnh2";
-                    textWin = "thùng phá sảnh2";
+                    this.sprResult.animation = "thùng phá sảnh2";
                     // this.sprResult.getComponent(cc.Sprite).spriteFrame = this.sfTxtThungPhaSanh;
                     break;
                 case 3:
-                    // this.sprResult.animation = "tu quy";
-                    textWin = "tu quy";
+                    this.sprResult.animation = "tu quy";
                     // this.sprResult.getComponent(cc.Sprite).spriteFrame = this.sfTxtTuQuy;
                     break;
                 case 4:
-                    // this.sprResult.animation = "cù lũ";
-                    textWin = "cù lũ";
+                    this.sprResult.animation = "cù lũ";
                     // this.sprResult.getComponent(cc.Sprite).spriteFrame = this.sfTxtThung;
                     break;
                 case 5:
-                    // this.sprResult.animation = "thùng";
-                    textWin = "thùng";
+                    this.sprResult.animation = "thùng";
                     // this.sprResult.getComponent(cc.Sprite).spriteFrame = this.sfTxtCuLu;
                     break;
                 case 6:
-                    // this.sprResult.animation = "sanh";
-                    textWin = "sanh";
+                    this.sprResult.animation = "sanh";
                     // this.sprResult.getComponent(cc.Sprite).spriteFrame = this.sfTxtSanh;
                     break;
                 case 7:
-                    // this.sprResult.animation = "sám cô";
-                    textWin = "sám cô";
+                    this.sprResult.animation = "sám cô";
                     // this.sprResult.getComponent(cc.Sprite).spriteFrame = this.sfTxtSamCo;
                     break;
                 case 8:
-                    // this.sprResult.animation = "hai đôi";
-                    textWin = "hai đôi";
+                    this.sprResult.animation = "hai đôi";
                     // this.sprResult.getComponent(cc.Sprite).spriteFrame = this.sfTxtHaiDoi;
                     break;
                 case 9:
-                    // this.sprResult.animation = "đôi J+";
-                    textWin = "đôi J";
+                    this.sprResult.animation = "đôi J+";
                     // this.sprResult.getComponent(cc.Sprite).spriteFrame = this.sfTxtDoiJ;
                     break;
             }
-            this.lblWinCash.parent.position = cc.v3(-23.948, -90, 0);
-            this.lblWinCash.parent.active = true;
-            this.lblTypeWin.string = textWin;
+            this.sprResult.node.active = true;
+            this.sprResult.node.setScale(1);
+
+            this.lblWinCash.active = true;
             this.lblWinCash.getComponent(cc.Label).string = "+" + this.lastSpinRes.prize;
-            this.lblWinCash.parent.runAction(cc.sequence(
+            this.lblWinCash.setPosition(0, 42);
+            this.lblWinCash.runAction(cc.sequence(
                 cc.delayTime(0.5),
-                cc.moveBy(1, cc.v2(0, 71)),
+                cc.moveBy(1, cc.v2(0, 140)),
                 cc.delayTime(1),
                 cc.callFunc(() => {
-                    this.lblWinCash.parent.active = false;
+                    this.sprResult.node.active = false;
+                    this.lblWinCash.active = false;
                     this.scheduleOnce(() => {
                         this.isSpined = true;
-                        if (this.toggleAuto.isChecked) {
+                        if (this.toggleAuto.isChecked || this.isBoost) {
                             this.actSpin();
                         } else {
                             for (var i = 0; i < this.buttonBets.length; i++) {
@@ -420,7 +378,7 @@ export default class MiniPokerController extends MiniGame {
         } else {
             this.scheduleOnce(() => {
                 this.isSpined = true;
-                if (this.toggleAuto.isChecked) {
+                if (this.toggleAuto.isChecked || this.isBoost) {
                     this.actSpin();
                 } else {
                     for (var i = 0; i < this.buttonBets.length; i++) {

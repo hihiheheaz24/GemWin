@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "f4db18e9-d064-4819-bd9d-bbbd5ebfca3d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 125,
+  "height": 40,
+  "platformSettings": {},
+  "subMetas": {
+    "vinaphone": {
+      "ver": "1.0.4",
+      "uuid": "b8b208cf-7163-4d88-aca7-e9a4995c6bc4",
+      "rawTextureUuid": "f4db18e9-d064-4819-bd9d-bbbd5ebfca3d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 125,
+      "height": 40,
+      "rawWidth": 125,
+      "rawHeight": 40,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

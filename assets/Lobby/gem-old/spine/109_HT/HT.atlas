@@ -1,0 +1,82 @@
+HT.png
+size: 222,949
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 0, 0
+  size: 208, 347
+  orig: 208, 347
+  offset: 0, 0
+  index: -1
+JP
+  rotate: false
+  xy: 0, 601
+  size: 200, 101
+  orig: 200, 101
+  offset: 0, 0
+  index: -1
+K
+  rotate: false
+  xy: 0, 834
+  size: 143, 66
+  orig: 143, 66
+  offset: 0, 0
+  index: -1
+P
+  rotate: false
+  xy: 0, 770
+  size: 204, 62
+  orig: 204, 62
+  offset: 0, 0
+  index: -1
+light
+  rotate: true
+  xy: 73, 908
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+p1
+  rotate: false
+  xy: 18, 922
+  size: 53, 27
+  orig: 53, 29
+  offset: 0, 2
+  index: -1
+p2
+  rotate: true
+  xy: 167, 856
+  size: 93, 52
+  orig: 93, 52
+  offset: 0, 0
+  index: -1
+p3
+  rotate: false
+  xy: 0, 349
+  size: 204, 250
+  orig: 204, 250
+  offset: 0, 0
+  index: -1
+p4
+  rotate: true
+  xy: 117, 902
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+par
+  rotate: true
+  xy: 0, 935
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+sw
+  rotate: false
+  xy: 0, 704
+  size: 222, 64
+  orig: 222, 64
+  offset: 0, 0
+  index: -1

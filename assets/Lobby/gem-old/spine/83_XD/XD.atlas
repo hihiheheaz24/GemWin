@@ -1,0 +1,124 @@
+XD.png
+size: 482,510
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 0, 163
+  size: 208, 347
+  orig: 208, 347
+  offset: 0, 0
+  index: -1
+DIA
+  rotate: true
+  xy: 399, 236
+  size: 128, 83
+  orig: 128, 83
+  offset: 0, 0
+  index: -1
+DIAsd
+  rotate: true
+  xy: 314, 81
+  size: 120, 94
+  orig: 120, 94
+  offset: 0, 0
+  index: -1
+Par
+  rotate: false
+  xy: 210, 210
+  size: 102, 144
+  orig: 102, 144
+  offset: 0, 0
+  index: -1
+Par1
+  rotate: false
+  xy: 210, 82
+  size: 102, 126
+  orig: 102, 126
+  offset: 0, 0
+  index: -1
+XOC
+  rotate: true
+  xy: 314, 203
+  size: 151, 83
+  orig: 151, 83
+  offset: 0, 0
+  index: -1
+XOCsd
+  rotate: true
+  xy: 384, 366
+  size: 144, 95
+  orig: 144, 95
+  offset: 0, 0
+  index: -1
+bowl
+  rotate: false
+  xy: 210, 356
+  size: 172, 154
+  orig: 172, 154
+  offset: 0, 0
+  index: -1
+chip1
+  rotate: false
+  xy: 199, 15
+  size: 79, 65
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
+chip2
+  rotate: false
+  xy: 410, 115
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+plat
+  rotate: false
+  xy: 0, 0
+  size: 197, 161
+  orig: 197, 161
+  offset: 0, 0
+  index: -1
+r1
+  rotate: true
+  xy: 312, 39
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+r2
+  rotate: false
+  xy: 410, 74
+  size: 48, 39
+  orig: 48, 39
+  offset: 0, 0
+  index: -1
+sd
+  rotate: false
+  xy: 457, 149
+  size: 20, 14
+  orig: 20, 14
+  offset: 0, 0
+  index: -1
+spa
+  rotate: false
+  xy: 410, 165
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+w1
+  rotate: false
+  xy: 355, 45
+  size: 45, 34
+  orig: 45, 34
+  offset: 0, 0
+  index: -1
+w2
+  rotate: true
+  xy: 280, 39
+  size: 41, 30
+  orig: 41, 30
+  offset: 0, 0
+  index: -1

@@ -15,6 +15,7 @@ import Utils from "../../Lobby/LobbyScript/Script/common/Utils";
 import InPacket from "../../Lobby/LobbyScript/Script/networks/Network.InPacket";
 import SPUtils from "../../Lobby/LobbyScript/Script/common/SPUtils";
 import History from "./XocDia.PopupHistory"
+import Tween from "../../Lobby/LobbyScript/Script/common/Tween";
 
 enum audio_clip {
     BG = 0,
@@ -44,6 +45,33 @@ enum STATE_DEALER {
 }
 @ccclass
 export default class Play extends cc.Component {
+    @property(cc.Node)
+    nodeVipRoom: cc.Node = null;
+
+    @property([cc.SpriteFrame])
+    sprLogo: cc.SpriteFrame[] = [];
+
+
+    @property([cc.SpriteFrame])
+    sprDiceBlur: cc.SpriteFrame[] = [];
+
+    @property([cc.SpriteFrame])
+    sprDiceReal: cc.SpriteFrame[] = [];
+
+    @property([cc.Sprite])
+    listNodeDice: cc.Sprite[] = [];
+
+    @property(cc.Sprite)
+    iconLogo: cc.Sprite = null;
+
+    @property(cc.Node)
+    slotDice: cc.Node = null;
+    
+    @property(cc.Node)
+    groupPlayer: cc.Node = null;
+    @property(cc.Label)
+    labelTotalGroup: cc.Label = null;
+
     @property(History)
     history: History = null;
     @property(cc.Node)
@@ -110,10 +138,13 @@ export default class Play extends cc.Component {
     lblHistoryItems: cc.Node = null;
     @property(cc.EditBox)
     edtChatInput: cc.EditBox = null;
-
+    @property(cc.Label)
+	lblTopHu: cc.Label = null;
 
     private inited = false;
     private roomId = 0;
+
+    
 
     private chipsInDoors: any = {};
     private lastBowlStateName = "";
@@ -124,14 +155,20 @@ export default class Play extends cc.Component {
     private betIdx = 0;
     private minBetIdx = 0;
     private isBanker = false;
+
+    private canDice = false;
     private banker = "";
     private historyChatData = [];
 
     private lastUpdateTime = TimeUtils.currentTimeMillis();
     private chipPool = null
     private clockTimeSche = null;
+    private totalGroupPlayer  = 0;
+    public hu = 500000000;
+    fakeJPInv = null;
+    
 
-
+    
     onBtnSscrollLeft() {
         this.percentScroll -= 0.3;
         if (this.percentScroll <= 0) this.percentScroll = 0;
@@ -252,7 +289,7 @@ export default class Play extends cc.Component {
 
         this.setupTimeRunInBg();
     }
-
+    
     private onBtnHistory() {
 
         // this.actCoomingSoon();
@@ -397,13 +434,22 @@ export default class Play extends cc.Component {
         // }
         // this.lastUpdateTime = t;
     }
+    initFakeJP() {	
+		//console.log(this.hu);	
+		this.hu = XocDiaController.instance.getJackpot();
 
+		if(this.lblTopHu) Tween.numberTo(this.lblTopHu, this.hu, 0.3);
+		//console.log(this.hu);		
+	}
+   
 
-
-    public init() {
+    public init(hu) {
         if (this.inited) return;
         this.inited = true;
+        this.hu = hu;
+		if (this.lblTopHu) Tween.numberTo(this.lblTopHu, hu, 0.3);
 
+        
         BroadcastReceiver.register(BroadcastReceiver.USER_UPDATE_COIN, () => {
             if (!this.node.active) return;
             this.mePlayer.setCoin(Configs.Login.Coin);
@@ -423,10 +469,15 @@ export default class Play extends cc.Component {
                     break;
                 case cmd.Code.USER_JOIN_ROOM_SUCCESS:
                     {
+                        
                         let res = new cmd.ReceiveUserJoinRoom(data);
                         let player = this.getRandomEmptyPlayer();
                         if (player != null) {
                             player.set(res.nickname, res.avatar, res.money, false);
+                        }else {
+                            this.totalGroupPlayer ++;
+                            this.labelTotalGroup.string = this.totalGroupPlayer.toString();
+                            
                         }
                     }
                     break;
@@ -434,7 +485,12 @@ export default class Play extends cc.Component {
                     {
                         let res = new cmd.ReceiveUserOutRoom(data);
                         let player = this.getPlayer(res.nickname);
-                        if (player != null) player.leave();
+                        if (player != null) {
+                            player.leave();
+                        } else {
+                            this.totalGroupPlayer --;
+                            this.labelTotalGroup.string = this.totalGroupPlayer.toString();
+                        }
                     }
                     break;
                 case cmd.Code.QUIT_ROOM:
@@ -482,15 +538,19 @@ export default class Play extends cc.Component {
                         this.gameState = res.action;
                         switch (res.action) {
                             case 1://bat dau van moi
-                                msg = "Bắt đầu ván mới";
+                                msg = "BẮT ĐẦU VÁN MỚI";
                                 this.sprProgressTime.node.parent.active = false;
                                 this.unschedule(this.clockTimeSche);
                                 XocDiaController.instance.playAudioEffect(audio_clip.START_GAME)
                                 break;
                             case 2://bat dau dat cua
-                                msg = "Bắt đầu đặt cửa";
+                                msg = "BẮT ĐẦU ĐẶT CƯỢC";
+                                if(this.roomId == 1){
+                                    this.playSlotDice()
+                                    //this.randomJackpot()
+                                }
                                 this.sprProgressTime.node.parent.active = true;
-                                this.lblProgressTime.string = "Đang cược...";
+                                this.lblProgressTime.string = "ĐANG CƯỢC";
                                 this.curTime = TimeUtils.currentTimeMillis() + (res.time + 10) * 1000;
                                 this.totalTimeState = (res.time + 10) * 1000;
                                 this.setStateDealer(STATE_DEALER.MOI_CUOC);
@@ -506,29 +566,35 @@ export default class Play extends cc.Component {
                             case 3://bat dau ban cua
                                 msg = "Bắt đầu bán cửa";
                                 this.sprProgressTime.node.parent.active = true;
-                                this.lblProgressTime.string = "Đang bán cửa...";
+                                this.lblProgressTime.string = "ĐANG BÁN CỬA";
                                 this.curTime = TimeUtils.currentTimeMillis() + res.time * 1000;
                                 this.totalTimeState = res.time * 1000;
                                 break;
                             case 4://nha cai can tien, hoan tien
                                 msg = "Nhà cái cân tiền, hoàn tiền";
                                 this.sprProgressTime.node.parent.active = true;
-                                this.lblProgressTime.string = "Đang cân cửa...";
+                                this.lblProgressTime.string = "ĐANG CÂN CỬA";
                                 this.curTime = TimeUtils.currentTimeMillis() + res.time * 1000;
                                 this.totalTimeState = res.time * 1000;
                                 break;
                             case 5://bat dau hoan tien
                                 msg = "Bắt đầu hoàn tiền";
                                 this.sprProgressTime.node.parent.active = true;
-                                this.lblProgressTime.string = "Đang hoàn tiền...";
+                                this.lblProgressTime.string = "ĐANG HOÀN TIỀN";
                                 this.curTime = TimeUtils.currentTimeMillis() + res.time * 1000;
                                 this.totalTimeState = res.time * 1000;
                                 break;
                             case 6://bat dau tra thuong
                                 msg = "Bắt đầu trả thưởng";
                                 this.setStateDealer(STATE_DEALER.TRA_TIEN);
+                              
+                                this.arrTimeOut.push(setTimeout(() => {
+                                    if(this.roomId == 1){
+                                        this.randomJackpot();
+                                    }
+                                }, 2000));
                                 this.sprProgressTime.node.parent.active = true;
-                                this.lblProgressTime.string = "Đang trả thưởng...";
+                                this.lblProgressTime.string = "ĐANG TRẢ THƯỞNG";
                                 this.curTime = TimeUtils.currentTimeMillis() + res.time * 1000;
                                 this.totalTimeState = res.time * 1000;
                                 break;
@@ -601,6 +667,7 @@ export default class Play extends cc.Component {
                                 let chip = this.getChip(listCoin[i]);
                                 chip.name = player.nickname;
                                 chip.position = player.node.position;
+                                //chip.position = this.groupPlayer.position
                                 if (!this.chipsInDoors.hasOwnProperty(res.potId)) {
                                     this.chipsInDoors[res.potId] = [];
                                 }
@@ -619,6 +686,28 @@ export default class Play extends cc.Component {
                                     .start();
                             }
                             XocDiaController.instance.playAudioEffect(audio_clip.CHIP);
+                        } else {
+                            let listCoin = this.convertMoneyToChipMoney(res.betMoney);
+                            for (let i = 0; i < listCoin.length; i++) {
+                                let chip = this.getChip(listCoin[i]);                            
+                                chip.position = this.groupPlayer.position
+                                if (!this.chipsInDoors.hasOwnProperty(res.potId)) {
+                                    this.chipsInDoors[res.potId] = [];
+                                }
+                                this.chipsInDoors[res.potId].push(chip);
+                                let position = btnPayBet.node.position.clone();
+                                let target = new cc.Vec2(
+                                    Random.rangeInt(-btnPayBet.node.width / 4 - 20, btnPayBet.node.width / 4 + 20),
+                                    Random.rangeInt(-btnPayBet.node.height / 4 - 20, btnPayBet.node.height / 2 - 70));
+                                position.x += target.x;
+                                position.y += target.y;
+                                cc.Tween.stopAllByTarget(chip);
+                                TW(chip).then(cc.jumpTo(0.5, cc.v2(position.x, position.y), 50, 2).easing(cc.easeSineOut()))
+                                    .call(() => {
+                                        chip.position = position;
+                                    })
+                                    .start();
+                            }
                         }
                     }
                     break;
@@ -660,7 +749,8 @@ export default class Play extends cc.Component {
                                 break;
                             }
                         }
-
+                        this.lblTopHu.string = Utils.formatNumber(res.jackpot);
+                        XocDiaController.instance.updateJackpot(res.jackpot);
                         let countRed = 0;
                         let countWhite = 0;
                         for (let i = 0; i < res.diceIDs.length; i++) {
@@ -788,6 +878,27 @@ export default class Play extends cc.Component {
 
 
                                         }
+                                    } else {
+                                        let chips = chipsWithNickname[k];
+                                        let count1 = 0;
+                                        for (let i = 0; i < chips.length; i++) {
+                                            let chip: cc.Node = chips[i];
+                                            let opacity1 = count1 < 15 ? 255 : 0;
+                                            cc.Tween.stopAllByTarget(chip);
+                                            TW(chip)
+                                                .delay(0.5)
+                                                .to(0, { opacity: opacity1 }, { easing: cc.easing.sineIn })
+                                                .delay(1 + (chips.length * 0.03 - i * 0.03))
+                                                .to(0.5, { position:this.groupPlayer.position }, { easing: cc.easing.sineIn })
+                                                .call(() => {
+                                                    chip.active = false;
+                                                }).start();
+                                            if (count1 < 15) {
+                                                count1++;
+                                            }
+                                        }
+                                         
+
                                     }
                                 }
                             }, 1500));
@@ -920,7 +1031,7 @@ export default class Play extends cc.Component {
         this.resetDiceResult();
         this.diceResult.active = true;
         cc.Tween.stopAllByTarget(this.diceResult);
-        TW(this.diceResult).set({ x: 7.755, y: 66.138, scale: 0 }).to(0.5, { scale: 1, x: 0, y: 66 }, { easing: cc.easing.sineIn }).start();
+        TW(this.diceResult).set({ x: 7.755, y: 66.138, scale: 0 }).to(0.5, { scale: 0.55, x: 0, y: 98 }, { easing: cc.easing.sineIn }).start();
     }
     private setDiceResult(typeResult, cb) {
         let arrSprResult = [];
@@ -1049,8 +1160,27 @@ export default class Play extends cc.Component {
         return ret;
     }
     private dataJoinRoom;
-    public show(data: cmd.ReceiveJoinRoomSuccess) {
 
+
+    randomJackpot(){
+        this.slotDice.getComponent(cc.Animation).stop();
+        this.listNodeDice.forEach(item=>{
+            item.spriteFrame = this.sprDiceReal[Utils.randomRangeInt(0,5)];
+        })
+
+        this.slotDice.getChildByName("Row1").position = cc.v3(0,55,0);
+        this.slotDice.getChildByName("Row2").position = cc.v3(0,0,0);
+    }
+
+    playSlotDice(){
+        this.slotDice.getComponent(cc.Animation).play();
+        this.listNodeDice.forEach(item=>{
+            item.spriteFrame = this.sprDiceBlur[Utils.randomRangeInt(0,5)];
+        })
+        
+    }
+    public show(data: cmd.ReceiveJoinRoomSuccess) {
+        this.initFakeJP();
         //  cc.log("ReceiveJoinRoomSuccess show:" + JSON.stringify(data));
         this.dataJoinRoom = data;
         if (this.chipPool == null) {
@@ -1061,7 +1191,16 @@ export default class Play extends cc.Component {
         if (this.nodeExit && this.nodeExit.active) {
             this.nodeExit.active = false;
         }
+        //cc.warn(data)
         this.roomId = data.roomId;
+
+        this.iconLogo.spriteFrame = this.sprLogo[this.roomId - 1];
+        if(this.roomId == 1) {
+            this.nodeVipRoom.active = true;
+        } else {
+            this.nodeVipRoom.active = false;
+        }
+
         this.lastUpdateTime = TimeUtils.currentTimeMillis();
         XocDiaController.instance.playAudioEffect(audio_clip.JOIN);
         Configs.Login.Coin = data.money;
@@ -1071,7 +1210,7 @@ export default class Play extends cc.Component {
             this.banker = Configs.Login.Nickname;
         } else {
         }
-
+        this.totalGroupPlayer = 0;
         this.mePlayer.set(Configs.Login.Nickname, Configs.Login.Avatar, Configs.Login.Coin, data.banker);
         for (let i = 0; i < data.playerInfos.length; i++) {
             let playerData = data.playerInfos[i];
@@ -1081,8 +1220,10 @@ export default class Play extends cc.Component {
                 if (playerData["banker"]) {
                     this.banker = playerData["nickname"];
                 }
-            } else {
-                break;
+            }  else {
+                this.totalGroupPlayer ++;
+                this.labelTotalGroup.string = this.totalGroupPlayer.toString();
+              
             }
         }
 
@@ -1133,12 +1274,14 @@ export default class Play extends cc.Component {
 
         this.gameState = data.gameState;
         let msg = "";
+      
         switch (this.gameState) {
             case 1://bat dau van moi
                 msg = "Bắt đầu ván mới";
                 break;
             case 2://bat dau dat cua
                 {
+                    
                     msg = "Bắt đầu đặt cửa";
                     // if(this.nodeExit && this.nodeExit.active){
                     //     this.node.active = false;
@@ -1147,7 +1290,7 @@ export default class Play extends cc.Component {
                     this.sprProgressTime.node.parent.active = true;
                     this.curTime = TimeUtils.currentTimeMillis() + (data.countTime + 10) * 1000;
                     this.totalTimeState = 30000 + 10000;
-                    this.lblProgressTime.string = "Đang cược...";
+                    this.lblProgressTime.string = "ĐANG CƯỢC...";
                     this.schedule(this.clockTimeSche = () => {
                         if (this.node.active) {
                             XocDiaController.instance.playAudioEffect(audio_clip.CLOCK)
@@ -1158,6 +1301,10 @@ export default class Play extends cc.Component {
                     }, 1.0, data.countTime + 10);
                     this.setStateDealer(STATE_DEALER.MOI_CUOC);
                     this.diceResult.active = true;
+                    if(this.roomId == 1){
+                        this.playSlotDice()
+                        //this.randomJackpot()
+                    }
                 }
                 break;
 
@@ -1168,10 +1315,14 @@ export default class Play extends cc.Component {
                 msg = "Bắt đầu hoàn tiền";
                 break;
             case 6://bat dau tra thuong
-                msg = "Vui lòng đợi ván sau!";
+                msg = "VUI LÒNG ĐỢI VÁN SAU!";
                 this.sprProgressTime.node.parent.active = true;
                 this.sprProgressTime.fillRange = 1;
-                this.lblProgressTime.string = "Vui lòng đợi ván sau!";
+                this.lblProgressTime.string = "VUI LÒNG ĐỢI VÁN SAU!";
+                if(this.roomId == 1){
+                 
+                    this.randomJackpot();
+                }
                 break;
         }
         if (msg != "") {
@@ -1185,7 +1336,8 @@ export default class Play extends cc.Component {
                 }, 0.9);
             }, 0.3);
         }
-
+      
+   
         XocDiaNetworkClient.getInstance().send(new cmd.CmdSendGetCau());
     }
     private state;
@@ -1245,8 +1397,9 @@ export default class Play extends cc.Component {
     }
 	
 	public actBackz() {
-        XocDiaNetworkClient.getInstance().close();
-        App.instance.loadScene("Lobby");
+        XocDiaNetworkClient.getInstance().send(new cmd.SendLeaveRoom());
+        // XocDiaNetworkClient.getInstance().close();
+        // App.instance.loadScene("Lobby");
     }
 
 

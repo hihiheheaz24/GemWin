@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "d392ec0f-31ba-4e30-a5fb-e1d71785475a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 395,
+  "height": 53,
+  "platformSettings": {},
+  "subMetas": {
+    "ig_countdown_progress_1_tulinh": {
+      "ver": "1.0.4",
+      "uuid": "d8cdfec7-107a-48ae-9fbe-e377f742dc96",
+      "rawTextureUuid": "d392ec0f-31ba-4e30-a5fb-e1d71785475a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 395,
+      "height": 53,
+      "rawWidth": 395,
+      "rawHeight": 53,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

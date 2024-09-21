@@ -1,0 +1,103 @@
+JP.png
+size: 560,356
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Jackpots
+  rotate: false
+  xy: 263, 214
+  size: 133, 57
+  orig: 133, 57
+  offset: 0, 0
+  index: -1
+Jackpots1
+  rotate: false
+  xy: 398, 208
+  size: 133, 57
+  orig: 133, 57
+  offset: 0, 0
+  index: -1
+Jackpots2
+  rotate: false
+  xy: 263, 155
+  size: 133, 57
+  orig: 133, 57
+  offset: 0, 0
+  index: -1
+Jackpots3
+  rotate: false
+  xy: 398, 149
+  size: 133, 57
+  orig: 133, 57
+  offset: 0, 0
+  index: -1
+Jackpots4
+  rotate: false
+  xy: 263, 96
+  size: 133, 57
+  orig: 133, 57
+  offset: 0, 0
+  index: -1
+Jackpots5
+  rotate: false
+  xy: 398, 90
+  size: 133, 57
+  orig: 133, 57
+  offset: 0, 0
+  index: -1
+Jackpots6
+  rotate: false
+  xy: 225, 37
+  size: 133, 57
+  orig: 133, 57
+  offset: 0, 0
+  index: -1
+Jackpots7
+  rotate: false
+  xy: 360, 31
+  size: 133, 57
+  orig: 133, 57
+  offset: 0, 0
+  index: -1
+baseJP
+  rotate: false
+  xy: 225, 0
+  size: 129, 35
+  orig: 129, 35
+  offset: 0, 0
+  index: -1
+glow 2
+  rotate: false
+  xy: 0, 25
+  size: 223, 69
+  orig: 223, 69
+  offset: 0, 0
+  index: -1
+glowJP
+  rotate: false
+  xy: 263, 273
+  size: 190, 83
+  orig: 190, 83
+  offset: 0, 0
+  index: -1
+sparkle_white
+  rotate: false
+  xy: 0, 96
+  size: 261, 260
+  orig: 261, 260
+  offset: 0, 0
+  index: -1
+sparkle_yellow
+  rotate: false
+  xy: 455, 267
+  size: 88, 89
+  orig: 88, 89
+  offset: 0, 0
+  index: -1
+trophy
+  rotate: false
+  xy: 495, 12
+  size: 65, 76
+  orig: 65, 76
+  offset: 0, 0
+  index: -1

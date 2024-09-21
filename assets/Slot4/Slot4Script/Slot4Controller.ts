@@ -524,6 +524,7 @@ export default class Slot4Controller extends cc.Component {
 
     showWinEffect(prize: number, currentMoney: number, result: number) {
         var self = this;
+        self.spinFinish(true);
         if (prize > 0) {
             if (result == 5) {
                 //bonus
@@ -547,10 +548,10 @@ export default class Slot4Controller extends cc.Component {
                                 Tween.numberTo(this.totalBetLabel, this.arrLineSelected.length * this.listBet[this.betId], 0.3);
                                 if (!this.isTrial) Tween.numberTo(this.moneyLabel, currentMoney, 0.3);
                                 if (this.toggleFast.isChecked) {
-                                    self.spinFinish(true);
+                                    // self.spinFinish(true);
                                 } else {
                                     if (self.dataResult.linesWin !== "") self.showLineWin(self.dataResult.linesWin.split(","));
-                                    else self.spinFinish(false);
+                                    // else self.spinFinish(false);
                                 }
                             });
                         })
@@ -573,10 +574,10 @@ export default class Slot4Controller extends cc.Component {
                         cc.callFunc(() => {
                             this.bigWinNode.active = false;
                             if (this.toggleFast.isChecked) {
-                                self.spinFinish(true);
+                                // self.spinFinish(true);
                             } else {
                                 if (self.dataResult.linesWin !== "") self.showLineWin(self.dataResult.linesWin.split(","));
-                                else self.spinFinish(false);
+                                // else self.spinFinish(false);
                             }
                         })
                     )
@@ -614,10 +615,10 @@ export default class Slot4Controller extends cc.Component {
                         cc.callFunc(() => {
                             this.jackpotNode.active = false;
                             if (this.toggleFast.isChecked) {
-                                self.spinFinish(true);
+                                // self.spinFinish(true);
                             } else {
                                 if (self.dataResult.linesWin !== "") self.showLineWin(self.dataResult.linesWin.split(","));
-                                else self.spinFinish(false);
+                                // else self.spinFinish(false);
                             }
                             if (this.isSound) {
                                 cc.audioEngine.stop(audioIdJackpot);
@@ -641,10 +642,10 @@ export default class Slot4Controller extends cc.Component {
                 if (!this.isTrial) Tween.numberTo(this.moneyLabel, currentMoney, 0.3);
                 if (this.toggleFast.isChecked) {
                     if (self.dataResult.linesWin !== "") self.showLineWin(self.dataResult.linesWin.split(","));
-                    else self.spinFinish(false);
+                    // else self.spinFinish(false);
                 } else {
                     if (self.dataResult.linesWin !== "") self.showLineWin(self.dataResult.linesWin.split(","));
-                    else self.spinFinish(false);
+                    // else self.spinFinish(false);
                 }
             }
 
@@ -656,10 +657,10 @@ export default class Slot4Controller extends cc.Component {
             if (!this.isTrial) Tween.numberTo(this.moneyLabel, currentMoney, 0.3);
             if (this.toggleFast.isChecked) {
                 if (self.dataResult.linesWin !== "") self.showLineWin(self.dataResult.linesWin.split(","));
-                else self.spinFinish(false);
+                // else self.spinFinish(false);
             } else {
                 if (self.dataResult.linesWin !== "") self.showLineWin(self.dataResult.linesWin.split(","));
-                else self.spinFinish(false);
+                // else self.spinFinish(false);
             }
         }
         
@@ -1003,8 +1004,8 @@ export default class Slot4Controller extends cc.Component {
                                 cc.callFunc(() => {
                                     lineNode.active = false;
                                    
-                                    if (i == lines.length - 1)
-                                        that.spinFinish(false);
+                                    // if (i == lines.length - 1)
+                                    //     that.spinFinish(false);
                                 })
                             )
 

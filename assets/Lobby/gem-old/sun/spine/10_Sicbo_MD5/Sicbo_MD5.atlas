@@ -1,0 +1,41 @@
+
+Sicbo_MD5.png
+size: 169,284
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flare
+  rotate: true
+  xy: 24, 2
+  size: 280, 20
+  orig: 280, 20
+  offset: 0, 0
+  index: -1
+spakle_green
+  rotate: false
+  xy: 68, 183
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 68, 82
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+spotlight
+  rotate: true
+  xy: 46, 2
+  size: 280, 20
+  orig: 280, 20
+  offset: 0, 0
+  index: -1
+spotlight_green
+  rotate: true
+  xy: 2, 2
+  size: 280, 20
+  orig: 280, 20
+  offset: 0, 0
+  index: -1

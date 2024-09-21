@@ -1,0 +1,89 @@
+introGem.png
+size: 1697,493
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GEM
+  rotate: false
+  xy: 684, 0
+  size: 703, 231
+  orig: 703, 231
+  offset: 0, 0
+  index: -1
+GEMspar
+  rotate: false
+  xy: 1389, 115
+  size: 175, 185
+  orig: 175, 185
+  offset: 0, 0
+  index: -1
+GemE
+  rotate: false
+  xy: 947, 249
+  size: 168, 19
+  orig: 168, 19
+  offset: 0, 0
+  index: -1
+diamond
+  rotate: false
+  xy: 0, 8
+  size: 682, 485
+  orig: 682, 485
+  offset: 0, 0
+  index: -1
+dice1
+  rotate: false
+  xy: 1566, 167
+  size: 131, 133
+  orig: 131, 133
+  offset: 0, 0
+  index: -1
+dice2
+  rotate: false
+  xy: 1569, 44
+  size: 116, 121
+  orig: 116, 121
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 1259, 257
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+halo
+  rotate: false
+  xy: 947, 270
+  size: 310, 223
+  orig: 310, 223
+  offset: 0, 0
+  index: -1
+sparkle_pink
+  rotate: false
+  xy: 1389, 24
+  size: 88, 89
+  orig: 88, 89
+  offset: 0, 0
+  index: -1
+sparkle_white
+  rotate: false
+  xy: 684, 233
+  size: 261, 260
+  orig: 261, 260
+  offset: 0, 0
+  index: -1
+sparkle_yellow
+  rotate: false
+  xy: 1479, 24
+  size: 88, 89
+  orig: 88, 89
+  offset: 0, 0
+  index: -1
+win
+  rotate: false
+  xy: 1259, 302
+  size: 431, 191
+  orig: 431, 191
+  offset: 0, 0
+  index: -1

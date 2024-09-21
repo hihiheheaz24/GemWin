@@ -1,0 +1,250 @@
+popupminigame.png
+size: 569,1039
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A
+  rotate: false
+  xy: 254, 118
+  size: 36, 56
+  orig: 36, 56
+  offset: 0, 0
+  index: -1
+DIAMOND
+  rotate: false
+  xy: 289, 63
+  size: 148, 38
+  orig: 148, 38
+  offset: 0, 0
+  index: -1
+DIAMOND1
+  rotate: false
+  xy: 367, 861
+  size: 196, 178
+  orig: 196, 178
+  offset: 0, 0
+  index: -1
+DRAGONBALL
+  rotate: false
+  xy: 0, 6
+  size: 167, 38
+  orig: 167, 38
+  offset: 0, 0
+  index: -1
+DRAGONBALL1
+  rotate: false
+  xy: 367, 729
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+DRAGONBALL2
+  rotate: false
+  xy: 461, 35
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+DRAGONBALL2HL
+  rotate: false
+  xy: 504, 35
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+E
+  rotate: false
+  xy: 254, 60
+  size: 33, 56
+  orig: 33, 56
+  offset: 0, 0
+  index: -1
+G
+  rotate: false
+  xy: 510, 96
+  size: 29, 56
+  orig: 29, 56
+  offset: 0, 0
+  index: -1
+I
+  rotate: false
+  xy: 550, 692
+  size: 16, 56
+  orig: 16, 56
+  offset: 0, 0
+  index: -1
+I2
+  rotate: false
+  xy: 482, 671
+  size: 13, 56
+  orig: 13, 56
+  offset: 0, 0
+  index: -1
+M
+  rotate: false
+  xy: 504, 692
+  size: 44, 56
+  orig: 44, 56
+  offset: 0, 0
+  index: -1
+M2
+  rotate: false
+  xy: 311, 167
+  size: 42, 56
+  orig: 42, 56
+  offset: 0, 0
+  index: -1
+MINI POKER
+  rotate: false
+  xy: 311, 23
+  size: 148, 38
+  orig: 148, 38
+  offset: 0, 0
+  index: -1
+MINI POKER1
+  rotate: false
+  xy: 292, 103
+  size: 131, 62
+  orig: 131, 62
+  offset: 0, 0
+  index: -1
+N
+  rotate: false
+  xy: 425, 132
+  size: 33, 56
+  orig: 33, 56
+  offset: 0, 0
+  index: -1
+TAI
+  rotate: false
+  xy: 482, 522
+  size: 81, 97
+  orig: 81, 97
+  offset: 0, 0
+  index: -1
+TAIhl
+  rotate: false
+  xy: 482, 423
+  size: 81, 97
+  orig: 81, 97
+  offset: 0, 0
+  index: -1
+TRENDUOI
+  rotate: false
+  xy: 169, 0
+  size: 140, 44
+  orig: 140, 44
+  offset: 0, 0
+  index: -1
+TRENDUOI1
+  rotate: false
+  xy: 439, 77
+  size: 69, 53
+  orig: 69, 53
+  offset: 0, 0
+  index: -1
+TRENDUOI2
+  rotate: false
+  xy: 504, 809
+  size: 65, 50
+  orig: 65, 50
+  offset: 0, 0
+  index: -1
+TXbase
+  rotate: false
+  xy: 0, 46
+  size: 252, 177
+  orig: 252, 177
+  offset: 0, 0
+  index: -1
+XIU
+  rotate: false
+  xy: 367, 190
+  size: 93, 91
+  orig: 93, 91
+  offset: 0, 0
+  index: -1
+XIUhl
+  rotate: false
+  xy: 462, 154
+  size: 93, 91
+  orig: 93, 91
+  offset: 0, 0
+  index: -1
+basecut
+  rotate: false
+  xy: 0, 633
+  size: 365, 406
+  orig: 365, 406
+  offset: 0, 0
+  index: -1
+basecutHL
+  rotate: false
+  xy: 0, 225
+  size: 365, 406
+  orig: 365, 406
+  offset: 0, 0
+  index: -1
+dice1
+  rotate: false
+  xy: 367, 615
+  size: 113, 112
+  orig: 113, 112
+  offset: 0, 0
+  index: -1
+dice1HL
+  rotate: false
+  xy: 367, 501
+  size: 113, 112
+  orig: 113, 112
+  offset: 0, 0
+  index: -1
+dice2
+  rotate: false
+  xy: 367, 392
+  size: 111, 107
+  orig: 111, 107
+  offset: 0, 0
+  index: -1
+dice2HL
+  rotate: false
+  xy: 367, 283
+  size: 111, 107
+  orig: 111, 107
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 480, 247
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+glow_orange
+  rotate: false
+  xy: 254, 176
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+glow_pink
+  rotate: false
+  xy: 497, 621
+  size: 68, 69
+  orig: 68, 69
+  offset: 0, 0
+  index: -1
+glow_purple
+  rotate: false
+  xy: 504, 750
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+glow_yellow
+  rotate: false
+  xy: 480, 332
+  size: 88, 89
+  orig: 88, 89
+  offset: 0, 0
+  index: -1

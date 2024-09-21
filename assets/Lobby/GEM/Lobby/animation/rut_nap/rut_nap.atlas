@@ -1,0 +1,55 @@
+
+rut_nap.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 2, 2
+  size: 245, 82
+  orig: 245, 82
+  offset: 0, 0
+  index: -1
+bg_rut1
+  rotate: false
+  xy: 2, 86
+  size: 245, 126
+  orig: 245, 126
+  offset: 0, 0
+  index: -1
+bg_rut1 copy
+  rotate: false
+  xy: 249, 86
+  size: 245, 126
+  orig: 245, 126
+  offset: 0, 0
+  index: -1
+bg_rut2
+  rotate: false
+  xy: 496, 138
+  size: 213, 74
+  orig: 213, 74
+  offset: 0, 0
+  index: -1
+bg_rut2 copy
+  rotate: false
+  xy: 249, 10
+  size: 213, 74
+  orig: 213, 74
+  offset: 0, 0
+  index: -1
+nap
+  rotate: false
+  xy: 817, 158
+  size: 104, 54
+  orig: 104, 54
+  offset: 0, 0
+  index: -1
+rut
+  rotate: false
+  xy: 711, 155
+  size: 104, 57
+  orig: 104, 57
+  offset: 0, 0
+  index: -1

@@ -29,11 +29,12 @@ export class ButtonBet {
 
     setActive(isActive: boolean) {
         this._isActive = isActive;
+        // this.button.getComponent(cc.Sprite).spriteFrame = isActive ? this.sfActive : this.sfNormal;
         this.button.interactable = !isActive;
-        this.button.node.color = isActive ? cc.Color.YELLOW :  cc.Color.WHITE 
 
-        // if (isActive)
-        //     this.border_chip.node.x = this.button.node.x;
+        // this.button.getComponentInChildren(cc.Sprite).node.active = isActive;
+        if (isActive)
+            this.border_chip.node.x = this.button.node.x;
     }
 }
 
@@ -86,12 +87,6 @@ export default class BauCuaController extends MiniGame {
     @property(cc.Node)
     public bowl: cc.Node = null;
 
-    @property(sp.Skeleton)
-    public animXucXac: sp.Skeleton = null;
-
-    @property(cc.Node)
-    public light: cc.Node = null;
-
 
     private readonly listBet = [1000, 5000, 10000, 50000, 100000, 500000, 1000000, 5000000, 10000000];
     private roomId = 0;
@@ -118,16 +113,20 @@ export default class BauCuaController extends MiniGame {
         this.percentScroll = 0;
         this.scrollChip.scrollToPercentHorizontal(this.percentScroll, 0.1);
         this.itemHistoryTemplate.active = false;
-
+        this.buttonBets[0].button.node.children[1].active = true;
         for (let i = 0; i < this.buttonBets.length; i++) {
             var btn = this.buttonBets[i];
             // btn.setActive(i == this.betIdx);
             btn.button.node.on("click", () => {
                 this.betIdx = i;
+                this.buttonBets[i].button.node.children[1].active = true;
                 App.instance.showBgMiniGame("BauCua");
                 for (let j = 0; j < this.buttonBets.length; j++) {
                     //  cc.log("this:" + this.betIdx + ":" + j);
                     this.buttonBets[j].setActive(j == this.betIdx);
+                    if (j != this.betIdx) {
+                        this.buttonBets[j].button.node.children[1].active = false;
+                    }
                 }
             });
         }
@@ -168,20 +167,20 @@ export default class BauCuaController extends MiniGame {
                         let btnPayBet = this.btnPayBets[i];
                         btnPayBet.lblTotal.string = this.moneyToK(parseInt(totalBets[i]));
                         btnPayBet.lblBeted.string = this.moneyToK(parseInt(beted[i]));
-                        btnPayBet.overlay.setAnimation(0, "thuong", true);
+                        btnPayBet.overlay.active = true;
                         btnPayBet.button.interactable = this.isBetting;
                         btnPayBet.lblFactor.node.active = false;
                         this.beted[i] = parseInt(beted[i]);
                     }
 
                     if (!this.isBetting) {
-                        // this.btnPayBets[res.dice1].overlay.active = false;
-                        // this.btnPayBets[res.dice2].overlay.active = false;
-                        // this.btnPayBets[res.dice3].overlay.active = false;
+                        this.btnPayBets[res.dice1].overlay.active = false;
+                        this.btnPayBets[res.dice2].overlay.active = false;
+                        this.btnPayBets[res.dice3].overlay.active = false;
 
                         if (res.xValue > 1) {
                             this.btnPayBets[res.xPot].lblFactor.node.active = true;
-                            this.btnPayBets[res.xPot].lblFactor.spriteFrame = this.btnPayBets[res.xPot].listSprFactor[res.xValue - 2];
+                            this.btnPayBets[res.xPot].lblFactor.string = "x" + res.xValue;
                         }
                     }
 
@@ -207,7 +206,7 @@ export default class BauCuaController extends MiniGame {
                         btnPayBet.lblBeted.string = "0";
                         btnPayBet.lblBeted.node.color = cc.Color.WHITE;
                         btnPayBet.lblTotal.string = "0";
-                        btnPayBet.overlay.setAnimation(0, "thuong", true);
+                        btnPayBet.overlay.active = false;
                         btnPayBet.button.interactable = true;
                         btnPayBet.lblFactor.node.active = false;
                     }
@@ -220,18 +219,17 @@ export default class BauCuaController extends MiniGame {
                 }
                 case cmd.Code.UPDATE: {
                     let res = new cmd.ReceiveUpdate(data);
+                    this.lblTime.string = this.longToTime(res.remainTime);
+
                     this.isBetting = res.bettingState == 1;
                     let totalBets = res.potData.split(",");
                     for (let i = 0; i < this.btnPayBets.length; i++) {
                         let btnPayBet = this.btnPayBets[i];
                         btnPayBet.lblTotal.string = this.moneyToK(parseInt(totalBets[i]));
                         if (this.isBetting) {
-                            // btnPayBet.overlay.active = false;
-                            this.lblTime.node.active = true;
-                            this.lblTime.string = this.longToTime(res.remainTime);
+                            btnPayBet.overlay.active = false;
                             btnPayBet.lblFactor.node.active = false;
                         } else {
-                            this.lblTime.node.active = false;
                             btnPayBet.button.interactable = false;
                             btnPayBet.lblBeted.string = this.moneyToK(this.beted[i]);
                             btnPayBet.lblBeted.node.color = cc.Color.WHITE;
@@ -325,11 +323,11 @@ export default class BauCuaController extends MiniGame {
     private spin(arrDice) {
         for (let i = 0; i < this.btnPayBets.length; i++) {
             let btnPayBet = this.btnPayBets[i];
-            btnPayBet.overlay.setAnimation(0, "thuong", true);
+            btnPayBet.overlay.active = false;
         }
         for (let i = 0; i < arrDice.length; i++) {
             let btnPayBet = this.btnPayBets[arrDice[i]];
-            btnPayBet.overlay.setAnimation(0, "at", true);
+            btnPayBet.overlay.active = true;
             TW(btnPayBet.overlay).then(cc.blink(2.0, 10)).start();
         }
 
@@ -383,7 +381,7 @@ export default class BauCuaController extends MiniGame {
             }
         }
         for (let i = 0; i < this.lblsSoiCau.length; i++) {
-            this.lblsSoiCau[i].string = counts[i].toString();
+           // this.lblsSoiCau[i].string = counts[i].toString();
         }
     }
 
@@ -501,7 +499,7 @@ export default class BauCuaController extends MiniGame {
             btnPayBet.lblBeted.node.color = cc.Color.WHITE;
             btnPayBet.lblTotal.string = "0";
             btnPayBet.lblFactor.node.active = false;
-            btnPayBet.overlay.setAnimation(0, "thuong", true);
+            btnPayBet.overlay.active = true;
             btnPayBet.button.interactable = false;
         }
 
@@ -530,59 +528,36 @@ export default class BauCuaController extends MiniGame {
     }
 
     atcShowResult(res) {
-        cc.log("check log res  ", res)
-        this.animXucXac.node.active = false;
-        this.sprResultDice.children[0].parent.active = true;
         this.sprResultDice.children[0].getComponent(cc.Sprite).spriteFrame = this.sprResultDices[res.dice1];
         this.sprResultDice.children[1].getComponent(cc.Sprite).spriteFrame = this.sprResultDices[res.dice2];
         this.sprResultDice.children[2].getComponent(cc.Sprite).spriteFrame = this.sprResultDices[res.dice3];
         let bowlOn = this.bowl.getChildByName("bowl");
         cc.Tween.stopAllByTarget(bowlOn);
-        TW(bowlOn).to(0.7, { y: bowlOn.y + 50, opacity: 150, scale: 1.1 }, { easing: cc.easing.sineIn })
+        TW(bowlOn).to(0.1, { y: bowlOn.y + 50, opacity: 150, scale: 1 }, { easing: cc.easing.sineIn })
             .call(() => {
                 this.historiesData.push([res.dice1, res.dice2, res.dice3]);
                 this.loadHistory(this.historiesData);
                 this.caculatorSoiCau();
                 if (res.xValue > 1) {
                     this.btnPayBets[res.xPot].lblFactor.node.active = true;
-                    this.btnPayBets[res.xPot].lblFactor.spriteFrame = this.btnPayBets[res.xPot].listSprFactor[res.xValue - 2];
+                    this.btnPayBets[res.xPot].lblFactor.string = "x" + res.xValue;
                 }
                 this.spin([res.dice1, res.dice2, res.dice3]);
                 bowlOn.active = false;
             }).start();
     }
     actStartNewGame() {
-        this.lblTime.node.opacity = 0;
-        this.animXucXac.node.active = true;
-        this.sprResultDice.children[0].parent.active = false;
-        this.playSpine(this.animXucXac.node, "animation", false, ()=>{
-            let bowlOn = this.bowl.getChildByName("bowl");
-            bowlOn.active = true;
-            TW(bowlOn).set({ opacity: 255, y: 0, scale: 1 }).start();
-            let initPos = this.bowl.getPosition();
-            let acShake = TW().to(0.1, { x: initPos.x - 20, scale: 1.1 }).to(0.1, { x: initPos.x }).to(0.1, { x: initPos.x + 20 }).to(0.1, { x: initPos.x, scale: 1.0 });
-            cc.Tween.stopAllByTarget(this.bowl);
-            TW(this.bowl).repeat(5, acShake).call(() => {
-                this.showToast(App.instance.getTextLang('txt_bet_invite'));
-                this.lblTime.node.opacity = 255;
-            }).start();
-        });     
-    }
 
-    playSpine(nAnim , animName, loop, func) {
-        let spine = nAnim.getComponent(sp.Skeleton);
-        let track = spine.setAnimation(0, animName, loop);
-        if (track) {
-            // Register the end callback of the animation
-            spine.setCompleteListener((trackEntry, loopCount) => {
-                let name = trackEntry.animation ? trackEntry.animation.name : '';
-                if (name === animName && func) {
-                    func && func(); // Execute your own logic after the animation ends
-                }
-            });
-        }
+        let bowlOn = this.bowl.getChildByName("bowl");
+        bowlOn.active = true;
+        TW(bowlOn).set({ opacity: 255, y: 0, scale: 1 }).start();
+        let initPos = this.bowl.getPosition();
+        let acShake = TW().to(0.1, { x: initPos.x - 20, scale: 0.4 }).to(0.1, { x: initPos.x }).to(0.1, { x: initPos.x + 20 }).to(0.1, { x: initPos.x, scale: 0.4 });
+        cc.Tween.stopAllByTarget(this.bowl);
+        TW(this.bowl).repeat(5, acShake).call(() => {
+            this.showToast(App.instance.getTextLang('txt_bet_invite'));
+        }).start();
     }
-
     actPopupHonors() {
         App.instance.showBgMiniGame("BauCua");
         if (this.popupHonor == null) {

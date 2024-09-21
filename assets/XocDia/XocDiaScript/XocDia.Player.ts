@@ -81,7 +81,7 @@ export default class Player extends cc.Component {
         this.lbCoin.string = "" + (coin);
         cc.tween(this.lbCoin.node)
             .set({ scale: 0, y: -50 })
-            .to(1.0, { scale: 0.6, y: 70 }, { easing: cc.easing.backOut })
+            .to(1.0, { scale: 0.6, y: 5 }, { easing: cc.easing.backOut })
             .delay(4.0)
             .call(() => {
                 this.lbCoin.node.active = false;
@@ -96,7 +96,7 @@ export default class Player extends cc.Component {
         this.lbCoin.string = "" + Utils.formatMoney(coin);
         cc.tween(this.lbCoin.node)
             .set({ scale: 0, y: -50 })
-            .to(1.0, { scale: 0.6, y: 70 }, { easing: cc.easing.backOut })
+            .to(1.0, { scale: 0.6, y: 5 }, { easing: cc.easing.backOut })
             .delay(4.0)
             .call(() => {
                 this.lbCoin.node.active = false;
@@ -139,7 +139,7 @@ export default class Player extends cc.Component {
         this.lbCoin.string = "" + Utils.formatMoney(coin);
         cc.tween(this.lbCoin.node)
             .set({ scale: 0, y: -50 })
-            .to(1.0, { scale: 0.6, y: 70 }, { easing: cc.easing.backOut })
+            .to(1.0, { scale: 0.6, y: 5 }, { easing: cc.easing.backOut })
             .delay(4.0)
             .call(() => {
                 this.lbCoin.node.active = false;

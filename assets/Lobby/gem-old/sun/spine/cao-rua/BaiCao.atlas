@@ -1,0 +1,41 @@
+
+BaiCao.png
+size: 330,277
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CAO RUA
+  rotate: false
+  xy: 2, 2
+  size: 153, 36
+  orig: 153, 36
+  offset: 0, 0
+  index: -1
+CAO RUA ITEM1
+  rotate: false
+  xy: 226, 10
+  size: 78, 77
+  orig: 78, 77
+  offset: 0, 0
+  index: -1
+CAO RUA ITEM2
+  rotate: true
+  xy: 226, 159
+  size: 116, 102
+  orig: 116, 102
+  offset: 0, 0
+  index: -1
+CAO RUA ITEM3
+  rotate: false
+  xy: 226, 89
+  size: 93, 68
+  orig: 93, 68
+  offset: 0, 0
+  index: -1
+bgbaicao
+  rotate: true
+  xy: 2, 40
+  size: 235, 222
+  orig: 235, 222
+  offset: 0, 0
+  index: -1

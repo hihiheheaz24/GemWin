@@ -78,7 +78,7 @@ export default class PopupHistory extends Dialog {
         });
     }
     setItemData(item, itemData) {
-        item.getChildByName("bg").opacity = itemData.index % 2 !== 0 ? 255 : 0;
+        item.getChildByName("bg").opacity = itemData.index % 2 == 0 ? 10 : 0;
         item.getChildByName("Session").getComponent(cc.Label).string = "#" + itemData["referenceId"];
         item.getChildByName("Time").getComponent(cc.Label).string = itemData["timestamp"];
 

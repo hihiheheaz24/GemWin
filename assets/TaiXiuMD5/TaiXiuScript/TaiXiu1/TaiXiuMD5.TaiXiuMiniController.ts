@@ -25,6 +25,8 @@ export default class TaiXiuMiniController extends cc.Component {
 
     @property(cc.Node)
     gamePlay: cc.Node = null;
+    @property(cc.Node)
+    circleRotation: cc.Node = null;
     @property([cc.SpriteFrame])
     sprDices: Array<cc.SpriteFrame> = new Array<cc.SpriteFrame>();
     @property(cc.SpriteFrame)
@@ -196,8 +198,10 @@ export default class TaiXiuMiniController extends cc.Component {
                         this.lblRemainTime2.node.parent.active = false;
                         this.lblScore.node.parent.active = false;
                         if (res.remainTime < 6) {
+                            this.circleRotation.active = false;
                             this.lblRemainTime.node.color = cc.Color.RED
                         } else{
+                            this.circleRotation.active = true;
                             this.lblRemainTime.node.color = cc.Color.WHITE
                         }
                         
@@ -227,6 +231,10 @@ export default class TaiXiuMiniController extends cc.Component {
                     this.lastScore = res.dice1 + res.dice2 + res.dice3;
                     this.lblRemainTime.node.active = false;
 
+                    this.dice1.spriteFrame = this.sprDices[res.dice1];
+                    this.dice2.spriteFrame = this.sprDices[res.dice2];
+                    this.dice3.spriteFrame = this.sprDices[res.dice3];
+
                     this.animDice1.node.active = true;
                     this.animDice2.node.active = true;
                     this.animDice3.node.active = true;
@@ -238,6 +246,15 @@ export default class TaiXiuMiniController extends cc.Component {
                     })
                     this.playSpine(this.animDice3.node, "roll", false, ()=>{
                         this.animDice3.setAnimation(0, (res.dice3).toString(), false);
+                        this.animDice3.setCompleteListener(()=>{
+                            this.dice1.node.active = true;
+                            this.dice2.node.active = true;
+                            this.dice3.node.active = true;
+        
+                            this.animDice1.node.active = false;
+                            this.animDice2.node.active = false;
+                            this.animDice3.node.active = false;
+                        })
                       
                         this.md5CodeResult = res.md5code;
 

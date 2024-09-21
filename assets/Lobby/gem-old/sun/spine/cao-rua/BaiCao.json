@@ -1,0 +1,155 @@
+{
+"skeleton": {
+	"hash": "1bCD0UYjYPbBcfyFLogOiSB5cX8",
+	"spine": "3.8.75",
+	"x": -125.98,
+	"y": -122.91,
+	"width": 258.5,
+	"height": 244.2,
+	"images": "",
+	"audio": "D:/JOBS/studio/ui desing new/rikvip rikwin/asset/box2/lobby/spineIcon/BaiCao"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 33.7, "y": -0.62 },
+	{
+		"name": "bone21",
+		"parent": "bone",
+		"length": 48,
+		"rotation": 73.11,
+		"x": -35.55,
+		"y": -16.88,
+		"scaleX": 1.0422,
+		"scaleY": 0.9914
+	},
+	{
+		"name": "bone24",
+		"parent": "bone",
+		"length": 61,
+		"rotation": 69.12,
+		"x": -5.81,
+		"y": -48.14,
+		"scaleX": 1.3989,
+		"scaleY": 1.3307
+	},
+	{
+		"name": "bone23",
+		"parent": "bone",
+		"length": 41,
+		"rotation": 63.07,
+		"x": -37.04,
+		"y": -96.75,
+		"scaleX": 1.3989,
+		"scaleY": 1.3534
+	},
+	{ "name": "bone26", "parent": "bone", "length": 73, "rotation": 77.85, "x": -122.98, "y": 21.27 },
+	{
+		"name": "bone25",
+		"parent": "bone",
+		"length": 49,
+		"rotation": 87.95,
+		"x": -88.45,
+		"y": -47.41,
+		"scaleX": 1.3989,
+		"scaleY": 1.3307
+	},
+	{ "name": "bone22", "parent": "bone21", "length": 57, "rotation": -7.86, "x": 48.11 }
+],
+"slots": [
+	{ "name": "CAO RUA FRAME", "bone": "root", "attachment": "CAO RUA FRAME" },
+	{ "name": "CAO RUA ITEM2", "bone": "root", "attachment": "CAO RUA ITEM2" },
+	{ "name": "CAO RUA ITEM5", "bone": "bone25", "attachment": "CAO RUA ITEM1" },
+	{ "name": "CAO RUA ITEM4", "bone": "bone24", "attachment": "CAO RUA ITEM3" },
+	{ "name": "CAO RUA2", "bone": "bone23", "attachment": "CAO RUA" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"CAO RUA ITEM2": {
+				"CAO RUA ITEM2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.78758, 1, 0.5214, 1, 0.21623, 1, 0, 1, 0, 0, 0.21284, 0, 0.50275, 0, 0.85709, 0, 1, 0, 0.50953, 0.32609, 0.51123, 0.59602, 0.22301, 0.65194, 0.22132, 0.32994, 0.80792, 0.34344, 0.79436, 0.71171 ],
+					"triangles": [ 6, 13, 7, 7, 14, 8, 7, 10, 14, 9, 14, 0, 8, 14, 9, 4, 3, 12, 5, 4, 12, 13, 5, 12, 6, 5, 13, 12, 3, 2, 11, 12, 2, 13, 10, 7, 13, 11, 10, 13, 12, 11, 10, 11, 14, 15, 2, 1, 11, 2, 15, 11, 15, 14, 15, 1, 0, 14, 15, 0 ],
+					"vertices": [ 2, 2, -45.72, -142.85, 0.93989, 7, -73.41, -154.34, 0.06011, 2, 2, -60.78, -93.4, 0.96592, 7, -95.09, -107.41, 0.03408, 2, 2, -79.67, -31.42, 0.99976, 7, -122.28, -48.6, 2.4E-4, 1, 2, -101.32, 39.61, 1, 1, 2, -116.66, 89.94, 1, 2, 2, 78.13, 149.32, 0.61847, 7, 9.32, 152.02, 0.38153, 2, 2, 93.23, 99.77, 0.49468, 7, 31.05, 105.01, 0.50532, 2, 2, 113.81, 32.29, 0.04035, 7, 60.66, 40.97, 0.95965, 2, 2, 138.95, -50.19, 0.00986, 7, 96.85, -37.3, 0.99014, 2, 2, 149.1, -83.5, 0.02023, 7, 111.46, -68.9, 0.97977, 2, 2, 50.77, 11.34, 0.9117, 7, 1.09, 11.6, 0.0883, 2, 2, -1.69, -5.08, 0.99718, 7, -48.64, -11.84, 0.00282, 2, 2, -33.03, 58.69, 0.99397, 7, -88.4, 47.04, 0.00603, 2, 2, 29.57, 78.23, 0.79969, 7, -29.07, 74.95, 0.20031, 2, 2, 68.57, -59.15, 0.34747, 7, 28.35, -55.79, 0.65253, 2, 2, -4.14, -77.86, 0.88181, 7, -41.11, -84.27, 0.11819 ],
+					"hull": 10,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 0 ],
+					"width": 116,
+					"height": 102
+				}
+			},
+			"CAO RUA ITEM4": {
+				"CAO RUA ITEM3": { "x": 3.2, "y": -1.7, "rotation": -69.12, "width": 93, "height": 68 }
+			},
+			"CAO RUA ITEM5": {
+				"CAO RUA ITEM1": { "x": 8.37, "y": -20.1, "rotation": -87.95, "width": 78, "height": 77 }
+			},
+			"CAO RUA FRAME": {
+				"CAO RUA FRAME": {
+					"path": "bgbaicao",
+					"x": 3.27,
+					"y": -0.81,
+					"scaleX": 1.1,
+					"scaleY": 1.1,
+					"width": 235,
+					"height": 222
+				}
+			},
+			"CAO RUA2": {
+				"CAO RUA": { "x": 11.06, "y": 1.72, "rotation": -63.07, "width": 153, "height": 36 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone21": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": -12.35, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"bone22": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": -12.35, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"bone23": {
+				"scale": [
+					{ "x": 0.88, "y": 0.88 },
+					{ "time": 1, "x": 0.98, "y": 0.98 },
+					{ "time": 2, "x": 0.88, "y": 0.88 }
+				]
+			},
+			"bone24": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 0.94, "y": 0.94, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"bone25": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.08, "y": 1.08, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

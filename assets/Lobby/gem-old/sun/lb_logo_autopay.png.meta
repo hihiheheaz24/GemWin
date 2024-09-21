@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "bbe3838b-60e0-4a9a-95cd-3edadbea715f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 380,
+  "height": 240,
+  "platformSettings": {},
+  "subMetas": {
+    "lb_logo_autopay": {
+      "ver": "1.0.4",
+      "uuid": "dbdcd912-a34a-416d-913f-6b5ada1a91b6",
+      "rawTextureUuid": "bbe3838b-60e0-4a9a-95cd-3edadbea715f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 380,
+      "height": 240,
+      "rawWidth": 380,
+      "rawHeight": 240,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
